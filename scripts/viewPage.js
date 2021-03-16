@@ -34,7 +34,13 @@ fetch(getPetsUrl, {headers: {'Content-Type': 'application/json'}})
 
       if(Array.isArray(pet.tags)){
         pet.tags.forEach((tag) => {
-          petTags += petListObjectTagTemplate.replace('PET_TAG_WILL_GO_HERE', tag.name)
+          if(
+            typeof tag === 'object' &&
+            tag !== null &&
+            Object.prototype.hasOwnProperty.call(tag, 'name') &&
+            typeof tag.name === 'string') {
+              petTags += petListObjectTagTemplate.replace('PET_TAG_WILL_GO_HERE', tag.name)
+          }
         });
       }
 

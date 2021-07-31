@@ -1,19 +1,24 @@
-const petsListTemplate = `
-  <h2>Here are the existing pets:</h2>
-  <div class="petsList">
-    PETS_WILL_GO_HERE
-  </div>
-`;
-
 const petListObjectTemplate = `
-  <div class="pet" id="PET_ID_WILL_GO_HERE">
-    <p>id: <span class="value">PET_ID_WILL_GO_HERE</span></p>
-    <p>name: <span class="value">PET_NAME_WILL_GO_HERE</span></p>    
-    <div class="tags">
-      <p>tags: PET_TAGS_WILL_GO_HERE</p>
-    </div>
-    <div class="deleteIcon" onClick="handleDelete(PET_ID_WILL_GO_HERE)">
-    <img src="delete-icon.svg"  alt="delete"/>
+  <div class="col mb-5" id="PET_ID_WILL_GO_HERE">
+    <div class="card h-100">
+      <!-- Product image-->
+      <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+      <button class="btn" style="position: absolute" onClick="handleDelete(PET_ID_WILL_GO_HERE)">
+        <i class="bi-trash-fill me-1"></i>
+      </button>
+      <!-- Product details-->
+      <div class="card-body p-4">
+        <div class="text-center">
+        <!-- Product name-->
+        <h5 class="fw-bolder">PET_NAME_WILL_GO_HERE</h5>
+        <!-- Product price-->
+        PET_TAGS_WILL_GO_HERE
+        </div>
+      </div>
+      <!-- Product actions-->
+      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">BUY</a></div>
+      </div>
     </div>
   </div>
 `;
@@ -54,10 +59,7 @@ fetch(getPetsUrl, {headers: {'Content-Type': 'application/json'}})
 
     })
 
-    let resultsHTML = petsListTemplate;
-    resultsHTML = resultsHTML.replace('PETS_WILL_GO_HERE', petsHTML);
-
-    document.getElementById('viewPage').innerHTML = resultsHTML;
+    document.getElementById('viewPage').innerHTML = petsHTML;
   })
   .catch((error) => {
     console.error(error);

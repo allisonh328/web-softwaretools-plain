@@ -3,6 +3,9 @@ const petListObjectTemplate = `
     <div class="card h-100">
       <!-- Product image-->
       <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+      <button class="btn" style="position: absolute" onClick="handleDelete(PET_ID_WILL_GO_HERE)">
+        <i class="bi-trash-fill me-1"></i>
+      </button>
       <!-- Product details-->
       <div class="card-body p-4">
         <div class="text-center">

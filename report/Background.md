@@ -15,9 +15,9 @@ We would like to make an online pet shop that is easy to navigate, and visually 
 
 As the owners of the pet shop, we care about the survival and sustainability of our shop. This is why we see putting our shop online as a necessary transformation to take in order to be on par with the shopping habit in recent years. Therefore the primary goal with our online shop is to provide our customers with a safe and efficient way of choosing a pet, with or without a car or pandemic (or much time).
 	
-In order to keep our business 'starting' online, we need to provide our customers a pleasant shopping experience. The 'best' Online pet shops listed on www.makeusof.com, all share a common characteristic, which is that they all provide their home pages all come with a clean layout and a set of well considered labels to guide their customers through. 
+In order to make sure we can kickstart our online shop and eventually make it sustainable, we need to provide our customers a pleasant shopping experience. The 'best' online pet shops listed on www.makeusof.com, all share a common characteristic, which is that they all provide a clean looking home pages with minimalistic design and layout with a set of well considered labels to guide their customers through their website. 
 	
-As a result with out website In order to make it a pleasant experience to browse or shop in our online store, we have broken down this "pleasant and efficient experience" down to smaller chunks to help us achieve it. 
+With reference to these successful cases, our objectives for this website is to make sure that it provides a pleasant and efficient experience to browse or shop in our online store, we have broken down this "pleasant and efficient experience" down to smaller chunks to help our team to achieve it. 
 
 
 ![Map](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C1eee4771e9c84a2b881f7d2ad332c1b0/projects/Mea2084fa2cb3db5f03bb685136056d381627751306476/pages/01f02881625f4830bbb902ba2ef46ef0/image/01f02881625f4830bbb902ba2ef46ef0.png?1627755781761=centerme)

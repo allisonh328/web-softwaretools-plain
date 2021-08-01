@@ -44,7 +44,8 @@ $(function () {
 });
 
 function pwdCheck() {
-    if (!$("#exampleInputPassword").val()){
+    const password = $("#exampleInputPassword").val()
+    if (!password) {
         $("#error2").remove();
         $("#pwd_check").append(
             '<ul class="errorlist" id="error2"><li style="color: red; font-size: 20%">' +
@@ -52,7 +53,7 @@ function pwdCheck() {
         );
         return false;
     }
-    else if ($("#exampleInputPassword").val()!==$("#exampleRepeatPassword").val()){
+    else if (password!==$("#exampleRepeatPassword").val()) {
         $("#error2").remove();
         $("#pwd_check").append(
             '<ul class="errorlist" id="error2"><li style="color: red; font-size: 20%">' +

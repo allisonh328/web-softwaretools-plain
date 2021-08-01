@@ -44,9 +44,9 @@
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
                   </div>
-                  <form class="user" method="post" onsubmit="return check()">
-                    <div class="form-group">
-                      <input type="text" class="form-control form-control-user" id="exampleInputUsername" placeholder="Username">
+                  <form class="user" id="form" method="post">
+                    <div class="form-group" id="usercheck">
+                      <input type="text" class="form-control form-control-user" id="exampleInputUsername" placeholder="Username (required)" onblur="userCheck()">
                     </div>
                     <div class="form-group row">
                       <div class="col-sm-6 mb-3 mb-sm-0">
@@ -64,10 +64,10 @@
                     </div>
                     <div class="form-group row" id="pwd_check">
                       <div class="col-sm-6 mb-3 mb-sm-0">
-                        <input type="password" class="form-control form-control-user pwdcheck" id="exampleInputPassword" placeholder="Password">
+                        <input type="password" class="form-control form-control-user pwdcheck" id="exampleInputPassword" placeholder="Password (required)" onblur="pwdCheck()">
                       </div>
                       <div class="col-sm-6">
-                        <input type="password" class="form-control form-control-user pwdcheck" id="exampleRepeatPassword" placeholder="Repeat Password">
+                        <input type="password" class="form-control form-control-user pwdcheck" id="exampleRepeatPassword" placeholder="Repeat Password" onblur="pwdCheck()">
                       </div>
                     </div>
                     <input type="submit" value="Register Account" class="btn btn-primary btn-user btn-block">
@@ -92,32 +92,7 @@
   <!--  Phone number with international area code-->
   <script src="plugin/intlTelInput.min.js"></script>
   <!-- Core theme JS-->
-  <script>
-    const input = document.querySelector("#exampleInputPhone");
-    window.intlTelInput(input, {});
-
-    document.querySelector(".iti--allow-dropdown").className += " col-sm-12";
-    document.querySelector(".iti__selected-flag").setAttribute("style", "padding-left: 25px");
-
-    function check() {
-      if ($("#exampleInputPassword").val()!==$("#exampleRepeatPassword").val()){
-        $("#pwdcheck").remove();
-        $("#pwd_check").append('<ul class="errorlist" id="pwdcheck">' +
-                '<li style="color:red;font-size:20%">Two inputs do not match.</li>' +
-                '</ul>');
-        return false;
-      }
-      return true;
-    }
-
-    $(function() {
-      $(".pwdcheck").focus(
-        function () {
-          $("#pwdcheck").remove();
-        }
-      )}
-    );
-  </script>
+  <script src="scripts/registerPage.js"></script>
 
 </body>
 

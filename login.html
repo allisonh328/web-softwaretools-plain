@@ -42,12 +42,12 @@
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                   </div>
-                  <form class="user">
-                    <div class="form-group">
-                      <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+                  <form class="user" id="form">
+                    <div class="form-group" id="usercheck">
+                      <input type="text" class="form-control form-control-user" id="exampleInputUsername" placeholder="Username" onblur="userCheck()">
                     </div>
-                    <div class="form-group">
-                      <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+                    <div class="form-group" id="pwd_check">
+                      <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" onblur="pwdCheck()">
                     </div>
                     <div class="form-group">
                       <div class="custom-control custom-checkbox small">
@@ -55,13 +55,12 @@
                         <label class="custom-control-label" for="customCheck">Remember Me</label>
                       </div>
                     </div>
-                    <a href="index.html" class="btn btn-primary btn-user btn-block">
-                      Login
-                    </a>
+                    <input type="submit" value="Login" class="btn btn-primary btn-user btn-block">
                   </form>
                   <hr>
                   <div class="text-center">
-                    <a class="small" href="register.html">Create an Account!</a>
+                    <a class="small" href="register.html">Create an Account!</a><br>
+                    <a class="small" href="index.html">No login. I just want to take a look!</a>
                   </div>
                 </div>
               </div>
@@ -73,6 +72,10 @@
   </div>
   <!-- Bootstrap core JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript-->
+  <script src="plugin/jquery/jquery.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="scripts/loginPage.js"></script>
 
 </body>
 

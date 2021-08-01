@@ -6,6 +6,7 @@ function logout() {
         cache: false,
         success: function (data){
             console.log(data);
+            localStorage.removeItem("username");
             alert("You are logged out!")
         },
         error: function (error) {

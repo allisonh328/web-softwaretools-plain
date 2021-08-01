@@ -7,14 +7,17 @@ $(function () {
                 alert("Password is not correct!");
                 return;
             }
+            const username = $("#exampleInputUsername").val()
+            const password = $("#exampleInputPassword").val()
             $.ajax({
-                url: "https://petstore.swagger.io/v2/user/login?username=" + $("#exampleInputUsername").val()
-                    + '&' + "password=" + $("#exampleInputPassword").val(),
+                url: "https://petstore.swagger.io/v2/user/login?username=" + username
+                    + '&' + "password=" + password,
                 type: "GET",
                 async: false,
                 cache: false,
                 success: function (data) {
                     console.log(data);
+                    localStorage.setItem("username", username);
                     alert("Success!");
                     window.location.replace("index.html");
                 },

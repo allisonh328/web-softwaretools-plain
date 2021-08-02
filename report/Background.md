@@ -20,7 +20,7 @@ In order to make sure we can kickstart our online shop and eventually make it su
 With reference to these successful cases, our objectives for this website is to make sure that it provides a pleasant and efficient experience to browse or shop in our online store, we have broken down this "pleasant and efficient experience" down to smaller chunks to help our team to achieve it. 
 
 
-![Map](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C1eee4771e9c84a2b881f7d2ad332c1b0/projects/Mea2084fa2cb3db5f03bb685136056d381627751306476/pages/01f02881625f4830bbb902ba2ef46ef0/image/01f02881625f4830bbb902ba2ef46ef0.png?1627755781761=centerme)
+![Map](https://i.imgur.com/av4Z8rf.png=centerme)
 
 
 # System Design

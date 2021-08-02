@@ -1,10 +1,21 @@
 $(function () {
+    document.getElementById("exampleInputUsername").value = localStorage.getItem("username");
+    document.getElementById("exampleInputPassword").value = localStorage.getItem("password");
+    localStorage.clear();
+
     $('#form').on('submit', function (e) {
         e.preventDefault();
 
         if (userCheck() && pwdCheck()) {
-            if (!isPwdRight()) {
+            if (isPwdRight() === 3) {
+                alert("Server exception!");
+                return;
+            }
+            else if (isPwdRight() === 2) {
                 alert("Password is not correct!");
+                return;
+            } else if (isPwdRight() === 0) {
+                alert("Server not response!");
                 return;
             }
             const username = $("#exampleInputUsername").val()
@@ -18,12 +29,12 @@ $(function () {
                 success: function (data) {
                     console.log(data);
                     localStorage.setItem("username", username);
-                    alert("Success!");
+                    alert("Login success!");
                     window.location.replace("index.html");
                 },
                 error: function (error) {
                     console.log(error.responseJSON);
-                    alert("Failed!")
+                    alert("Login failed!")
                 }
             });
         }
@@ -33,17 +44,20 @@ $(function () {
 function isPwdRight() {
     const username = $("#exampleInputUsername").val();
     const password = $("#exampleInputPassword").val();
-    let flag = null;
+    let flag = 0;
     $.ajax({
         url: "https://petstore.swagger.io/v2/user/" + username,
         type: "GET",
         async: false,
         cache: false,
         success: function (data){
-            flag = data["password"] === password;
+            if (data["password"] === password) {
+                flag = 1;
+            }
+            else flag = 2;
         },
         error: function (error) {
-            flag = false;
+            flag = 3;
         }
     });
     return flag;

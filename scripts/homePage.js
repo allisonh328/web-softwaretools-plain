@@ -1,7 +1,10 @@
 $(function() {
+    $('#tagsInput').tagsInput();
+
     const userButton = document.getElementById("userDropdown");
     const logButton = document.getElementById("log");
     const cookie = localStorage.getItem("username");
+
     if (!cookie) {
         userButton.innerHTML = '<i class="bi-person-fill me-1"></i>User';
         logButton.innerText = "Log in";
@@ -22,7 +25,7 @@ function logout() {
         success: function (data){
             console.log(data);
             localStorage.removeItem("username");
-            alert("You are logged out!")
+            alert("You have logged out!")
         },
         error: function (error) {
             console.log(error.responseJSON);

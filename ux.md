@@ -11,9 +11,7 @@ For the project, our initial idea involved creating a login page, which is convi
 * Making the features of site
 * Figure out what the customer needs
 
-![picture](UX/prototype1.jpg)
-![picture](UX/prototype2.jpg)
-![picture](UX/prototype3.jpg)
+![picture](UX/prototype1.jpg) ![picture](UX/prototype2.jpg) ![picture](UX/prototype3.jpg)
 
 
 

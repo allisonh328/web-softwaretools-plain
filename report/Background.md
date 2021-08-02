@@ -24,3 +24,46 @@ With reference to these successful cases, our objectives for this website is to 
 
 
 # System Design
+
+- Ruiqing and Luming
+
+
+# description of all features
+
+### Pet by categorization:
+![petType](https://i.imgur.com/wNmHMHF.png)
+One of our aims is to offer an efficient online shopping experience, although we do not have a lot of different types of pets available in our store, we have still decided to organize the display of our pets by category. This allows quicker search narrows down scope for both the customer who is looking for a specific pet and the shop owner, who might need to change up information of one particular pet.
+
+
+### Pet find by status:
+![categorization](https://i.imgur.com/ht99lOG.png)
+Pet is also categorized by its status (available, pending, sold). This is another way to do pet search that helps with efficiency. Available are pets that are still in store. Pending would be those that have been added by a user to the cart but haven't done payment yet. And Sold is when the user has confirmed on their end that they have received the pet. 
+
+
+### User creation and login:
+
+Customers can only put pet in 'cart' once they have signed in, this feature has been strongly requested one of the owners of our shop and this feature is to keep a record to customers' address information so that in future purchases they will not be required to refill their home address and contact information. This owner understands that our store right now only specializes in pets, but he is looking to start buying in pet toys and other pet-related items for future sell. This feature may not prove much use right now, but as the business expand with a wider variety of goods, we hope to use this feature to help making the buying process an efficient one
+
+### Add new pet:
+![img](https://i.imgur.com/lEqqwqh.png)
+This feature is an important one as the shop owners should be able to manage pet by adding/deleting pets available in the store. Or even manually change the status of the pet if needed to. The pop up window demands that that the user adds a pet name, pet category, and pet status(available, pending, sold) and tags too. This feature requires that the website understands the identity of the user. And only the administrator should be allowed to alter pet information on the online store inventory.
+
+### Add pet photo:
+![addphoto](https://i.imgur.com/kVJu0M8.png)
+
+Ideally when we need to add/update the information of a pet, we should be allowed to add a photo of the pet as well so that the viewer will be able to have a good idea of what they are looking at.
+
+
+### Flash cartoon before entering homepage:
+![Map](https://media2.giphy.com/media/l0Ex7yp6pfWoZ92H6/giphy.gif)
+
+Our website is to welcome users with a flash cartoon upon loading. This is a visual feature that hopes to entertain customers give them something visually pleasing before they start shopping. This would also be a harmless feature that is aimed to promote the Fluff-galore shop by associating  it with a light-hearted and cutesy imagery. 
+
+
+### Quiz:
+![Map](https://i.imgur.com/pErosaR.png=centerme)
+This is a quiz that we hope to help people to find the perfect pet for them to buy, in terms of the most suitable type of pet based on pet personality of pets available with us in the store. The little quiz would consist a list of questions that asks you about your living space, and living habit and monthly budget etc. all questions that might be able to affect the type of pet one gets. We got the idea from the official website of PDSA, UK's leading veterinary charity : https://www.pdsa.org.uk/taking-care-of-your-pet/choosing-a-pet?_$ja=tsid:67827|cid:1785422340|agid:71441170509|tid:kwd-13580843929|crid:355603342260|nw:g|rnd:9471319939620912770|dvc:c|adp:|mt:e|loc:1006567&gclid=CjwKCAjwr56IBhAvEiwA1fuqGvVJWeNamNuwu2UHw88VuoxIla6-eKB28vqfLrgvZHMkEVNVrKJ-UxoC0Q4QAvD_BwE
+
+### Cute cursor:
+![img](https://i.imgur.com/WKf3OjA.png)
+This feature falls under increasing pleasant experience side of our objective. It aims to change the normal cursor into a floaty and animated one. Again this works to promote the image of the petstore and hope that this will set us apart from all the other online pet shops. 

@@ -11,7 +11,7 @@ For the project, our initial idea involved creating a login page, which is convi
 * Making the features of site
 * Figure out what the customer needs
 
-<img src=UX/prototype1.jpg width="800px" height="600px">
+<img src=UX/prototype1.jpg width="400px" height="250px">
 ![picture](UX/prototype2.jpg) 
 ![picture](UX/prototype3.jpg)
 

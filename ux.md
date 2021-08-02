@@ -25,7 +25,7 @@ The creation of this wireframe also allowed us to clarify what feature we should
 
 
 <div align=center>
-<img src=ux3.PNG width="1000px" height="800px">
+<img src=UX/ux3.PNG width="1000px" height="800px">
 </div>
 
 ### Final front end design

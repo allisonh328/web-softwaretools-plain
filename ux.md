@@ -17,8 +17,16 @@ For the project, our initial idea involved creating a login page, which is convi
 <img src=UX/prototype3.jpg width="380px" height="250px">
 </div>
 
+The creation of this wireframe also allowed us to clarify what feature we should achieve, namely:
+
+* The login page for user (manage their own account)
+* The categories of pets (make the site more clear)
+* The function of shooping cart (make user see what they choose at the moment)
 
 
+<div align=center>
+<img src=ux3.PNG width="1000px" height="800px">
+</div>
 
 ### Final front end design
 

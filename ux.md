@@ -47,7 +47,7 @@ During the paper prototyping stages, our ressearch objectives were as follow:
 * Feedback on potential improvements
 * Evaluate proposed user experience (flow and UI design).
 
-The survey form is [here](). And the feedback form click [here]().
+The survey form is [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/survey1.pdf). And the feedback form click [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/feedback1.xlsx).
 
 ### Final front end design
 

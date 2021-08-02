@@ -15,7 +15,9 @@ For the project, our initial idea involved creating a login page, which is convi
 <img src=UX/prototype1.jpg width="380px" height="250px">
 <img src=UX/prototype2.jpg width="380px" height="250px">
 <img src=UX/prototype3.jpg width="380px" height="250px">
+Figure 1: The initial wireframe
 </div>
+
 
 The creation of this wireframe also allowed us to clarify what feature we should achieve, namely:
 

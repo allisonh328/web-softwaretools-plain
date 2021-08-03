@@ -71,7 +71,7 @@ Throughout the survey, we can test our website whether the features is suitable 
 **Question 5**: The answer suggests that many users already make a decision on which pet to buy before they log on to the online store. Hence the categories of pets is necessary for users, which allow them to look through the kind of pet they need.
 
 
-
+<br>
 **_These questions below give us a reference for the style and content design of the website._**
 
 <div align=center>

@@ -3,9 +3,11 @@ $(function() {
 
     const userButton = document.getElementById("userDropdown");
     const logButton = document.getElementById("log");
+    const profileButton = document.getElementById("profile");
     const cookie = localStorage.getItem("username");
 
     if (!cookie) {
+        profileButton.remove();
         userButton.innerHTML = '<i class="bi-person-fill me-1"></i>User';
         logButton.innerText = "Log in";
     }
@@ -51,4 +53,14 @@ function changeCategory(category) {
             $(this).hide()
         }
     });
+}
+
+function openDetail(element) {
+    let petId = $(element).parent().parent()[0].id;
+    let petName = $(element).children().children("h5")[0].innerText;
+    let petTags = $(element).children().children("span")[0].innerText;
+    let petCategory = $(element).parent().parent().children("p")[0].innerText;
+    let petStatus = $("#navbarDropdown")[0].innerText.toLowerCase();
+    window.location = "detail.html?id=" + petId.toString() + '&name=' + petName
+        + '&tags=' + petTags + '&category=' + petCategory + '&status=' + petStatus;
 }

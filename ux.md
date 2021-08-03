@@ -61,7 +61,7 @@ The survey form is [here](https://github.com/Yj-nnie/web-softwaretools-plain/blo
 These questions prove that user indeed need the features we proposed before.
 
 <div align=center>
-<img src=survey/fd1 width="700px" height="250px">
+<img src=survey/fb1 width="700px" height="250px">
 </div>
 
 ### Final front end design

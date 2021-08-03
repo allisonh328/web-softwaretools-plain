@@ -55,7 +55,7 @@ The survey form is [here](https://github.com/Yj-nnie/web-softwaretools-plain/blo
 
 Throughout the survey, we can test our website whether the features is suitable for users. And we can gather some suggestions for our website from users to improve it during the stage of development.
 
-**These questions below prove that user indeed need the features we proposed before.**
+**_These questions below prove that user indeed need the features we proposed before._**
 
 <div align=center>
 <img src=survey/fb1.jpeg width="600px" height="200px">
@@ -71,7 +71,8 @@ Throughout the survey, we can test our website whether the features is suitable 
 **Question 5**: The answer suggests that many users already make a decision on which pet to buy before they log on to the online store. Hence the categories of pets is necessary for users, which allow them to look through the kind of pet they need.
 
 
-**These questions below give us a reference for the style and content design of the website.**
+
+**_These questions below give us a reference for the style and content design of the website._**
 
 <div align=center>
 <img src=survey/fb4.jpeg width="600px" height="200px">

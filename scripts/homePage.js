@@ -7,14 +7,16 @@ $(function() {
     const cookie = localStorage.getItem("username");
 
     if (!cookie) {
-        profileButton.remove();
+        if (profileButton) profileButton.remove();
         userButton.innerHTML = '<i class="bi-person-fill me-1"></i>User';
         logButton.innerText = "Log in";
+        logButton.setAttribute("href","login.html")
     }
     else {
         userButton.innerText = cookie;
         logButton.innerText = "Log out";
         logButton.setAttribute("onclick", "logout()");
+        logButton.setAttribute("href","index.html")
     }
 })
 
@@ -63,4 +65,9 @@ function openDetail(element) {
     let petStatus = $("#navbarDropdown")[0].innerText.toLowerCase();
     window.location = "detail.html?id=" + petId.toString() + '&name=' + petName
         + '&tags=' + petTags + '&category=' + petCategory + '&status=' + petStatus;
+}
+
+function openOrdersCenter() {
+    console.log("hhh")
+    window.location = "orders.html";
 }

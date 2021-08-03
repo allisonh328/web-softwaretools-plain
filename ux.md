@@ -55,37 +55,46 @@ The survey form is [here](https://github.com/Yj-nnie/web-softwaretools-plain/blo
 
 Throughout the survey, we can test our website whether the features is suitable for users. And we can gather some suggestions for our website from users to improve it during the stage of development.
 
-*These questions below prove that user indeed need the features we proposed before.
+**These questions below prove that user indeed need the features we proposed before.**
 
 <div align=center>
-<img src=survey/fb1.jpeg width="720px" height="250px">
+<img src=survey/fb1.jpeg width="600px" height="150px">
 </div>
+
 **Question 4**: Most people prefer to have their own account, therefore, a login page contributes to improve user experience. 
+
 
 <div align=center>
 <img src=survey/fb2.jpeg width="720px" height="250px">
 </div>
+
 **Question 5**: The answer suggests that many users already make a decision on which pet to buy before they log on to the online store. Hence the categories of pets is necessary for users, which allow them to look through the kind of pet they need.
 
 <div align=center>
 <img src=survey/fb3.jpeg width="720px" height="250px">
 </div>
 
-*These questions below give us a reference for the style and content design of the website.
+
+**These questions below give us a reference for the style and content design of the website.**
 
 <div align=center>
 <img src=survey/fb4.jpeg width="720px" height="250px">
 </div>
+
 **Question 2**: For users, the layout of the site is the most attractive. We then asked about the style of the site, which helped us achieve the final design choice.
+
 
 <div align=center>
 <img src=survey/fb5.jpeg width="720px" height="250px">
 </div>
+
 **Question 5**: Through the user feedback, the cartoon style is the most popular choice. A part of users choose the minimalism style. This may give us inspiration of combination of these two styles.
+
 
 <div align=center>
 <img src=survey/fb6.jpeg width="720px" height="250px">
 </div>
+
 **Question 6**: All users hope that they can view more details about their pet choices. We should add each pet's information, such as age, photo, and character.
 
 ### The prototype implemention

@@ -1,5 +1,6 @@
 $(function() {
     $('#tagsInput').tagsInput();
+    displayOrderQuantity();
 
     const userButton = document.getElementById("userDropdown");
     const logButton = document.getElementById("log");
@@ -23,6 +24,7 @@ $(function() {
 // You can give this function an onclick event to check if the user is logged in.
 function isLogin() {
     if (!localStorage.getItem("username")) {
+        alert("Please login first!");
         window.location.replace("login.html");
     }
 }
@@ -70,4 +72,17 @@ function openDetail(element) {
 function openOrdersCenter() {
     console.log("hhh")
     window.location = "orders.html";
+}
+
+function displayOrderQuantity() {
+    let user = localStorage.getItem("username");
+    if (user) {
+        let orders = localStorage.getItem(user);
+        if (orders) {
+            let orderArr = JSON.parse(localStorage.getItem(user));
+            document.getElementById("orderQuantity").innerText = orderArr.length;
+        }
+        else document.getElementById("orderQuantity").innerText = '0'
+    }
+    else document.getElementById("orderQuantity").innerText = '0';
 }

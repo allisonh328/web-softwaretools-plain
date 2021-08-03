@@ -37,7 +37,7 @@ The Pending status is to act as a buffer state for both Available and Sold state
 - As a bonus, we are hoping to implement a 'Remember me' function to allow user for a quick log back in 
 	
 
-###### Related features: Placer order
+###### Related features: Place order
 
 
 ## Justification:
@@ -94,8 +94,11 @@ This is to allow user(admin) to add a photo of the pet.
 This sub feature is a basic visual aspect of a online shop. Every added new pet should at be added with a photo of the pet. This is so that the viewer will be able to have a good idea of what they are looking at, and without the photos(the visual), it would defy the entire purpose of a visually pleasing and easily navigable online shop.
 
 
+# Dropped out features:
+Here are a few very cool features that the team has decided to not implement,  please read on for a brief description and the short summary ofreasons behind these decisions.
 
-# Feature 6 - Flash cartoon:
+
+## Feature 6 - Flash cartoon:
 
 ###### Description: 
 Our website is to welcome users with a flash cartoon once the webpage is loaded.
@@ -104,7 +107,7 @@ Our website is to welcome users with a flash cartoon once the webpage is loaded.
 This is a visual feature that hopes to entertain customers give them something visually pleasing before they start shopping. This would also be a harmless feature that is aimed to promote the Fluff-galore shop by associating  it with a light-hearted and cutesy imagery. However our team agreed not to implement this eventually just because we want to keep a good balance between a functioning website and visually pleasing website, we do not want this to be too much of an extraction for the customers and forcing customers to watch 5 seconds of cartoon flashes might make some feel being force-fed some unnecessary advertisement.
 
 
-# Feature 7 - Quiz  help to choose perfect :
+## Feature 7 - Quiz  help to choose the perfect pet :
 
 ###### Description:
 This is to be a small app to be integrated onto the home page of our pet store, it is a series of multiple questions that looks to work out individuals living habit and budget and personality, and eventually the quetionnaire app will work out the best type of pet according to answers  selected. We got this idea from [PDSA], the UK's leading veterinary charity website.

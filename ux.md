@@ -33,7 +33,6 @@ After determining the final design, we focus on developing it along with some us
 
 <div align=center>
 <img src=UX/ux3.PNG width="1000px" height="800px">
-
 _Figure 2: The paper prototype representing our idea_
 </div>
 
@@ -56,6 +55,14 @@ We have sent out 20 questionnaires and finally received 16 respnses. To make sur
 </div>
 
 The survey form is [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/survey1.pdf). And the feedback form click [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/feedback1.xlsx).
+
+### Findings
+
+These questions prove that user indeed need the features we proposed before.
+
+<div align=center>
+<img src=UX/fd1 width="700px" height="250px">
+</div>
 
 ### Final front end design
 

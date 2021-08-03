@@ -50,9 +50,9 @@ During the paper prototyping stages, our ressearch objectives were as follow:
 We have sent out 20 questionnaires and finally received 16 respnses. To make sure the survey is universal, we surveyed people of different ages. We also took into account gender and the experience of keeping a pet.
 
 <div align=center>
-<img src=UX/1.png width="300px" height="250px">
-<img src=UX/2.png width="300px" height="250px">
-<img src=UX/3.png width="300px" height="250px">
+<img src=UX/1.png width="350px" height="250px">
+<img src=UX/2.png width="350px" height="250px">
+<img src=UX/3.png width="350px" height="250px">
 </div>
 
 The survey form is [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/survey1.pdf). And the feedback form click [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/feedback1.xlsx).

@@ -1,7 +1,7 @@
 
-## Implemention - Front End/UX:
+# Implemention - Front End/UX:
 
-### Prototyping (27/07/21-31/07/21)
+## Prototyping (27/07/21-31/07/21)
 
 For the project, our initial idea involved creating a login page, which is convienient for user to manage their own accounts. After the first discussion, we should achieve:
 
@@ -24,10 +24,10 @@ The creation of this wireframe also allowed us to clarify what feature we should
 * The categories of pets (make the site more clear)
 * The function of shooping cart (make user see what they choose at the moment)
 
-### Design choices
+## Design choices
 
 
-### Development
+## Development
 
 After determining the final design, we focus on developing it along with some user feedback, which further aided us in implemting a user centric methodology. We do the paper prototype in more detail to show all features of the site, including logging in, placing the order and classifying by pets species. We decide to represent this paper prototype to users and gather their feedback to develop the website.
 
@@ -37,15 +37,23 @@ After determining the final design, we focus on developing it along with some us
 _Figure 2: The paper prototype representing our idea_
 </div>
 
-#### Survey 1: Testing the paper prototype
+### Survey 1: Testing the paper prototype
 
-##### Research objectives
+### Research objectives
 
 During the paper prototyping stages, our ressearch objectives were as follow:
 
 * The effectiveness of website
 * Feedback on potential improvements
 * Evaluate proposed user experience (flow and UI design).
+
+We have sent out 20 questionnaires and finally received 16 respnses. To make sure the survey is universal, we surveyed people of different ages. We also took into account gender and the experience of keeping a pet.
+
+<div align=center>
+<img src=UX/1.PNG width="400px" height="250px">
+<img src=UX/1.PNG width="400px" height="250px">
+<img src=UX/1.PNG width="400px" height="250px">
+</div>
 
 The survey form is [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/survey1.pdf). And the feedback form click [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/feedback1.xlsx).
 

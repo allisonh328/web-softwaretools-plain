@@ -21,10 +21,6 @@ function imageUpload(option) {
     $('#imageUpload').modal(option);
 }
 
-function goBack() {
-    history.go(-1);
-}
-
 function getPet(id) {
     $.ajax({
         url: "https://petstore.swagger.io/v2/pet/" + id,

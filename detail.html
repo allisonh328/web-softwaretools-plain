@@ -108,10 +108,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#" onclick="goBack()">
+                            <a class="nav-link active" aria-current="page" href="#" onclick="javascript: window.history.go(-1);return false;">
                                 <i class="bi-arrow-left-circle-fill me-1"></i>Back
                             </a></li>
-                        <li class="nav-item"><a class="nav-link active" data-toggle="modal" data-target="#exampleModalCenter" href="#">Edit pet</a></li>
+                        <li class="nav-item"><a class="nav-link active" data-toggle="modal" data-target="#exampleModalCenter" href="#" onclick="isLogin()">Edit pet</a></li>
                     </ul>
                     <div class="d-flex">
                         <button class="btn btn-light" onclick="openOrdersCenter()">
@@ -125,7 +125,7 @@
                             <i class="bi-person-fill me-1"></i>
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="userDropdown">
-                            <li id="profile"><a class="dropdown-item" href="#">Profile</a></li>
+                            <li id="profile"><a class="dropdown-item" href="profile.html">Profile</a></li>
                             <li><a id="log" class="dropdown-item" href="#"></a></li>
                         </ul>
                     </div>

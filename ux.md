@@ -55,6 +55,8 @@ The survey form is [here](https://github.com/Yj-nnie/web-softwaretools-plain/blo
 
 Throughout the survey, we can test our website whether the features is suitable for users. And we can gather some suggestions for our website from users to improve it during the stage of development.
 
+<br>
+
 **_These questions below prove that user indeed need the features we proposed before._**
 
 <div align=center>
@@ -96,15 +98,58 @@ Throughout the survey, we can test our website whether the features is suitable 
 
 ### The prototype implemention
 
-After determining the final design, we focus on developing it along with above user feedback, which further aided us in implemting a user centric methodology. We do the paper prototype in more detail to show all features of the site, including logging in, placing the order and classifying by pets species, and the front end develop the layout of the whole website. We decide to represent this paper prototype to users and gather their feedback to develop the website.
+After the first survey, we focus on developing it along with above user feedback, which further aided us in implemting a user centric methodology. We do the paper prototype in more detail to show all features of the site, including logging in, placing the order and classifying by pets species, and the front end develop the layout of the whole website. We decide to represent this paper prototype to users and gather their feedback to develop the website.
+
+#### Objectives
+
+* Determine the style of the site among those design choices
+* Make the layout of the site clear
+* The paper prototype should be coherent
 
 <div align=center>
 <img src=UX/ux3.PNG width="1000px" height="800px">
+
 _Figure 2: The paper prototype representing our idea_
 </div>
 
+### Survey 2: The feedback of the paper prototype
+
+We use zoom to gather user experience feedback. Participants were sent the paper prototype before the group zoom call. During the zoom call, the researcher walked everyone through the prototype. After the zoom call, participants were sent two questions and asked to respond. In the end, we received seven responses.
+
+<div align=center>
+<img src=>
+
+_Figure 2: The zoom call to gather feedback_
+</div>
+
+**Research Question 1**: Do you have any suggestions on the layout of the site?
+
+We filter the responses and extract the following responses which are mentioned many times.
+
+User 1 _"A little confusion for the tag of add pet, maybe I don't need this function"_
+User 2 _"Homepage can be more colorful"_
+......
+User 5 _"I don't think the categories of pets should be on the tag"_
+User 7 _"I wonder why I need add the pet, it's for selling my own pet?"_
+
+**Research Question 2**: Do you need other features in our website?
+
+User 2 _"The after-sales service"_
+User 4 _"Don't see further details about the pet"_
+......
+User 7 _"I'd like to see more photos of pets, even gifs"_
+
+#### Findings
+
+According to the user responses, we should accomplish the following tasks which belongs to the front end:
+
+* Optimize the home page
+* Modify the tag, clarifying the categories of pets
+* Distinguish between user and adminstrator accounts
+* Insert more pet photos and gifs
 
 ### Final front end design
+
 ### System flow and Timeline
 
 

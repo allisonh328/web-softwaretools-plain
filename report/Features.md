@@ -94,6 +94,11 @@ This is to allow user(admin) to add a photo of the pet.
 This sub feature is a basic visual aspect of a online shop. Every added new pet should at be added with a photo of the pet. This is so that the viewer will be able to have a good idea of what they are looking at, and without the photos(the visual), it would defy the entire purpose of a visually pleasing and easily navigable online shop.
 
 
+[Click here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/ux.md#survey-1-the-proposal-of-the-website) for user input. 
+
+
+
+
 # Dropped out features:
 Here are a few very cool features that the team had initially thought of, but our team eventually have decided not to implement them.  Please read on for a brief description and a short summary for reasons behind the elimination process.
 
@@ -117,6 +122,8 @@ This is to be a small app to be integrated onto the home page of our pet store, 
 This was initially a must implement feature for the development team as it would add the fun aspect of pet choosing into a user's online shopping experience. However, later on we realized that it would not be fair to discern someone's pet choice based on a few questions. Real life case for each individual would be much more complicated than a few questions could encompass. Additionally, speaking from past experience, our past customers had always entered the pet shop with their mind made up, and this trend that we have gathered from the past renders this feature futile. It would make our online shop  fun, but it slightly strayed off from the main objectives defined for the design of this website, which is to provide a visually pleasing and efficient shopping experience. This feature might make customers who play it second guess their decision.
 
 
+
 # Implementation and Testing: ------------------- Ruiqing
 
 [PDSA]:<https://www.pdsa.org.uk/taking-care-of-your-pet/choosing-a-pet?_$ja=tsid:67827|cid:1785422340|agid:71441170509|tid:kwd-13580843929|crid:355603342260|nw:g|rnd:9471319939620912770|dvc:c|adp:|mt:e|loc:1006567&gclid=CjwKCAjwr56IBhAvEiwA1fuqGvVJWeNamNuwu2UHw88VuoxIla6-eKB28vqfLrgvZHMkEVNVrKJ-UxoC0Q4QAvD_BwE>
+

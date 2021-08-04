@@ -1,6 +1,10 @@
 
 # Implemention - Front End/UX:
 
+In this part, I would like to write based on my design timeline and show how to go through interations by user feedback. Although it is not in the order of the template, it contains all thing the template requires.
+
+## System flow and Timeline
+
 ## Prototyping 
 
 For the project, our initial idea involved creating a login page, which is convienient for user to manage their own accounts. After the first discussion, we should achieve:
@@ -23,8 +27,6 @@ The creation of this wireframe also allowed us to clarify what feature we should
 * The login page for user (manage their own account)
 * The categories of pets (make the site more clear)
 * The function of shooping cart (make user see what they choose at the moment)
-
-## Design choices
 
 
 ## Development
@@ -102,9 +104,12 @@ After the first survey, we focus on developing it along with above user feedback
 
 #### Objectives
 
-* Determine the style of the site among those design choices
+* Determine the style of the site among possible design choices
 * Make the layout of the site clear
 * The paper prototype should be coherent
+
+#### Design choices
+
 
 <div align=center>
 <img src=UX/ux3.PNG width="1000px" height="800px">
@@ -117,7 +122,7 @@ _Figure 2: The paper prototype representing our idea_
 We use zoom to gather user experience feedback. Participants were sent the paper prototype before the group zoom call. During the zoom call, the researcher walked everyone through the prototype. After the zoom call, participants were sent two questions and asked to respond. In the end, we received seven responses.
 
 <div align=center>
-<img src=>
+<img src=survey/zoom.psd width="800px" height="600px">
 
 _Figure 3: The zoom call to gather feedback_
 </div>
@@ -150,7 +155,7 @@ According to the user responses, we should accomplish the following tasks which 
 
 ### Final front end design
 
-### System flow and Timeline
+
 
 
 

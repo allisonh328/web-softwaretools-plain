@@ -119,18 +119,18 @@ We use zoom to gather user experience feedback. Participants were sent the paper
 <div align=center>
 <img src=>
 
-_Figure 2: The zoom call to gather feedback_
+_Figure 3: The zoom call to gather feedback_
 </div>
 
 **Research Question 1**: Do you have any suggestions on the layout of the site?
 
 We filter the responses and extract the following responses which are mentioned many times.
 
-User 1 _"A little confusion for the tag of add pet, maybe I don't need this function"_
-User 2 _"Homepage can be more colorful"_
-......
-User 5 _"I don't think the categories of pets should be on the tag"_
-User 7 _"I wonder why I need add the pet, it's for selling my own pet?"_
+User 1 _"A little confusion for the tag of add pet, maybe I don't need this function"_<br>
+User 2 _"Homepage can be more colorful"_<br>
+......<br>
+User 5 _"I don't think the categories of pets should be on the tag"_<br>
+User 7 _"I wonder why I need add the pet, it's for selling my own pet?"_<br>
 
 **Research Question 2**: Do you need other features in our website?
 

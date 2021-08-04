@@ -95,7 +95,7 @@ This sub feature is a basic visual aspect of a online shop. Every added new pet 
 
 
 # Dropped out features:
-Here are a few very cool features that the team has decided to not implement,  please read on for a brief description and the short summary ofreasons behind these decisions.
+Here are a few very cool features that the team had initially thought of, but our team eventually have decided not to implement them.  Please read on for a brief description and a short summary for reasons behind the elimination process.
 
 
 ## Feature 6 - Flash cartoon:

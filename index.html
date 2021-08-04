@@ -84,11 +84,11 @@
                             <i class="bi-house-fill me-1"></i>Home</a></li>
                         <li class="nav-item"><a class="nav-link active" data-toggle="modal" data-target="#exampleModalCenter" href="#" onclick="isLogin()">Add pet</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                            <a class="nav-link dropdown-toggle active" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="queryStatusQuantity()"></a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#" onclick="requestStatus('available')">Available</a></li>
-                                <li><a class="dropdown-item" href="#" onclick="requestStatus('pending')">Pending</a></li>
-                                <li><a class="dropdown-item" href="#" onclick="requestStatus('sold')">Sold</a></li>
+                                <li><button class="dropdown-item" onclick="requestStatus('available')"><span id="availableQuantity" class="badge bg-dark text-white ms-1 rounded-pill">0</span> Available</button></li>
+                                <li><button class="dropdown-item" onclick="requestStatus('pending')"><span id="pendingQuantity" class="badge bg-dark text-white ms-1 rounded-pill">0</span> Pending</button></li>
+                                <li><button class="dropdown-item" onclick="requestStatus('sold')"><span id="soldQuantity" class="badge bg-dark text-white ms-1 rounded-pill">0</span> Sold</button></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -137,9 +137,9 @@
                     <div class="carousel-item active">
                         <img src="img/1600x350_pattern-animals-new-year-funny-art.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h1>Welcome to Fluff-galore!</h1>
-                            <p>Fluff-galore is a unique pet store where you can find one of a kind products<br>
-                                to pamper your furry, finned, or feathered pet friend.</p>
+                            <h1 class="display-5 fw-bolder">Welcome to Fluff-galore!</h1>
+                            <p>Fluff-galore is a unique pet store where you can find a kind,<br>
+                                 furry, finned, or feathered pet friend.</p>
                         </div>
                     </div>
                     <div class="carousel-item">

@@ -122,7 +122,7 @@ _Figure 2: The paper prototype representing our idea_
 We use zoom to gather user experience feedback. Participants were sent the paper prototype before the group zoom call. During the zoom call, the researcher walked everyone through the prototype. After the zoom call, participants were sent two questions and asked to respond. In the end, we received seven responses.
 
 <div align=center>
-<img src=survey/zoom.png width="800px" height="500px">
+<img src=survey/zoom.png width="700px" height="400px">
 
 _Figure 3: The zoom call to gather feedback_
 </div>

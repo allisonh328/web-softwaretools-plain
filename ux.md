@@ -180,8 +180,8 @@ Through the discussion, we can find that most members prefer to see the home pag
 The tag on the website is the first place we need to improve. In the previous paper prototype, the categories of pets are individual tags at the top of the site. Then we hide the cotegories of pets in the tag of all pets to contain more various species.
 
 <div align=center>
-<img src=templates/tags/tag1.jpeg width="800px" height="50px">
-<img src=templates//tags/tag2.jpeg width="800px" height="300px">
+<img src=templates/tags/tag1.jpeg width="700px" height="40px">
+<img src=templates//tags/tag2.jpeg width="700px" height="200px">
 
 _Figure 3: The final two chosen templates_
 </div>

@@ -62,7 +62,7 @@ Throughout the survey, we can test our website whether the features is suitable 
 **_These questions below prove that user indeed need the features we proposed before._**
 
 <div align=center>
-<img src=survey/fb1.jpeg width="600px" height="200px">
+<img src=survey/fb1.jpeg width="300px" height="100px">
 </div>
 
 **Question 4**: Most people prefer to have their own account, therefore, a login page contributes to improve user experience. 
@@ -186,7 +186,7 @@ The tag on the website is the first place we need to improve. In the previous pa
 _Figure 5: The change for tags_
 </div>
 
-For the tag of available, we just calrify three different states, 
+For the tag of available, we just calrify three different states before, available, pending, sold. And then we add the number of pets in each state, which is convienent for customers to keep track of our sales.
 
 <div align=center>
 <img src=templates/tags/tag3.jpeg width="700px" height="100px">

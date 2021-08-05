@@ -62,7 +62,7 @@ Throughout the survey, we can test our website whether the features is suitable 
 **_These questions below prove that user indeed need the features we proposed before._**
 
 <div align=center>
-<img src=survey/fb1.jpeg width="300px" height="100px">
+<img src=survey/fb1.jpeg width="600px" height="200px">
 </div>
 
 **Question 4**: Most people prefer to have their own account, therefore, a login page contributes to improve user experience. 
@@ -195,7 +195,10 @@ For the tag of available, we just calrify three different states before, availab
 _Figure 6: The tag of available_
 </div>
 
+![welcome](templates/welcome.gif)
+
 #### Find the background image
+
 
 
 ### Final front end design

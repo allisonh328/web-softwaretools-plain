@@ -159,8 +159,8 @@ According to the user responses, we should accomplish the following tasks which 
 We use bootstrap to accomplish our front end design. There are a lot of good templates to choose. This [link](https://github.com/Yj-nnie/web-softwaretools-plain/tree/dlh8899/templates) is all possible templates we decide to apply into our website. Finally, we choose the following two templates, and each group member give his/her opinion as a user.
 
 <div align=center>
-<img src=templates/1.jpeg width="630px" height="400px">
-<img src=templates/2.jpeg width="630px" height="400px">
+<img src=templates/1.jpeg width="440px" height="300px">
+<img src=templates/2.jpeg width="440px" height="300px">
 
 _Figure 3: The final two templates_
 </div>

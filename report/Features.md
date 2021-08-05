@@ -137,7 +137,25 @@ Home page:
 | User can access the order page  | User clicks the Orders button        | Redirection to the order page   |As expected    |
 | User can view the pets in different status  | User clicks the drop-down box and choose "available","pending" or "sold"        | Home page refreshed and pets with the selected status appeared      | As expected  |
 | User can view the pets in different category      | User clicks the drop-down box and choose one category of the pets     |  Home page refreshed and pets with the selected category appeared     | As expected   |
-|  User can add pet  |  User clicks the Add pet button                            | An "add pet" form will pop up     | As expected     |
+|  Admin can add pet  |  Admin clicks the Add pet button, fill in the pet detail and clicks add                            | An "add pet" form will pop up     | As expected     |
+|  Admin can delete pet  |  Admin clicks the delete icon on the top left corner of pet photo   | Pet deleted     | As expected     |
+|  User can not add pet  |  User clicks the Add pet button, fill in the pet detail and clicks add                            | Message "No permission! Please login as admin." pops up    | As expected     |
+
+Register page:
+
+| Test case        | Test procedure          | Expected results                   | Actual results |
+| ----------- | ---------------------------- | ---------------------------------- | -------------- |
+|  Empty input check |  User does not input the username and password then clicks register account  | Warning "Username/password can not be empty." appear   | As expected|
+|  Invalid repeat password check | User inputs a different password in the password(repeat) form then clicks register account   | Warning "Two password inputs do not match." appear   | As expected|
+|  User can create an account |  User inputs all the required information (username and password) then clicks register account  |  User successfully registered   | As expected|
+
+
+
+
+
+
+
+
 
 [PDSA]:<https://www.pdsa.org.uk/taking-care-of-your-pet/choosing-a-pet?_$ja=tsid:67827|cid:1785422340|agid:71441170509|tid:kwd-13580843929|crid:355603342260|nw:g|rnd:9471319939620912770|dvc:c|adp:|mt:e|loc:1006567&gclid=CjwKCAjwr56IBhAvEiwA1fuqGvVJWeNamNuwu2UHw88VuoxIla6-eKB28vqfLrgvZHMkEVNVrKJ-UxoC0Q4QAvD_BwE>
 

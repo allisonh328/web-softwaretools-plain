@@ -162,7 +162,7 @@ We use bootstrap to accomplish our front end design. There are a lot of good tem
 <img src=templates/1.jpeg width="440px" height="300px">
 <img src=templates/2.jpeg width="440px" height="300px">
 
-_Figure 3: The final two chosen templates_
+_Figure 4: The final two chosen templates_
 </div>
 
 The following discussion is group members in user's perspective to choose the final front end template.
@@ -183,7 +183,16 @@ The tag on the website is the first place we need to improve. In the previous pa
 <img src=templates/tags/tag1.jpeg width="700px" height="40px">
 <img src=templates//tags/tag2.jpeg width="700px" height="200px">
 
-_Figure 3: The final two chosen templates_
+_Figure 5: The change for tags_
+</div>
+
+For the tag of available, we just calrify three different states, 
+
+<div align=center>
+<img src=templates/tags/tag3.jpeg width="700px" height="150px">
+<img src=templates//tags/tag4.jpeg width="700px" height="150px">
+
+_Figure 6: The tag of available_
 </div>
 
 #### Find the background image

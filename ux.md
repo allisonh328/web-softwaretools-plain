@@ -162,8 +162,18 @@ We use bootstrap to accomplish our front end design. There are a lot of good tem
 <img src=templates/1.jpeg width="440px" height="300px">
 <img src=templates/2.jpeg width="440px" height="300px">
 
-_Figure 3: The final two templates_
+_Figure 3: The final two chosen templates_
 </div>
+
+>>**Jun** _"I haven't kept a pet before, for me, I hope I could see more funny pets photos firstly instead the sign up or log in page. The first one is my choice"_<br>
+>>**Ying** _"I'd like to see the home page is the first, because I often shopping online as a guest."_<br>
+>>**Luming**  _"I think the sign up gives aid to remain users, we will have a record in our site, which will benefit the sustainable development of the site"_<br>
+>>**Ruiqing**  _"I'd like to choose the first one"_<br>
+>>**Linhong** _"I don't think it's a good order to let users sign up first. As a user, I don't feel like I necessarily need to create an account first"_<br>
+
+Through the discussion, we can find that most members prefer to see the home page first as a user. This micro-survey help us make a decision on the final layout of the site - the left template. 
+
+#### 
 
 ### Final front end design
 

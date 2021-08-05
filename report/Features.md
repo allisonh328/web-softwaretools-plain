@@ -129,13 +129,15 @@ The test work of the online pet store is mainly designed to find the defects in 
 
 To test the functionality of the system, we chose manual, scenario-based testing. We perform this test through a series of test cases, in which we document the specific scenarios in which each user interacts with our application.
 
-| Test name        | Test procedure          | Expected results                   | Actual results |
+Home page:
+
+| Test case        | Test procedure          | Expected results                   | Actual results |
 | ----------- | ---------------------------- | ---------------------------------- | -------------- |
-|  |  |   | |
-|   |         |    |    |
-|    |         |       |   |
-|       |        |       |    |
-|    |                              |     |      |
+|  User can access the login page|  User clicks the "User" button, then clicks the login button | Redirection to the login page   | As expected|
+| User can access the order page  | User clicks the Orders button        | Redirection to the order page   |As expected    |
+| User can view the pets in different status  | User clicks the drop-down box and choose "available","pending" or "sold"        | Home page refreshed and pets with the selected status appeared      | As expected  |
+| User can view the pets in different category      | User clicks the drop-down box and choose one category of the pets     |  Home page refreshed and pets with the selected category appeared     | As expected   |
+|  User can add pet  |  User clicks the Add pet button                            | An "add pet" form will pop up     | As expected     |
 
 [PDSA]:<https://www.pdsa.org.uk/taking-care-of-your-pet/choosing-a-pet?_$ja=tsid:67827|cid:1785422340|agid:71441170509|tid:kwd-13580843929|crid:355603342260|nw:g|rnd:9471319939620912770|dvc:c|adp:|mt:e|loc:1006567&gclid=CjwKCAjwr56IBhAvEiwA1fuqGvVJWeNamNuwu2UHw88VuoxIla6-eKB28vqfLrgvZHMkEVNVrKJ-UxoC0Q4QAvD_BwE>
 

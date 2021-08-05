@@ -197,7 +197,7 @@ _Figure 6: The tag of available_
 
 ![welcome](templates/welcome.gif)
 <div align=center>
-<img src=templates/welcome.gif width="700px" height="600px">
+<img src=templates/welcome.gif width="600px" height="400px">
 
 _Figure 6: The tag of available_
 </div>

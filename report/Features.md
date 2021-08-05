@@ -133,8 +133,10 @@ Home page:
 
 | Test case        | Test procedure          | Expected results                   | Actual results |
 | ----------- | ---------------------------- | ---------------------------------- | -------------- |
-|  User can access the login page|  User clicks the "User" button, then clicks the login button | Redirection to the login page   | As expected|
+|  Visitor can access the login page|  Visitor clicks the "User" button, then clicks the login button | Redirection to the login page   | As expected|
+| User can access the detail page  | User clicks the displayed pet name        | Redirection to the pet detail page   |As expected    |
 | User can access the order page  | User clicks the Orders button        | Redirection to the order page   |As expected    |
+| User can access the profile page  | User clicks the User button, then clicks the profile button        | Redirection to the profile page   |As expected    |
 | User can view the pets in different status  | User clicks the drop-down box and choose "available","pending" or "sold"        | Home page refreshed and pets with the selected status appeared      | As expected  |
 | User can view the pets in different category      | User clicks the drop-down box and choose one category of the pets     |  Home page refreshed and pets with the selected category appeared     | As expected   |
 |  Admin can add pet  |  Admin clicks the Add pet button, fill in the pet detail and clicks add                            | An "add pet" form will pop up     | As expected     |
@@ -149,10 +151,35 @@ Register page:
 |  Invalid repeat password check | User inputs a different password in the password(repeat) form then clicks register account   | Warning "Two password inputs do not match." appear   | As expected|
 |  User can create an account |  User inputs all the required information (username and password) then clicks register account  |  User successfully registered   | As expected|
 
+Login page:
 
+| Test case        | Test procedure          | Expected results                   | Actual results |
+| ----------- | ---------------------------- | ---------------------------------- | -------------- |
+|  Empty input check |  User does not input the username and password then clicks login button  | Warning "Username/password can not be empty." appear   | As expected|
+|  User can access home page without login | User clicks "No login. I just want to take a look!" button  | Redirection to the home page   | As expected|
+|  Invalid input check |  User inputs wrong username and password then clicks login button  |  Warning "User is not found./Password is not correct!" appear   | As expected|
 
+Order page:
 
+| Test case        | Test procedure          | Expected results                   | Actual results |
+| ----------- | ---------------------------- | ---------------------------------- | -------------- |
+|  User can cancel the order |  User clicks Cancel order button, then clicks confirm  | Order canceled  | As expected|
+|  User can see the detail of the order | After placing the order of the pet, user go to order page and check the order detail   | The order detail is correct and displayed    | As expected|
+|  User can goes back to home page |  User clicks "back" or "Fluff-galore"  |  Redirection to home page   | As expected|
+|  Admin can ship the order |  Admin clicks "confirm shipping"  |  Order status become to "product is shipping"   | As expected|
 
+Detail page:
+
+| Test case        | Test procedure          | Expected results                   | Actual results |
+| ----------- | ---------------------------- | ---------------------------------- | -------------- |
+|  User can buy the pet |  User choose the number of pets and clicks "buy now"  | Order Id appear and order placed   | As expected|
+|  Admin can edit the pet |  Admin clicks edit pet and input new information of this pet  | pet information updated  | As expected|
+
+Profile page:
+
+| Test case        | Test procedure          | Expected results                   | Actual results |
+| ----------- | ---------------------------- | ---------------------------------- | -------------- |
+|  User can change the profile information |  User inputs new personal information and clicks "confirm the changes" |  message "You have successfully updated!" appear  | As expected|
 
 
 

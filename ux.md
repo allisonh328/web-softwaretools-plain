@@ -3,7 +3,9 @@
 
 In this part, I would like to write based on my design timeline and show how to go through interations by user feedback. Although it is not in the order of the template, it contains all thing the template requires.
 
-## System flow and Timeline
+## Design Timeline
+
+* 
 
 ## Prototyping 
 
@@ -154,7 +156,7 @@ According to the user responses, we should accomplish the following tasks which 
 
 ### Design choices
 
-This is the design choices [list](). The critical design choices are described in detail below.
+This is the design choices [list](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/design.md). The critical  chosen design choices are described in detail below.
 
 #### Choose the template of the site layout
 
@@ -197,11 +199,10 @@ For the tag of available, we just calrify three different states before, availab
 _Figure 6: The tag of available_
 </div>
 
-
+We have turned a static home page into a dynamic one, which is good for getting users' attention. On the side, a scrolling of pet photos is more consistent with our onlie pet shop store.
 
 <div align=center>
 <img src=UX/templates/welcome.gif width="400px" height="250px">
-
 _Figure 7: The welcome page_
 </div>
 

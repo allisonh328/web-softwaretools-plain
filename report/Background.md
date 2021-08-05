@@ -33,31 +33,31 @@ With reference to these successful cases, our objectives for this website is to 
 
   <tbody>
     
-	<tr>
+<tr>
 		<td>Feature name &lt;/ td&gt;</td>
 		<td>Description&lt;/ td&gt;</td>
 		<td>Task description &lt;/ td&gt;</td>
 		<td>Done on &lt;/ td&gt;</td>
-	</tr>
+</tr>
 
-    <tr>
+<tr>
       <td colspan="4">Implemented Features &lt;/ td&gt;</td>
-    </tr>
+</tr>
     
 
-    <tr>
-		<td rowspan="2"><a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-1---pet-display-feature-by-categorization-and-by-availability-status">Pet display</a> &lt;/ td&gt;</td>
-		<td rowspan="2">description &lt;/ td&gt;</td>
+<tr>
+	<td rowspan="2"><a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-1---pet-display-feature-by-categorization-and-by-availability-status">Pet display</a> &lt;/ td&gt;</td>
+    <td rowspan="2">description &lt;/ td&gt;</td>
 		
-      		<td>Task name 1 &lt;/ td&gt;</td>	
-	        <td>Time &lt;/ td&gt;</td>
+<td>Task name 1 &lt;/ td&gt;</td>	
+<td>Time &lt;/ td&gt;</td>
 
-    </tr>
+</tr>
     
-	<tr>
+<tr>
 		<td>Task name 2 &lt;/ td&gt;</td>
 		<td>Time &lt;/ td&gt;</td>
-	</tr>
+</tr>
 
  <tr>
 

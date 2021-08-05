@@ -154,7 +154,7 @@ According to the user responses, we should accomplish the following tasks which 
 
 ### Design choices
 
-#### The layout of the site
+#### Choose the template of the site layout
 
 We use bootstrap to accomplish our front end design. There are a lot of good templates to choose. This [link](https://github.com/Yj-nnie/web-softwaretools-plain/tree/dlh8899/templates) is all possible templates we decide to apply into our website. Finally, we choose the following two templates, and each group member give his/her opinion as a user.
 
@@ -169,13 +169,25 @@ The following discussion is group members in user's perspective to choose the fi
 
 >>**Jun** _"I haven't kept a pet before, for me, I hope I could see more funny pets photos firstly instead the sign up or log in page. The first one is my choice"_<br>
 >>**Ying** _"I'd like to see the home page is the first, because I often shopping online as a guest."_<br>
->>**Luming**  _"I think the sign up gives aid to remain users, we will have a record in our site, which will benefit the sustainable development of the site"_<br>
+>>**Luming**  _"I think the sign up page gives aid to remain users, we will have a record in our site, which will benefit the sustainable development of the site"_<br>
 >>**Ruiqing**  _"I'd like to choose the first one"_<br>
 >>**Linhong** _"I don't think it's a good order to let users sign up first. As a user, I don't feel like I necessarily need to create an account first"_<br>
 
 Through the discussion, we can find that most members prefer to see the home page first as a user. This micro-survey help us make a decision on the final layout of the site - the left template. 
 
-#### 
+#### Modify the layout of the site
+
+The tag on the website is the first place we need to improve. In the previous paper prototype, the categories of pets are individual tags at the top of the site. Then we hide the cotegories of pets in the tag of all pets to contain more various species.
+
+<div align=center>
+<img src=templates/tags/tag1.jpeg width="600px" height="100px">
+<img src=templates//tags/tag2.jpeg width="600px" height="150px">
+
+_Figure 3: The final two chosen templates_
+</div>
+
+#### Find the background image
+
 
 ### Final front end design
 

@@ -35,7 +35,10 @@ The Pending status is to act as a buffer state for both Available and Sold state
 - If it is are turning user, they can just sign in with their name and password. 
 - User will be able to log out if they wish.
 - As a bonus, we are hoping to implement a 'Remember me' function to allow user for a quick log back in 
-	
+
+<div align=center>
+<p><img src="https://i.imgur.com/W22ETQm.png" alt="" width="600" height="219" /></p>
+</div>
 
 ###### Related features: Place order
 

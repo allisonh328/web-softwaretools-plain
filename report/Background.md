@@ -32,7 +32,7 @@ With reference to these successful cases, our objectives for this website is to 
 
 Here is a list of all the possibile features that our team members have came up with. You will only find a short description of the feature, Please click on them individually to look up a more detailed description of each feature.
 
-
+<div align=center>
 <table>
 <tbody>
 <tr>
@@ -101,3 +101,4 @@ Here is a list of all the possibile features that our team members have came up 
 </tr>
 </tbody>
 </table>
+</div>

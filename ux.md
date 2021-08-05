@@ -189,8 +189,8 @@ _Figure 5: The change for tags_
 For the tag of available, we just calrify three different states, 
 
 <div align=center>
-<img src=templates/tags/tag3.jpeg width="700px" height="150px">
-<img src=templates//tags/tag4.jpeg width="700px" height="150px">
+<img src=templates/tags/tag3.jpeg width="700px" height="100px">
+<img src=templates//tags/tag4.jpeg width="700px" height="100px">
 
 _Figure 6: The tag of available_
 </div>

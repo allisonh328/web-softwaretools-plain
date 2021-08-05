@@ -29,19 +29,23 @@ With reference to these successful cases, our objectives for this website is to 
 
 # Features
 
+
+Here is a list of all the possibile features that our team members have came up with. You will only find a short description of the feature, Please click on them individually to look up a more detailed description of each feature.
+
+
 <table>
 <tbody>
 <tr>
-<td>Feature name&nbsp;</td>
-<td>Description</td>
-<td>Task description&nbsp;</td>
-<td>Done on&nbsp;</td>
+<td><strong>Feature name&nbsp;</strong></td>
+<td><strong>Description</strong></td>
+<td><strong>Task description</strong>&nbsp;</td>
+<td><strong>Done on</strong>&nbsp;</td>
 </tr>
 <tr>
 <td colspan="4">Implemented Features&nbsp;</td>
 </tr>
 <tr>
-<td rowspan="2"><a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-1---pet-display-feature-by-categorization-and-by-availability-status">Pet display</a>&nbsp;</td>
+<td rowspan="2"><a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-1---pet-display-feature-by-categorization-and-by-availability-status"><img src="https://cutekawaiiresources.files.wordpress.com/2014/10/tumblr_m7ei0j4jx71qdlkyg.gif?w=20&amp;h=20&amp;zoom=2" alt="" width="20" height="20" />Pet display</a>&nbsp;</td>
 <td rowspan="2">description</td>
 <td>Task name 1&nbsp;</td>
 <td>Time&nbsp;</td>
@@ -51,7 +55,7 @@ With reference to these successful cases, our objectives for this website is to 
 <td>Time&nbsp;</td>
 </tr>
 <tr>
-<td rowspan="2">Name 1&nbsp;</td>
+<td rowspan="2">Feature name 2&nbsp;</td>
 <td rowspan="2">description&nbsp;</td>
 <td>Task name 1&nbsp;</td>
 <td>Time&nbsp;</td>
@@ -61,7 +65,7 @@ With reference to these successful cases, our objectives for this website is to 
 <td>Time&nbsp;</td>
 </tr>
 <tr>
-<td rowspan="2">Name 1&nbsp;</td>
+<td rowspan="2">Feature name 3&nbsp;</td>
 <td rowspan="2">description</td>
 <td>Task name 1&nbsp;</td>
 <td>Time&nbsp;</td>
@@ -71,7 +75,7 @@ With reference to these successful cases, our objectives for this website is to 
 <td>Time&nbsp;</td>
 </tr>
 <tr>
-<td rowspan="2">Name 1</td>
+<td rowspan="2">Feature name 4</td>
 <td rowspan="2">description</td>
 <td>Task name 1&nbsp;</td>
 <td>Time&nbsp;</td>
@@ -82,6 +86,18 @@ With reference to these successful cases, our objectives for this website is to 
 </tr>
 <tr>
 <td colspan="4">Dropped out Features&nbsp;</td>
+</tr>
+<tr>
+<td>Unwanted Feature 1</td>
+<td>description</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>Unwanted Feature 2</td>
+<td>description</td>
+<td>NA</td>
+<td>NA</td>
 </tr>
 </tbody>
 </table>

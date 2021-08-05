@@ -5,7 +5,7 @@ In this part, I would like to write based on my design timeline and show how to 
 
 ## Design Timeline
 
-* 
+
 
 ## Prototyping 
 
@@ -203,6 +203,7 @@ We have turned a static home page into a dynamic one, which is good for getting 
 
 <div align=center>
 <img src=UX/templates/welcome.gif width="400px" height="250px">
+
 _Figure 7: The welcome page_
 </div>
 

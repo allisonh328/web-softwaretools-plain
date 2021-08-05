@@ -181,7 +181,11 @@ Profile page:
 | ----------- | ---------------------------- | ---------------------------------- | -------------- |
 |  User can change the profile information |  User inputs new personal information and clicks "confirm the changes" |  message "You have successfully updated!" appear  | As expected|
 
+The table above shows the function test of new features of the online pet store. With these set of test, it proves the correct implementation of the new feature.
 
+The advantage of this approach over more technically complex alternatives such as automated testing is its upfront efficiency. Because our application is currently a minimum viable product, the path through the application is relatively simple and the user's interaction with the site is not complex. As a result, we were able to develop and use these test cases quickly.
+
+However, there are some drawbacks to this approach. The manual nature of our testing methods reduces the overall efficiency and agility of our development process. This also exposes us to a degree of risk of human error during testing. As mentioned earlier, while our application has not yet reached sufficient scale, which will seriously hinder our progress, we will seek to implement complementary automated testing methods in future development efforts as our application grows in size and scope.
 
 
 [PDSA]:<https://www.pdsa.org.uk/taking-care-of-your-pet/choosing-a-pet?_$ja=tsid:67827|cid:1785422340|agid:71441170509|tid:kwd-13580843929|crid:355603342260|nw:g|rnd:9471319939620912770|dvc:c|adp:|mt:e|loc:1006567&gclid=CjwKCAjwr56IBhAvEiwA1fuqGvVJWeNamNuwu2UHw88VuoxIla6-eKB28vqfLrgvZHMkEVNVrKJ-UxoC0Q4QAvD_BwE>

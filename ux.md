@@ -196,6 +196,11 @@ _Figure 6: The tag of available_
 </div>
 
 ![welcome](templates/welcome.gif)
+<div align=center>
+<img src=templates/welcome.gif width="700px" height="600px">
+
+_Figure 6: The tag of available_
+</div>
 
 #### Find the background image
 

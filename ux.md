@@ -46,9 +46,9 @@ During the prototyping stages, we conduct the first survey to confirm the propos
 Firstly, we give participants a summary of our project brief and asked to go over. Then, we have sent out 20 questionnaires and finally received 16 respnses. To make sure the survey is universal, we surveyed people of different ages. We also took into account gender and the experience of keeping a pet.
 
 <div align=center>
-<img src=survey/1.png width="330px" height="250px">
-<img src=survey/2.png width="330px" height="250px">
-<img src=survey/3.png width="330px" height="250px">
+<img src=UX/survey/1.png width="330px" height="250px">
+<img src=UX/survey/2.png width="330px" height="250px">
+<img src=UX/survey/3.png width="330px" height="250px">
 </div>
 
 The survey form is [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/survey1.pdf). And the feedback form click [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/feedback1.xlsx).
@@ -62,14 +62,14 @@ Throughout the survey, we can test our website whether the features is suitable 
 **_These questions below prove that user indeed need the features we proposed before._**
 
 <div align=center>
-<img src=survey/fb1.jpeg width="600px" height="200px">
+<img src=UX/survey/fb1.jpeg width="600px" height="200px">
 </div>
 
 **Question 4**: Most people prefer to have their own account, therefore, a login page contributes to improve user experience. 
 
 
 <div align=center>
-<img src=survey/fb2.jpeg width="600px" height="200px">
+<img src=UX/survey/fb2.jpeg width="600px" height="200px">
 </div>
 
 **Question 5**: The answer suggests that many users already make a decision on which pet to buy before they log on to the online store. Hence the categories of pets is necessary for users, which allow them to look through the kind of pet they need.
@@ -79,21 +79,21 @@ Throughout the survey, we can test our website whether the features is suitable 
 **_These questions below give us a reference for the style and content design of the website._**
 
 <div align=center>
-<img src=survey/fb4.jpeg width="600px" height="200px">
+<img src=UX/survey/fb4.jpeg width="600px" height="200px">
 </div>
 
 **Question 2**: For users, the layout of the site is the most attractive. We then asked about the style of the site, which helped us achieve the final design choice.
 
 
 <div align=center>
-<img src=survey/fb5.jpeg width="600px" height="200px">
+<img src=UX/survey/fb5.jpeg width="600px" height="200px">
 </div>
 
 **Question 5**: Through the user feedback, the cartoon style is the most popular choice. A part of users choose the minimalism style. This may give us inspiration of combination of these two styles.
 
 
 <div align=center>
-<img src=survey/fb6.jpeg width="600px" height="200px">
+<img src=UX/survey/fb6.jpeg width="600px" height="200px">
 </div>
 
 **Question 6**: All users hope that they can view more details about their pet choices. We should add each pet's information, such as age, photo, and character.
@@ -121,7 +121,7 @@ _Figure 2: The paper prototype representing our idea_
 We use zoom to gather user experience feedback. Participants were sent the paper prototype before the group zoom call. During the zoom call, the researcher walked everyone through the prototype. After the zoom call, participants were sent two questions and asked to respond. In the end, we received seven responses.
 
 <div align=center>
-<img src=survey/zoom.png width="630px" height="400px">
+<img src=UX/survey/zoom.png width="630px" height="400px">
 
 _Figure 3: The zoom call to gather feedback_
 </div>
@@ -154,13 +154,15 @@ According to the user responses, we should accomplish the following tasks which 
 
 ### Design choices
 
+This is the design choices [list](). The critical design choices are described in detail below.
+
 #### Choose the template of the site layout
 
-We use bootstrap to accomplish our front end design. There are a lot of good templates to choose. This [link](https://github.com/Yj-nnie/web-softwaretools-plain/tree/dlh8899/templates) is all possible templates we decide to apply into our website. Finally, we choose the following two templates, and each group member give his/her opinion as a user.
+We use bootstrap to accomplish our front end design. There are a lot of good templates to choose. This [link](https://github.com/Yj-nnie/web-softwaretools-plain/tree/dlh8899/UX/templates) is all possible templates we decide to apply into our website. Finally, we choose the following two templates, and each group member give his/her opinion as a user.
 
 <div align=center>
-<img src=templates/1.jpeg width="440px" height="300px">
-<img src=templates/2.jpeg width="440px" height="300px">
+<img src=UX/templates/1.jpeg width="440px" height="300px">
+<img src=UX/templates/2.jpeg width="440px" height="300px">
 
 _Figure 4: The final two chosen templates_
 </div>
@@ -180,8 +182,8 @@ Through the discussion, we can find that most members prefer to see the home pag
 The tag on the website is the first place we need to improve. In the previous paper prototype, the categories of pets are individual tags at the top of the site. Then we hide the cotegories of pets in the tag of all pets to contain more various species.
 
 <div align=center>
-<img src=templates/tags/tag1.jpeg width="700px" height="40px">
-<img src=templates//tags/tag2.jpeg width="700px" height="200px">
+<img src=UX/templates/tags/tag1.jpeg width="700px" height="40px">
+<img src=UX/templates//tags/tag2.jpeg width="700px" height="200px">
 
 _Figure 5: The change for tags_
 </div>
@@ -189,17 +191,18 @@ _Figure 5: The change for tags_
 For the tag of available, we just calrify three different states before, available, pending, sold. And then we add the number of pets in each state, which is convienent for customers to keep track of our sales.
 
 <div align=center>
-<img src=templates/tags/tag3.jpeg width="700px" height="100px">
-<img src=templates//tags/tag4.jpeg width="700px" height="100px">
+<img src=UX/templates/tags/tag3.jpeg width="700px" height="100px">
+<img src=UX/templates//tags/tag4.jpeg width="700px" height="100px">
 
 _Figure 6: The tag of available_
 </div>
 
-![welcome](templates/welcome.gif)
-<div align=center>
-<img src=templates/welcome.gif width="400px" height="250px">
 
-_Figure 6: The tag of available_
+
+<div align=center>
+<img src=UX/templates/welcome.gif width="400px" height="250px">
+
+_Figure 7: The welcome page_
 </div>
 
 #### Find the background image

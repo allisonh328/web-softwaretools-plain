@@ -108,8 +108,7 @@ After the first survey, we focus on developing it along with above user feedback
 * Make the layout of the site clear
 * The paper prototype should be coherent
 
-#### Design choices
-
+#### The system flow of the prototype
 
 <div align=center>
 <img src=UX/ux3.PNG width="1000px" height="800px">
@@ -152,6 +151,19 @@ According to the user responses, we should accomplish the following tasks which 
 * Modify the tag, clarifying the categories of pets
 * Distinguish between user and adminstrator accounts
 * Insert more pet photos and gifs
+
+### Design choices
+
+#### The layout of the site
+
+We use bootstrap to accomplish our front end design. There are a lot of good templates to choose. This [link](https://github.com/Yj-nnie/web-softwaretools-plain/tree/dlh8899/templates) is all possible templates we decide to apply into our website. Finally, we choose the following two templates, and each group member give his/her opinion as a user.
+
+<div align=center>
+<img src=templates/1.jpeg width="630px" height="400px">
+<img src=templates/2.jpeg width="630px" height="400px">
+
+_Figure 3: The final two templates_
+</div>
 
 ### Final front end design
 

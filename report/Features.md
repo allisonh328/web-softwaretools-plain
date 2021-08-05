@@ -125,5 +125,17 @@ This was initially a must implement feature for the development team as it would
 
 # Implementation and Testing: ------------------- Ruiqing
 
+The test work of the online pet store is mainly designed to find the defects in the function and performance of the lonline pet store, and to modify the system in time after the test, to ensure the smooth on-line of the system, and ensure that users have a good use experience in the process of use, and feel the convenience of the system.
+
+To test the functionality of the system, we chose manual, scenario-based testing. We perform this test through a series of test cases, in which we document the specific scenarios in which each user interacts with our application.
+
+| Test name        | Test procedure          | Expected results                   | Actual results |
+| ----------- | ---------------------------- | ---------------------------------- | -------------- |
+|  |  |   | |
+|   |         |    |    |
+|    |         |       |   |
+|       |        |       |    |
+|    |                              |     |      |
+
 [PDSA]:<https://www.pdsa.org.uk/taking-care-of-your-pet/choosing-a-pet?_$ja=tsid:67827|cid:1785422340|agid:71441170509|tid:kwd-13580843929|crid:355603342260|nw:g|rnd:9471319939620912770|dvc:c|adp:|mt:e|loc:1006567&gclid=CjwKCAjwr56IBhAvEiwA1fuqGvVJWeNamNuwu2UHw88VuoxIla6-eKB28vqfLrgvZHMkEVNVrKJ-UxoC0Q4QAvD_BwE>
 

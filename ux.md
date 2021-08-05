@@ -165,6 +165,8 @@ We use bootstrap to accomplish our front end design. There are a lot of good tem
 _Figure 3: The final two chosen templates_
 </div>
 
+The following discussion is group members in user's perspective to choose the final front end template.
+
 >>**Jun** _"I haven't kept a pet before, for me, I hope I could see more funny pets photos firstly instead the sign up or log in page. The first one is my choice"_<br>
 >>**Ying** _"I'd like to see the home page is the first, because I often shopping online as a guest."_<br>
 >>**Luming**  _"I think the sign up gives aid to remain users, we will have a record in our site, which will benefit the sustainable development of the site"_<br>

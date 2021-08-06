@@ -97,7 +97,7 @@ Throughout the survey, we can test our website whether the features is suitable 
 <img src=UX/survey/fb5.jpeg width="600px" height="200px">
 </div>
 
-**Question 5**: Through the user feedback, the cartoon style is the most popular choice. A part of users choose the minimalism style. This may give us inspiration of combination of these two styles.
+**Question 3**: Through the user feedback, the cartoon style is the most popular choice. A part of users choose the minimalism style. This may give us inspiration of combination of these two styles.
 
 
 <div align=center>
@@ -215,7 +215,15 @@ _Figure 8: The welcome page_
 
 #### Find the background image
 
+At the first, we use a cartoon image as the background of the site because many users choose the cartoon style in the first survey. However, considering the topic of the site, we are supposed to add more pets pictures. And in the survey, all users hope that see more animal elements. Therefore, we modify the previous background, which makes the site funny and functional. Meanwhile, we add the cartoon background image into the login page.
 
+<div align=center>
+<img src=UX/templates/final1.jpeg width="440px" height="300px">
+<img src=UX/templates/final2.jpeg width="440px" height="300px">
+<img src=UX/templates/login.jpeg width="440px" height="300px">
+
+_Figure 9: The background image_
+</div>
 
 ### Final front end design
 

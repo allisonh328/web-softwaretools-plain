@@ -35,7 +35,6 @@ function submitImage(event) {
         let file = $("#imageFile").prop("files")[0];
         formData.append('additionalMetadata', info);
         formData.append('file', file);
-        console.log(getUrlParam("id"))
 
         $.ajax({
             url: 'https://petstore.swagger.io/v2/pet/' + getUrlParam("id") + '/uploadImage',

@@ -11,7 +11,7 @@ In this part, I would like to write based on my design timeline and show how to 
 _Figure 1: The design timeline_
 </div>
 
-Design tasks list
+This is [the list of the design tasks]().
 
 ## Prototyping 
 
@@ -26,7 +26,7 @@ For the project, our initial idea involved creating a login page, which is convi
 <img src=UX/prototype2.jpg width="380px" height="250px">
 <img src=UX/prototype3.jpg width="380px" height="250px">
 
-_Figure 1: The initial wireframe_
+_Figure 2: The initial wireframe_
 </div>
 
 
@@ -121,7 +121,7 @@ After the first survey, we focus on developing it along with above user feedback
 <div align=center>
 <img src=UX/ux3.PNG width="1000px" height="800px">
 
-_Figure 2: The paper prototype representing our idea_
+_Figure 3: The paper prototype representing our idea_
 </div>
 
 ### Survey 2: The feedback of the paper prototype
@@ -131,7 +131,7 @@ We use zoom to gather user experience feedback. Participants were sent the paper
 <div align=center>
 <img src=UX/survey/zoom.png width="630px" height="400px">
 
-_Figure 3: The zoom call to gather feedback_
+_Figure 4: The zoom call to gather feedback_
 </div>
 
 **Research Question 1**: Do you have any suggestions on the layout of the site?
@@ -162,7 +162,7 @@ According to the user responses, we should accomplish the following tasks which 
 
 ### Design choices
 
-This is the design choices [list](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/design.md). The critical  chosen design choices are described in detail below.
+This is [the design choices list](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/design.md). The critical  chosen design choices are described in detail below.
 
 #### Choose the template of the site layout
 
@@ -172,7 +172,7 @@ We use bootstrap to accomplish our front end design. There are a lot of good tem
 <img src=UX/templates/1.jpeg width="440px" height="300px">
 <img src=UX/templates/2.jpeg width="440px" height="300px">
 
-_Figure 4: The final two chosen templates_
+_Figure 5: The final two chosen templates_
 </div>
 
 The following discussion is group members in user's perspective to choose the final front end template.
@@ -193,7 +193,7 @@ The tag on the website is the first place we need to improve. In the previous pa
 <img src=UX/templates/tags/tag1.jpeg width="700px" height="40px">
 <img src=UX/templates//tags/tag2.jpeg width="700px" height="200px">
 
-_Figure 5: The change for tags_
+_Figure 6: The change for tags_
 </div>
 
 For the tag of available, we just calrify three different states before, available, pending, sold. And then we add the number of pets in each state, which is convienent for customers to keep track of our sales.
@@ -202,7 +202,7 @@ For the tag of available, we just calrify three different states before, availab
 <img src=UX/templates/tags/tag3.jpeg width="700px" height="100px">
 <img src=UX/templates//tags/tag4.jpeg width="700px" height="100px">
 
-_Figure 6: The tag of available_
+_Figure 7: The tag of available_
 </div>
 
 We have turned a static home page into a dynamic one, which is good for getting users' attention. On the side, a scrolling of pet photos is more consistent with our onlie pet shop store.
@@ -210,7 +210,7 @@ We have turned a static home page into a dynamic one, which is good for getting 
 <div align=center>
 <img src=UX/templates/welcome.gif width="400px" height="250px">
 
-_Figure 7: The welcome page_
+_Figure 8: The welcome page_
 </div>
 
 #### Find the background image

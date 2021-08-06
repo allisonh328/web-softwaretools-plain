@@ -8,11 +8,13 @@ $(function () {
     let petTags = getUrlParam("tags");
     let petCategory = getUrlParam("category");
     let petStatus = getUrlParam("status");
+    let petImage = getUrlParam("image");
 
     document.getElementById("petName").innerText = petName;
     document.getElementById("petTags").innerText = petTags;
     document.getElementById("petCategory").innerText = petCategory;
 
+    $("#detailImage").attr('src', petImage);
     $("#nameInput").val(petName);
     $("#categoryInput").val(petCategory);
     $("#statusInput").val(petStatus);

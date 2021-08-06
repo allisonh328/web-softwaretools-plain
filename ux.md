@@ -5,7 +5,13 @@ In this part, I would like to write based on my design timeline and show how to 
 
 ## Design Timeline
 
+<div align=center>
+<img src=UX/timeline.png width="800px" height="200px">
 
+_Figure 1: The design timeline_
+</div>
+
+Design tasks list
 
 ## Prototyping 
 

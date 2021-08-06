@@ -30,7 +30,7 @@ With reference to these successful cases, our objectives for this website is to 
 # Features
 
 
-Here is a list of all features that our team members have came thought of with. You will only find a short description of the feature here, for a more detailed explaination, please click on the feature that you wish to review.
+Here is a list of all features that our team members have thought of. You will only find a short description of the feature here, for a more detailed explaination, please click on the feature that you wish to review.
 
 <div align="center">
 <p>&nbsp;</p>

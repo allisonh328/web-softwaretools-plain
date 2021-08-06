@@ -37,7 +37,16 @@ The Pending status is to act as a buffer state for both Available and Sold state
 - As a bonus, we are hoping to implement a 'Remember me' function to allow user for a quick log back in 
 
 <div align=center>
-<p><img src="https://i.imgur.com/W22ETQm.png" alt="" width="600" height="219" /></p>
+
+# Authority Instruction
+
+| Role         | Access to Homepage | Add Pet | Delete Pet | Update Pet | Upload Pet Image | Update User Profile | Place Orders | Cancel Orders | Ship Products | Confirm Receipt |
+| ------------ | ------------------ | ------- | ---------- | ---------- | ---------------- | ------------------- | ------------ | ------------- | ------------- | --------------- |
+| Sightseer    | ✔                  | ❌       | ❌          | ❌          | ❌                | ❌                   | ❌            | ❌             | ❌             | ❌               |
+| Customer     | ✔                  | ❌       | ❌          | ❌          | ❌                | ✔                   | ✔            | ✔             | ❌             | ✔               |
+| Owner(admin) | ✔                  | ✔       | ✔          | ✔          | ✔                | ✔                   | ❌            | ✔             | ✔             | ❌               |
+
+
 </div>
 
 ###### Related features: Place order

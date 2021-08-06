@@ -220,7 +220,7 @@ At the first, we use a cartoon image as the background of the site because many 
 <div align=center>
 <img src=UX/templates/final1.jpeg width="500px" height="300px">
 <img src=UX/templates/final2.jpeg width="500px" height="300px">
-<img src=UX/templates/login.jpeg width="500px" height="300px">
+<img src=UX/templates/login.jpeg width="500px" height="250px">
 
 _Figure 9: The background image_
 </div>

@@ -68,7 +68,10 @@ In order to help us further develop, we drew up two personas - a customer person
 
 <div align=center>
 <img src=UX/user1.jpeg width="650px" height="400px">
-<img src=UX/user2.jpeg width="1000px" height="800px">
+
+_Figure 3: The paper prototype representing our idea_
+
+<img src=UX/user2.jpeg width="650px" height="400px">
 
 _Figure 3: The paper prototype representing our idea_
 </div>

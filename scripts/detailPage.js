@@ -5,8 +5,6 @@ $(function () {
         $("#petStatus").attr("disabled", true);
     }
 
-    quantitySelect();
-
     let petName = getUrlParam("name");
     let petTags = getUrlParam("tags");
     let petCategory = getUrlParam("category");
@@ -31,19 +29,6 @@ $(function () {
             '<i class="bi-cart-fill me-1"></i>Sold</button>');
     }
 })
-
-function quantitySelect() {
-    const quantitySelectTemplate = `<option value="QUANTITY">QUANTITY</option>`;
-    // Max quantity: [3, 9].
-    let quantity = Math.floor(Math.random() * 7 + 3).toString();
-    let optionsHTML = '';
-    for (let i = 2; i<=quantity; i++) {
-        let optionHTML = quantitySelectTemplate;
-        optionHTML = optionHTML.replace(/QUANTITY/g, i.toString())
-        optionsHTML += optionHTML;
-    }
-    $("#inputQuantity").children().after(optionsHTML);
-}
 
 function submitImage(event) {
     if (isAdminLogin()) {
@@ -100,7 +85,7 @@ function placeOrder() {
                 id: date,
                 petId: parseInt(getUrlParam("id")),
                 petName: getUrlParam("name"),
-                petQuantity: parseInt($("#inputQuantity").val()),
+                petQuantity: 1,
                 // Delay for 3 days(259200000 milliseconds) as shipping time.
                 shipDate: new Date(date + 259200000).Format('yy-MM-dd hh:mm:ss'),
                 status: "placed"

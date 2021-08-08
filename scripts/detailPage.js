@@ -114,6 +114,7 @@ function placeOrder() {
                 orderArr.push(obj);
                 Storage.set(user, orderArr, 21600);
             }
+            updatePetStatus(obj.id, "pending");
             bs4pop.notice("Purchase success! The order id is " + obj.id + '.', {type: 'success'});
             displayOrderQuantity()
         }

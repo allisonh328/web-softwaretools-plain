@@ -154,7 +154,7 @@ function shipOrder(id) {
         }
         updatePetStatus(id, "sold");
         adminRenderTable(ordersTableTemplate);
-        bs4pop.notice('Order ' + id + ' shipped!',{type:'success'})
+        bs4pop.notice('Order ' + id + ' sent successfully!',{type:'success'})
     }
 }
 
@@ -169,7 +169,7 @@ function completeOrder(id) {
             Storage.set(user, ordersData, 21600);
             document.getElementById(id).remove();
             displayOrderQuantity();
-            bs4pop.notice('Order ' + id + ' completed!',{type:'success'})
+            bs4pop.notice('Order ' + id + ' completed successfully!',{type:'success'})
         }
     }
 }
@@ -189,6 +189,6 @@ function cancelOrder(id) {
         }
         document.getElementById(id).remove();
         displayOrderQuantity();
-        bs4pop.notice('Order ' + id + ' cancelled!',{type:'success'})
+        bs4pop.notice('Order ' + id + ' cancelled successfully!',{type:'success'})
     }
 }

@@ -24,11 +24,14 @@ This feature helps to differentiate 3 types of user each with corresponding auth
 
 <div align=center>
 # Authority Instruction
+
 | Role         | Access to Homepage | Add Pet | Delete Pet | Update Pet | Upload Pet Image | Update User Profile | Place Orders | Cancel Orders | Ship Products | Confirm Receipt |
 | ------------ | ------------------ | ------- | ---------- | ---------- | ---------------- | ------------------- | ------------ | ------------- | ------------- | --------------- |
 | Sightseer    | ✔                  | ❌       | ❌          | ❌          | ❌                | ❌                   | ❌            | ❌             | ❌             | ❌               |
 | Customer     | ✔                  | ❌       | ❌          | ❌          | ❌                | ✔                   | ✔            | ✔             | ❌             | ✔               |
 | Owner(admin) | ✔                  | ✔       | ✔          | ✔          | ✔                | ✔                   | ❌            | ✔             | ✔             | ❌               |
+
+
 
 </div>
 
@@ -52,11 +55,11 @@ Pet categories include: Dogs, Cats, Birds, Fishes, Reptiles, Insects, Others
 
 Pet status includes: Available, Pending, Sold
 
-    - Available: allows to be added to cart
+- Available: allows to be added to cart
 
-    - Pending: when the pet item has been paid for, but the store admin hasn't confirmed send yet. [Click here] to see how Pet management feature
+- Pending: when the pet item has been paid for, but the store admin hasn't confirmed send yet. [Click here] to see how Pet management feature
 
-    - Sold: no longer available, cannot be added to Order list. 
+- Sold: no longer available, cannot be added to Order list. 
 
 ## Justification: Easy to navigate - efficiency
 One of our aims is to offer an efficient online shopping/viewing experience, although we do not have a lot of different types of pets available in our store yet, by setting up a search system to narrow down their search result would provide a good foundation for future expansion. This is why by the final product we have decided to further specify pet categories as much as we can. 

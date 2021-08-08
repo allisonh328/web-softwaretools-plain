@@ -1,7 +1,5 @@
 
-# Implemention - Front End/UX:
-
-In this part, I would like to write based on my design timeline and show how to go through interations by user feedback. Although it is not in the order of the template, it contains all thing the template requires.
+# UX Development:
 
 ## Design Timeline
 
@@ -14,6 +12,8 @@ _Figure 1: The design timeline_
 This is [the list of the design tasks](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/task.md).
 
 ## Prototyping 
+
+### Objectives
 
 For the project, our initial idea involved creating a login page, which is convienient for user to manage their own accounts. After the first discussion, we should achieve:
 
@@ -36,87 +36,19 @@ The creation of this wireframe also allowed us to clarify what feature we should
 * The categories of pets (make the site more clear)
 * The function of shooping cart (make user see what they choose at the moment)
 
+Based on the above deign choices, we decided to make the first survey for users. The final design scheme is decided according to the user feedback, including the layout of the site, site features and site improvements. This is our [first survey]().
 
-## Development
+## The prototype implemention
 
-Based on the above deign choices, we decide to make the first survey for users. The final design scheme is decided according to the user feedback, including the layout of the site, site features and site improvements.
+After the first survey, we focused on developing it along with above user feedback, which further aided us in implemting a user centric methodology. We did the paper prototype in more detail to show all features of the site, including logging in, placing the order and classifying by pets species, and the front end develop the layout of the whole website. We decided to represent this paper prototype to users and gather their feedback to develop the website. This is the [second survey]().
 
-### Survey 1: The proposal of the website
-
-#### Research objectives
-
-During the prototyping stages, we conduct the first survey to confirm the proposal of our site. Our research objectives were as follow:
-
-* The effectiveness of the features of website
-* Focus of site UI design
-* Evaluating what users focus on
-
-Firstly, we give participants a summary of our project brief and asked to go over. Then, we have sent out 20 questionnaires and finally received 16 respnses. To make sure the survey is universal, we surveyed people of different ages. We also took into account gender and the experience of keeping a pet.
-
-<div align=center>
-<img src=UX/survey/1.png width="330px" height="250px">
-<img src=UX/survey/2.png width="330px" height="250px">
-<img src=UX/survey/3.png width="330px" height="250px">
-</div>
-
-The survey form is [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/survey1.pdf). And the feedback form click [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/feedback1.xlsx).
-
-#### Findings
-
-Throughout the survey, we can test our website whether the features is suitable for users. And we can gather some suggestions for our website from users to improve it during the stage of development.
-
-<br>
-
-**_These questions below prove that user indeed need the features we proposed before._**
-
-<div align=center>
-<img src=UX/survey/fb1.jpeg width="600px" height="200px">
-</div>
-
-**Question 4**: Most people prefer to have their own account, therefore, a login page contributes to improve user experience. 
-
-
-<div align=center>
-<img src=UX/survey/fb2.jpeg width="600px" height="200px">
-</div>
-
-**Question 5**: The answer suggests that many users already make a decision on which pet to buy before they log on to the online store. Hence the categories of pets is necessary for users, which allow them to look through the kind of pet they need.
-
-<br>
-
-**_These questions below give us a reference for the style and content design of the website._**
-
-<div align=center>
-<img src=UX/survey/fb4.jpeg width="600px" height="200px">
-</div>
-
-**Question 2**: For users, the layout of the site is the most attractive. We then asked about the style of the site, which helped us achieve the final design choice.
-
-
-<div align=center>
-<img src=UX/survey/fb5.jpeg width="600px" height="200px">
-</div>
-
-**Question 3**: Through the user feedback, the cartoon style is the most popular choice. A part of users choose the minimalism style. This may give us inspiration of combination of these two styles.
-
-
-<div align=center>
-<img src=UX/survey/fb6.jpeg width="600px" height="200px">
-</div>
-
-**Question 6**: All users hope that they can view more details about their pet choices. We should add each pet's information, such as age, photo, and character.
-
-### The prototype implemention
-
-After the first survey, we focus on developing it along with above user feedback, which further aided us in implemting a user centric methodology. We do the paper prototype in more detail to show all features of the site, including logging in, placing the order and classifying by pets species, and the front end develop the layout of the whole website. We decide to represent this paper prototype to users and gather their feedback to develop the website.
-
-#### Objectives
+### Objectives
 
 * Determine the style of the site among possible design choices
 * Make the layout of the site clear
 * The paper prototype should be coherent
 
-#### The system flow of the prototype
+### The system flow of the prototype
 
 <div align=center>
 <img src=UX/ux3.PNG width="1000px" height="800px">
@@ -124,47 +56,32 @@ After the first survey, we focus on developing it along with above user feedback
 _Figure 3: The paper prototype representing our idea_
 </div>
 
-### Survey 2: The feedback of the paper prototype
+## Users and Stakeholders
 
-We use zoom to gather user experience feedback. Participants were sent the paper prototype before the group zoom call. During the zoom call, the researcher walked everyone through the prototype. After the zoom call, participants were sent two questions and asked to respond. In the end, we received seven responses.
+The first thing we wanted to do is to understand the lives and circumstances of the people our project will affect - as much as possible. We should focus on the user needs and then develop the website according to their feedback. In the meanwhile, stakeholeder needs are as critical. We are supposed to understand their needs, processes, frustrations and ideas. We restricted the scope to the following users and stakeholders:
+
+* The development team (our group)
+* Customers who want to buy pets
+* A pet shop owner who sells pets
+
+In order to help us further develop, we drew up two personas - a customer persona and a shop owner persona. This group is our priority target user group, therefore, we should process our user experience and website design based on these personas.
 
 <div align=center>
-<img src=UX/survey/zoom.png width="630px" height="400px">
+<img src=UX/user1.jpeg width="700px" height="500px">
+<img src=UX/user2.jpeg width="1000px" height="800px">
 
-_Figure 4: The zoom call to gather feedback_
+_Figure 3: The paper prototype representing our idea_
 </div>
 
-**Research Question 1**: Do you have any suggestions on the layout of the site?
+# Design choices
 
-We filter the responses and extract the following responses which are mentioned many times.
-
->>**User 1** _"A little confusion for the tag of add pet, maybe I don't need this function"_<br>
->>**User 2** _"Homepage can be more colorful"_<br>
->>......<br>
->>**User 5**  _"I don't think the categories of pets should be on the tag"_<br>
->>**User 7**  _"I wonder why I need add the pet, it's for selling my own pet?"_<br>
-
-**Research Question 2**: Do you need other features in our website?
-
->>**User 2** _"The after-sales service"_<br>
->>**User 4** _"Don't see further details about the pet"_<br>
->>......<br>
->>**User 7** _"I'd like to see more photos of pets, even gifs"_<br>
-
-#### Findings
-
-According to the user responses, we should accomplish the following tasks which belongs to the front end:
-
-* Optimize the home page
-* Modify the tag, clarifying the categories of pets
-* Distinguish between user and adminstrator accounts
-* Insert more pet photos and gifs
-
-### Design choices
+## Development tools
 
 This is [the design choices list](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/design.md). The critical  chosen design choices are described in detail below.
 
-#### Choose the template of the site layout
+## UI design
+
+### Choose the template of the site layout
 
 We use bootstrap to accomplish our front end design. There are a lot of good templates to choose. This [link](https://github.com/Yj-nnie/web-softwaretools-plain/tree/dlh8899/UX/templates) is all possible templates we decide to apply into our website. Finally, we choose the following two templates, and each group member give his/her opinion as a user.
 
@@ -227,11 +144,111 @@ This is [the library of the background image]().
 _Figure 9: The background image_
 </div>
 
-### Final front end design
+# Final UX
 
 survey 3
 
+# Evaluation
+
+## Survey 1: The proposal of the website
+
+### Research objectives
+
+During the prototyping stages, we conduct the first survey to confirm the proposal of our site. Our research objectives were as follow:
+
+* The effectiveness of the features of website
+* Focus of site UI design
+* Evaluating what users focus on
+
+Firstly, we give participants a summary of our project brief and asked to go over. Then, we have sent out 20 questionnaires and finally received 16 respnses. To make sure the survey is universal, we surveyed people of different ages. We also took into account gender and the experience of keeping a pet.
+
+<div align=center>
+<img src=UX/survey/1.png width="330px" height="250px">
+<img src=UX/survey/2.png width="330px" height="250px">
+<img src=UX/survey/3.png width="330px" height="250px">
+</div>
+
+The survey form is [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/survey1.pdf). And the feedback form click [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/feedback1.xlsx).
+
+### Findings
+
+Throughout the survey, we can test our website whether the features is suitable for users. And we can gather some suggestions for our website from users to improve it during the stage of development.
+
+<br>
+
+**_These questions below prove that user indeed need the features we proposed before._**
+
+<div align=center>
+<img src=UX/survey/fb1.jpeg width="600px" height="200px">
+</div>
+
+**Question 4**: Most people prefer to have their own account, therefore, a login page contributes to improve user experience. 
 
 
+<div align=center>
+<img src=UX/survey/fb2.jpeg width="600px" height="200px">
+</div>
+
+**Question 5**: The answer suggests that many users already make a decision on which pet to buy before they log on to the online store. Hence the categories of pets is necessary for users, which allow them to look through the kind of pet they need.
+
+<br>
+
+**_These questions below give us a reference for the style and content design of the website._**
+
+<div align=center>
+<img src=UX/survey/fb4.jpeg width="600px" height="200px">
+</div>
+
+**Question 2**: For users, the layout of the site is the most attractive. We then asked about the style of the site, which helped us achieve the final design choice.
 
 
+<div align=center>
+<img src=UX/survey/fb5.jpeg width="600px" height="200px">
+</div>
+
+**Question 3**: Through the user feedback, the cartoon style is the most popular choice. A part of users choose the minimalism style. This may give us inspiration of combination of these two styles.
+
+
+<div align=center>
+<img src=UX/survey/fb6.jpeg width="600px" height="200px">
+</div>
+
+**Question 6**: All users hope that they can view more details about their pet choices. We should add each pet's information, such as age, photo, and character.
+
+## Survey 2: The feedback of the paper prototype
+
+We use zoom to gather user experience feedback. Participants were sent the paper prototype before the group zoom call. During the zoom call, the researcher walked everyone through the prototype. After the zoom call, participants were sent two questions and asked to respond. In the end, we received seven responses.
+
+<div align=center>
+<img src=UX/survey/zoom.png width="630px" height="400px">
+
+_Figure 4: The zoom call to gather feedback_
+</div>
+
+**Research Question 1**: Do you have any suggestions on the layout of the site?
+
+We filter the responses and extract the following responses which are mentioned many times.
+
+>>**User 1** _"A little confusion for the tag of add pet, maybe I don't need this function"_<br>
+>>**User 2** _"Homepage can be more colorful"_<br>
+>>......<br>
+>>**User 5**  _"I don't think the categories of pets should be on the tag"_<br>
+>>**User 7**  _"I wonder why I need add the pet, it's for selling my own pet?"_<br>
+
+**Research Question 2**: Do you need other features in our website?
+
+>>**User 2** _"The after-sales service"_<br>
+>>**User 4** _"Don't see further details about the pet"_<br>
+>>......<br>
+>>**User 7** _"I'd like to see more photos of pets, even gifs"_<br>
+
+#### Findings
+
+According to the user responses, we should accomplish the following tasks which belongs to the front end:
+
+* Optimize the home page
+* Modify the tag, clarifying the categories of pets
+* Distinguish between user and adminstrator accounts
+* Insert more pet photos and gifs
+
+## Survey 3: The user experience of the final demo

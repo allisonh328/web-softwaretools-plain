@@ -30,7 +30,7 @@ With reference to these successful cases, our objectives for this website is to 
 # Features
 
 
-Here is a list of all features that our team members have thought of. You will only find a short description of the feature here, for a more detailed explaination, please click on the feature that you wish to review.
+Here is a list of all features that our team members have thought of. You will only find a short description of the feature here, for a more detailed explaination, please click on the feature that you wish to view.
 
 <div align="center">
 <p>&nbsp;</p>
@@ -47,7 +47,7 @@ Here is a list of all features that our team members have thought of. You will o
 <td style="height: 18px;" colspan="5" width="1385"><strong>Implemented features</strong></td>
 </tr>
 <tr style="height: 18px;">
-<td style="height: 173px;" rowspan="8" width="225">&nbsp;<a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-1---pet-display-feature-by-categorization-and-by-availability-status"><img src="https://cutekawaiiresources.files.wordpress.com/2014/10/tumblr_m7ei0j4jx71qdlkyg.gif?w=20&amp;h=20&amp;zoom=2" alt="" width="20" height="20" /></a>&nbsp;<a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-2---user-creation-authentication-system">User creation and authentication system</a></td>
+<td style="height: 173px;" rowspan="8" width="225">&nbsp;<a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-1---pet-display-feature-by-categorization-and-by-availability-status"><img src="https://cutekawaiiresources.files.wordpress.com/2014/10/tumblr_m7ei0j4jx71qdlkyg.gif?w=20&amp;h=20&amp;zoom=2" alt="" width="20" height="20" /></a>&nbsp;<a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/Jun/report/Features.md#user-creation-authentication-system">User creation and authentication system</a></td>
 <td style="height: 137px;" rowspan="7" width="140">User profile creation</td>
 <td style="height: 137px;" rowspan="7" width="568">This allows visitors to become a registered user. They would need to enter their First and Last name, email, contact number and password.&nbsp; This feature provides three types of identified users: 1) admin 2) registered member 3) unregistered member</td>
 <td style="height: 18px;" width="381">Add login and signup pages</td>
@@ -84,7 +84,7 @@ Here is a list of all features that our team members have thought of. You will o
 <td style="height: 36px;">04.08.21</td>
 </tr>
 <tr style="height: 18px;">
-<td style="height: 126px;" rowspan="5" width="225"><a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-1---pet-display-feature-by-categorization-and-by-availability-status"><img src="https://cutekawaiiresources.files.wordpress.com/2014/10/tumblr_m7ei0j4jx71qdlkyg.gif?w=20&amp;h=20&amp;zoom=2" alt="" width="20" height="20" /></a>&nbsp;<a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-1---pet-display-feature-by-categorization-and-by-availability-status">Pet search display</a></td>
+<td style="height: 126px;" rowspan="5" width="225"><a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-1---pet-display-feature-by-categorization-and-by-availability-status"><img src="https://cutekawaiiresources.files.wordpress.com/2014/10/tumblr_m7ei0j4jx71qdlkyg.gif?w=20&amp;h=20&amp;zoom=2" alt="" width="20" height="20" /></a>&nbsp;<a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/Jun/report/Features.md#pet-search-display-by-categorization-and-by-availability-status">Pet search display</a></td>
 <td style="height: 72px;" rowspan="3" width="140">Pet display by categories and status</td>
 <td style="height: 72px;" rowspan="3" width="568">All types of users(admin, user, visitors) are able to change up what they see on the screen by selecting pet type and pet availability status.</td>
 <td style="height: 18px;" width="381">Add availability status to pet items</td>
@@ -109,7 +109,7 @@ Here is a list of all features that our team members have thought of. You will o
 <td style="height: 36px;">04.08.21</td>
 </tr>
 <tr style="height: 18px;">
-<td style="height: 144px;" rowspan="6" width="225"><a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-1---pet-display-feature-by-categorization-and-by-availability-status"><img src="https://cutekawaiiresources.files.wordpress.com/2014/10/tumblr_m7ei0j4jx71qdlkyg.gif?w=20&amp;h=20&amp;zoom=2" alt="" width="20" height="20" /></a>&nbsp;<a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-4---add-pet">Pet management</a>&nbsp;</td>
+<td style="height: 144px;" rowspan="6" width="225"><a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-1---pet-display-feature-by-categorization-and-by-availability-status"><img src="https://cutekawaiiresources.files.wordpress.com/2014/10/tumblr_m7ei0j4jx71qdlkyg.gif?w=20&amp;h=20&amp;zoom=2" alt="" width="20" height="20" /></a>&nbsp;<a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/Jun/report/Features.md#pet-management">Pet management</a>&nbsp;</td>
 <td style="height: 36px;" rowspan="2" width="140">Add new pet</td>
 <td style="height: 36px;" rowspan="2" width="568">This feature allows user to add new pets to the online inventory. This feature is only accessible for admin.</td>
 <td style="height: 18px;" width="381">Initial design of 'Add page'</td>
@@ -142,7 +142,7 @@ Here is a list of all features that our team members have thought of. You will o
 <td style="height: 36px;">04.08.21</td>
 </tr>
 <tr style="height: 18px;">
-<td style="height: 144px;" rowspan="5" width="225"><a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-1---pet-display-feature-by-categorization-and-by-availability-status"><img src="https://cutekawaiiresources.files.wordpress.com/2014/10/tumblr_m7ei0j4jx71qdlkyg.gif?w=20&amp;h=20&amp;zoom=2" alt="" width="20" height="20" /></a>&nbsp;<a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-3---user-place-order-online">Online orders</a></td>
+<td style="height: 144px;" rowspan="5" width="225"><a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-1---pet-display-feature-by-categorization-and-by-availability-status"><img src="https://cutekawaiiresources.files.wordpress.com/2014/10/tumblr_m7ei0j4jx71qdlkyg.gif?w=20&amp;h=20&amp;zoom=2" alt="" width="20" height="20" /></a>&nbsp;<a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/Jun/report/Features.md#online-orders">Online orders</a></td>
 <td style="height: 90px;" rowspan="4" width="140">Place orders online&nbsp;</td>
 <td style="height: 90px;" rowspan="4" width="568">This feature allows user to buy an item&nbsp; from our pet store and generate orders. The access to this feature is only granted to resgistered users.</td>
 <td style="height: 18px;" width="381">Add BUY NOW button on detailpage</td>
@@ -170,14 +170,14 @@ Here is a list of all features that our team members have thought of. You will o
 <td style="height: 18px;" colspan="5" width="1385"><strong>Dropped out Features</strong></td>
 </tr>
 <tr style="height: 18px;">
-<td style="height: 18px;"><a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-6---flash-cartoon">Homepage flash cartoon</a></td>
+<td style="height: 18px;"><a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/Jun/report/Features.md#homepage-flash-cartoon">Homepage flash cartoon</a></td>
 <td style="height: 18px;" width="140">N/A</td>
 <td style="height: 18px;">Welcomes users with a flash cartoon whenever they load our web store</td>
 <td style="height: 18px;" width="381">N/A</td>
 <td style="height: 18px;" width="71">N/A</td>
 </tr>
 <tr style="height: 36px;">
-<td style="height: 36px;"><a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/dev/report/Features.md#feature-7---quiz--help-to-choose-the-perfect-pet-">Personality and Perfect pet quiz&nbsp;</a></td>
+<td style="height: 36px;"><a href="https://github.com/Yj-nnie/web-softwaretools-plain/blob/Jun/report/Features.md#personality-and-perfect-pet-match-quiz">Personality and Perfect pet quiz&nbsp;</a></td>
 <td style="height: 36px;" width="140">N/A</td>
 <td style="height: 36px;">A quiz that asks questions about visitors' living environment and habit to recommend the 'most suitable' pet for visitors</td>
 <td style="height: 36px;" width="381">N/A</td>

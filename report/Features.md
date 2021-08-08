@@ -1,9 +1,17 @@
-# Possible Features
+# ALL Possible Features
 
+This is section presents a list of all features that we have considered to implement:
+
+- User creation authentication system
+- Pet search display
+- Pet management
+- Online Orders
+- Flash cartoon
+- Personality and pet match-macking quiz
 
 
 # User creation authentication system:
-###### Description:
+## Description:
 
 This feature helps to differentiate 3 types of user each with corresponding authority given to perform different tasks on the website. [Click here for details]
 
@@ -21,9 +29,9 @@ This feature helps to differentiate 3 types of user each with corresponding auth
 
 - As an extra small feature, we are hoping to implement a 'Remember me' function to allow user for a quick log back in. 
 
-
+#### Authority Instruction
 <div align=center>
-# Authority Instruction
+
 
 | Role         | Access to Homepage | Add Pet | Delete Pet | Update Pet | Upload Pet Image | Update User Profile | Place Orders | Cancel Orders | Ship Products | Confirm Receipt |
 | ------------ | ------------------ | ------- | ---------- | ---------- | ---------------- | ------------------- | ------------ | ------------- | ------------- | --------------- |
@@ -46,7 +54,7 @@ Additionally, even though there had been doubts about abandoning this feature an
 
 
 #  Pet search display (by categorization and by availability status):
-###### Description: 
+## Description: 
 All users are able to change up what pet they see on the screen by selecting either pet category or availability of pet status. It is there to increase search and viewing efficiency. 
 
 The categories and pet status are placed in two separate drop-down menu bars on top of our webpage.
@@ -61,7 +69,7 @@ Pet status includes: Available, Pending, Sold
 
 - Sold: no longer available, cannot be added to Order list. 
 
-## Justification: Easy to navigate - efficiency
+## Justification: 
 One of our aims is to offer an efficient online shopping/viewing experience, although we do not have a lot of different types of pets available in our store yet, by setting up a search system to narrow down their search result would provide a good foundation for future expansion. This is why by the final product we have decided to further specify pet categories as much as we can. 
 
 Pet categorization based on availability status also helps to increase efficiency for pet search, this is also to prevent buying/order conflicts on the online store. Given that a online pet shop will not receive the crazy amount of browsing or ordering, and thus pet items are unlikely to come in great numbers, the "Pending status" will ideally prevent a customer from adding the pet to their cart when someone else has already paid for it but the item hasn't been sent out by the store managers.  
@@ -72,7 +80,7 @@ The Pending status is to act as a buffer state for both Available and Sold state
 
 
 # Pet management:
-###### Description:
+## Description:
 This feature is for inventory management and is only accessible by the store admin. 
 
 User can choose to add a new pet to the online inventory, they would have to enter Pet Name, Category, Tags and Availability Status.
@@ -92,10 +100,9 @@ It is also important to be given the right to update pet information including u
 
 
 
-
 # Online Orders:
 
-Description:
+## Description:
 
 
 This feature encompasses two sub features: Place orders(Customer) online and Order management(Admin)
@@ -112,7 +119,6 @@ To follow up on the order, order management is required, the admin can either cl
 
 ## Justification:
 
-
 This is feature is the heart of and the very definition for online shopping. This allows users to place orders at their convenience, in their comfort. This not only helps customers to save time, but also helps to eliminate most of the concerns related to covid and any new strands of covid in future  For both the survival of the store and the health of owners and their customers. This will make it easier for those who want to get a pet but remains cautious to choose and get a pet without having to put themselves under extreme stress and anxiety about going to public place. 
 
 This feature is adding a few extra steps between customer and admin to help manage and track orders. With the ' Confirm receipt' option provided for customers, customers will be given control over the order and it will help to ensure that the Order will only end once they have physically received the item. This steps can also help to track down orders by protecting both the store and the customers in case the item gets lost. At least by clicking on 'Confirm send' will ensure that the store owner has sent out the item therefore making it easier to track down where the order might have gone wrong. 
@@ -126,7 +132,7 @@ Here are a few very cool features that the team had initially thought of, but ou
 
 ## Homepage Flash cartoon:
 
-###### Description: 
+## Description: 
 Our website is to welcome users with a flash cartoon once the webpage is loaded.
 
 ## Justification:
@@ -137,7 +143,7 @@ At first glace, this would be a harmless feature that is aimed to promote the Fl
 
 ## Personality and perfect pet match quiz:
 
-###### Description:
+## Description:
 This is to be a small app to be integrated onto the home page of our pet store, it is a series of multiple questions that looks to work out individuals living habit and budget and personality, and eventually the quetionnaire app will work out the best type of pet according to answers  selected. We were inspired by the little quiz posted on [PDSA], the UK's leading veterinary charity website.
 
 ## Justification :
@@ -145,8 +151,7 @@ This is to be a small app to be integrated onto the home page of our pet store, 
 This was initially a must implement feature for the development team as it would add the fun aspect of pet choosing into a user's online shopping experience. However, later on we realized that it would not be fair to discern someone's best pet choice based on a few questions. Real life case for each individual would be much more complicated than a few questions could encompass. Additionally, speaking from past experience, our past customers had always entered the pet shop with their mind made up, and this trend that we have gathered from the past renders this feature futile. It would make our online shop  fun, but it slightly strayed off from the main objectives defined for the design of this website, which is to provide a visually pleasing and efficient shopping experience. This feature might make customers who play it second guess their decision.
 
 
-
-# Implementation and Testing: ------------------- Ruiqing
+## Implementation and Testing: 
 
 [PDSA]:<https://www.pdsa.org.uk/taking-care-of-your-pet/choosing-a-pet?_$ja=tsid:67827|cid:1785422340|agid:71441170509|tid:kwd-13580843929|crid:355603342260|nw:g|rnd:9471319939620912770|dvc:c|adp:|mt:e|loc:1006567&gclid=CjwKCAjwr56IBhAvEiwA1fuqGvVJWeNamNuwu2UHw88VuoxIla6-eKB28vqfLrgvZHMkEVNVrKJ-UxoC0Q4QAvD_BwE>
 

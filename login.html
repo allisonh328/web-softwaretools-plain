@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Fluff-galore - Login</title>
+
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="css/bs4pop.css" rel="stylesheet">
+
+  <style>
+    .bg{
+      /* https://1freewallpapers.com/bulldog-dog-pattern-art  */
+      background-image: url("img/1600x900_bulldog-dog-pattern-art.jpg");
+      background-repeat: repeat;
+    }
+  </style>
+
+</head>
+
+<body class="bg">
+
+  <div class="container">
+
+    <!-- Outer Row -->
+    <div class="row justify-content-center">
+      <div class="col-xl-5 col-lg-12 col-md-9">
+        <div class="card o-hidden border-0 shadow-lg my-5">
+          <div class="card-body p-0">
+            <!-- Nested Row within Card Body -->
+            <div class="row justify-content-center">
+              <div class="col-lg-12">
+                <div class="p-5">
+                  <div class="text-center">
+                    <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                  </div>
+                  <form class="user" id="form">
+                    <div class="form-group" id="usercheck">
+                      <input type="text" class="form-control form-control-user" id="exampleInputUsername" placeholder="Username" onblur="userCheck()">
+                    </div>
+                    <div class="form-group" id="pwd_check">
+                      <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" onblur="pwdCheck()">
+                    </div>
+                    <div class="form-group">
+                      <div class="custom-control custom-checkbox small">
+                        <input type="checkbox" class="custom-control-input" id="customCheck">
+                        <label class="custom-control-label" for="customCheck">Remember Me</label>
+                      </div>
+                    </div>
+                    <input type="submit" value="Login" class="btn btn-primary btn-user btn-block">
+                  </form>
+                  <hr>
+                  <div class="text-center">
+                    <a class="small" href="register.html">Create an Account!</a><br>
+                    <a class="small" href="index.html">No login. I just want to take a look!</a><br>
+                    <a class="small" id="getTrouble" href="javascript:void(0);">Get trouble with admin login?</a>
+                    <div class="collapse" id="collapseExample">
+                      <div class="card-body">
+                        Due to the shared petstore API, other resit groups may change the <b>admin</b> password. To get the password, please <a id="passwordHint" href="javascript:getAdminPassword();">click here!</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Jquery core JavaScript-->
+  <script type="text/javascript" src="plugin/jquery/jquery.min.js"></script>
+  <!-- Bootstrap core JS-->
+  <script src="plugin/bootstrap.min.js"></script>
+  <script src="plugin/bs4pop.js"></script>
+  <script src="plugin/Storage.js"></script>
+  <!-- Core theme JS-->
+  <script src="scripts/loginPage.js"></script>
+
+</body>
+
+</html>

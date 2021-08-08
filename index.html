@@ -1,21 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta name="charset" content="utf-8" />
-    <meta name="description" content="This website is about adding and deleting pets!" />
-    <title>Pets demo</title>
-    <link href="style.css" as="style" type="text/css" rel="stylesheet"/>
-</head>
-<body>
-    <div class="app">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Fluff-galore - Homepage</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Tagsinput plugin CSS-->
+        <link rel="stylesheet" type="text/css" href="css/jquery.tagsinput.css" />
+        <style>
+            html, body {
+                height: 100%;
+                margin: 0;
+            }
+            .content {
+                min-height: 100%;
+            }
+            .content-inside {
+                padding-bottom: 50px;
+            }
+            footer {
+                margin-top: -50px;
+            }
+        </style>
+    </head>
+    <!-- https://1freewallpapers.com/pattern-animals-new-year-funny-art -->
+    <body background="img/1600x900_pattern-animals-new-year-funny-art-opaque.jpg">
+    <div class="content">
+        <div class="content-inside">
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Add pet</h5>
+                        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close" onclick="deleteMsg()"></button>
+                    </div>
+                    <form id="addPetForm" class="user">
+                        <div class="modal-body">
+                            <div id="messageBox"></div>
+                            <div class="form-group row-cols-5">
+                                <label class="col-sm-3 col-form-label">Name</label>
+                                <input type="name" class="form-control" id="nameInput">
+                            </div>
+                            <div class="form-group row-cols-5">
+                                <label class="col-sm-3 col-form-label">Category</label>
+                                <select type="category" class="form-control" id="categoryInput">
+                                    <option selected>Dogs</option>
+                                    <option value="Cats">Cats</option>
+                                    <option value="Birds">Birds</option>
+                                    <option value="Fish">Fish</option>
+                                    <option value="Reptiles">Reptiles</option>
+                                    <option value="Insects">Insects</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group row-cols-5">
+                                <label class="col-sm-3 col-form-label">Tags</label>
+                                <input type="tags" class="form-control" id="tagsInput">
+                            </div>
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <button type="button" class="btn btn-outline-dark" data-dismiss="modal" onclick="deleteMsg()">Cancel</button>
+                            <button type="submit" class="btn btn-outline-primary">Add</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">Fluff-galore</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">
+                            <i class="bi-house-fill me-1"></i>Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" data-toggle="modal" data-target="#exampleModalCenter" href="#" onclick="isLogin()">Add pet</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="queryStatusQuantity()"></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><button class="dropdown-item" onclick="requestStatus('available')"><span id="availableQuantity" class="badge bg-dark text-white ms-1 rounded-pill">0</span> Available</button></li>
+                                <li><button class="dropdown-item" onclick="requestStatus('pending')"><span id="pendingQuantity" class="badge bg-dark text-white ms-1 rounded-pill">0</span> Pending</button></li>
+                                <li><button class="dropdown-item" onclick="requestStatus('sold')"><span id="soldQuantity" class="badge bg-dark text-white ms-1 rounded-pill">0</span> Sold</button></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" id="categoryDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">All pets</a>
+                            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
+                                <li><a class="dropdown-item" href="#" onclick="changeCategory('All pets')">All pets</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeCategory('Dogs')">Dogs</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeCategory('Cats')">Cats</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeCategory('Birds')">Birds</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeCategory('Fish')">Fish</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeCategory('Reptiles')">Reptiles</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeCategory('Insects')">Insects</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeCategory('Other')">Other</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <button class="btn btn-light" onclick="openOrdersCenter()">
+                            <i class="bi-pin-angle-fill me-1"></i>
+                            Orders
+                            <span id="orderQuantity" class="badge bg-dark text-white ms-1 rounded-pill"></span>
+                        </button>
+                    </div>
+                    <div class="d-flex nav-item dropdown">
+                        <button class="btn btn-light" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi-person-fill me-1"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="userDropdown">
+                            <li id="profile"><a class="dropdown-item" href="profile.html">Profile</a></li>
+                            <li><a id="log" class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
         <header>
-            <a href="index.html">View pets</a>
-            <a href="add.html">Add pet</a>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <!-- https://unsplash.com/photos/ISg37AI2A-s -->
+                        <img src="img/eric-ward-ISg37AI2A-s-unsplash.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="display-5 fw-bolder">Welcome to Fluff-galore!</h1>
+                            <p>Fluff-galore is a unique pet store where you can find a kind,<br>
+                                 furry, finned, or feathered pet friend.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!-- https://unsplash.com/photos/JY6SQqlJLXE -->
+                        <img src="img/jonah-pettrich-JY6SQqlJLXE-unsplash.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="display-5 fw-bolder">Variety of Different Pets</h1>
+                            <p>We aim to provide the widest range of pet products in Bristol.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!-- https://unsplash.com/photos/-81lVsfM4gQ -->
+                        <img src="img/tran-mau-tri-tam--81lVsfM4gQ-unsplash.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="display-5 fw-bolder">Fast & Reliable Delivery</h1>
+                            <p>Our free delivery service makes saving money even easier, simply order over £25 of goods.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </header>
-        <div class="viewPage" id="viewPage">
-            <p class="loading">Loading...</p>
+        <!-- Section-->
+        <section class="py-3">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="viewPage">
+
+                </div>
+            </div>
+        </section>
         </div>
     </div>
-</body>
-<script type="application/javascript" src="scripts/viewPage.js"></script>
+        <!-- Footer-->
+        <footer class="py-3 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Fluff-galore 2021</p></div>
+        </footer>
+        <!-- Jquery core JavaScript-->
+        <script type="text/javascript" src="plugin/jquery/jquery.min.js"></script>
+        <!-- Tagsinput plugin JS-->
+        <script src="plugin/jquery.tagsinput.js"></script>
+        <!-- Bootstrap core JS-->
+        <script src="plugin/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="plugin/Storage.js"></script>
+        <!-- Core theme JS-->
+        <script src="scripts/homePage.js"></script>
+        <script src="scripts/viewPage.js"></script>
+        <script src="scripts/addPage.js"></script>
+    </body>
 </html>

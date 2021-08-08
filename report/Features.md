@@ -151,7 +151,74 @@ This is to be a small app to be integrated onto the home page of our pet store, 
 This was initially a must implement feature for the development team as it would add the fun aspect of pet choosing into a user's online shopping experience. However, later on we realized that it would not be fair to discern someone's best pet choice based on a few questions. Real life case for each individual would be much more complicated than a few questions could encompass. Additionally, speaking from past experience, our past customers had always entered the pet shop with their mind made up, and this trend that we have gathered from the past renders this feature futile. It would make our online shop  fun, but it slightly strayed off from the main objectives defined for the design of this website, which is to provide a visually pleasing and efficient shopping experience. This feature might make customers who play it second guess their decision.
 
 
+
 ## Implementation and Testing: 
+=======
+# Testing:
+
+The test work of the online pet store is mainly designed to find the defects in the function and performance of the lonline pet store, and to modify the system in time after the test, to ensure the smooth on-line of the system, and ensure that users have a good use experience in the process of use, and feel the convenience of the system.
+
+To test the functionality of the system, we chose manual, scenario-based testing. We perform this test through a series of test cases, in which we document the specific scenarios in which each user interacts with our application.
+
+Home page:
+
+| Test case        | Test procedure          | Expected results                   | Actual results |
+| ----------- | ---------------------------- | ---------------------------------- | -------------- |
+|  Visitor can access the login page|  Visitor clicks the "User" button, then clicks the login button | Redirection to the login page   | As expected|
+| User can access the detail page  | User clicks the displayed pet name        | Redirection to the pet detail page   |As expected    |
+| User can access the order page  | User clicks the Orders button        | Redirection to the order page   |As expected    |
+| User can access the profile page  | User clicks the User button, then clicks the profile button        | Redirection to the profile page   |As expected    |
+| User can view the pets in different status  | User clicks the drop-down box and choose "available","pending" or "sold"        | Home page refreshed and pets with the selected status appeared      | As expected  |
+| User can view the pets in different category      | User clicks the drop-down box and choose one category of the pets     |  Home page refreshed and pets with the selected category appeared     | As expected   |
+|  Admin can add pet  |  Admin clicks the Add pet button, fill in the pet detail and clicks add                            | An "add pet" form will pop up     | As expected     |
+|  Admin can delete pet  |  Admin clicks the delete icon on the top left corner of pet photo   | Pet deleted     | As expected     |
+|  User can not add pet  |  User clicks the Add pet button, fill in the pet detail and clicks add                            | Message "No permission! Please login as admin." pops up    | As expected     |
+
+Register page:
+
+| Test case        | Test procedure          | Expected results                   | Actual results |
+| ----------- | ---------------------------- | ---------------------------------- | -------------- |
+|  Empty input check |  User does not input the username and password then clicks register account  | Warning "Username/password can not be empty." appear   | As expected|
+|  Invalid repeat password check | User inputs a different password in the password(repeat) form then clicks register account   | Warning "Two password inputs do not match." appear   | As expected|
+|  User can create an account |  User inputs all the required information (username and password) then clicks register account  |  User successfully registered   | As expected|
+
+Login page:
+
+| Test case        | Test procedure          | Expected results                   | Actual results |
+| ----------- | ---------------------------- | ---------------------------------- | -------------- |
+|  Empty input check |  User does not input the username and password then clicks login button  | Warning "Username/password can not be empty." appear   | As expected|
+|  User can access home page without login | User clicks "No login. I just want to take a look!" button  | Redirection to the home page   | As expected|
+|  Invalid input check |  User inputs wrong username and password then clicks login button  |  Warning "User is not found./Password is not correct!" appear   | As expected|
+
+Order page:
+
+| Test case        | Test procedure          | Expected results                   | Actual results |
+| ----------- | ---------------------------- | ---------------------------------- | -------------- |
+|  User can cancel the order |  User clicks Cancel order button, then clicks confirm  | Order canceled  | As expected|
+|  User can see the detail of the order | After placing the order of the pet, user go to order page and check the order detail   | The order detail is correct and displayed    | As expected|
+|  User can goes back to home page |  User clicks "back" or "Fluff-galore"  |  Redirection to home page   | As expected|
+|  Admin can ship the order |  Admin clicks "confirm shipping"  |  Order status become to "product is shipping"   | As expected|
+
+Detail page:
+
+| Test case        | Test procedure          | Expected results                   | Actual results |
+| ----------- | ---------------------------- | ---------------------------------- | -------------- |
+|  User can buy the pet |  User choose the number of pets and clicks "buy now"  | Order Id appear and order placed   | As expected|
+|  Admin can edit the pet |  Admin clicks edit pet and input new information of this pet  | pet information updated  | As expected|
+
+Profile page:
+
+| Test case        | Test procedure          | Expected results                   | Actual results |
+| ----------- | ---------------------------- | ---------------------------------- | -------------- |
+|  User can change the profile information |  User inputs new personal information and clicks "confirm the changes" |  message "You have successfully updated!" appear  | As expected|
+
+The table above shows the function test of new features of the online pet store. With these set of test, it proves the correct implementation of the new feature.
+
+The advantage of this approach over more technically complex alternatives such as automated testing is its upfront efficiency. Because our application is currently a minimum viable product, the path through the application is relatively simple and the user's interaction with the site is not complex. As a result, we were able to develop and use these test cases quickly.
+
+However, there are some drawbacks to this approach. The manual nature of our testing methods reduces the overall efficiency and agility of our development process. This also exposes us to a degree of risk of human error during testing. As mentioned earlier, while our application has not yet reached sufficient scale, which will seriously hinder our progress, we will seek to implement complementary automated testing methods in future development efforts as our application grows in size and scope.
+
+
 
 [PDSA]:<https://www.pdsa.org.uk/taking-care-of-your-pet/choosing-a-pet?_$ja=tsid:67827|cid:1785422340|agid:71441170509|tid:kwd-13580843929|crid:355603342260|nw:g|rnd:9471319939620912770|dvc:c|adp:|mt:e|loc:1006567&gclid=CjwKCAjwr56IBhAvEiwA1fuqGvVJWeNamNuwu2UHw88VuoxIla6-eKB28vqfLrgvZHMkEVNVrKJ-UxoC0Q4QAvD_BwE>
 

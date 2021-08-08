@@ -4,6 +4,9 @@ $(function () {
     if (isAdminLogin()) {
         $("#petStatus").attr("disabled", true);
     }
+
+    quantitySelect();
+
     let petName = getUrlParam("name");
     let petTags = getUrlParam("tags");
     let petCategory = getUrlParam("category");
@@ -28,6 +31,19 @@ $(function () {
             '<i class="bi-cart-fill me-1"></i>Sold</button>');
     }
 })
+
+function quantitySelect() {
+    const quantitySelectTemplate = `<option value="QUANTITY">QUANTITY</option>`;
+    // Max quantity: [3, 9].
+    let quantity = Math.floor(Math.random() * 7 + 3).toString();
+    let optionsHTML = '';
+    for (let i = 2; i<=quantity; i++) {
+        let optionHTML = quantitySelectTemplate;
+        optionHTML = optionHTML.replace(/QUANTITY/g, i.toString())
+        optionsHTML += optionHTML;
+    }
+    $("#inputQuantity").children().after(optionsHTML);
+}
 
 function submitImage(event) {
     if (isAdminLogin()) {
@@ -67,30 +83,11 @@ function imageUpload(option) {
     $('#imageUpload').modal(option);
 }
 
-function getPet(id) {
-    $.ajax({
-        url: "https://petstore.swagger.io/v2/pet/" + id,
-        type: "GET",
-        cache: false,
-        success: function (data) {
-            console.log(data);
-        },
-        error: function (error) {
-            console.log(error.responseJSON);
-        }
-    });
-}
-
 function getUrlParam(name) {
     let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
     let r = window.location.search.substr(1).match(reg);
     if (r != null) return unescape(r[2]);
     return null;
-}
-
-function checkQuantity(num) {
-    let reg = /^((?!0)\d{1,9})$/;
-    return num.match(reg) && num < 100;
 }
 
 function placeOrder() {
@@ -104,8 +101,8 @@ function placeOrder() {
                 petId: parseInt(getUrlParam("id")),
                 petName: getUrlParam("name"),
                 petQuantity: parseInt($("#inputQuantity").val()),
-                // Delay for 7 days(432000000 milliseconds) as shipping time.
-                shipDate: new Date(date + 432000000).Format('yy-MM-dd hh:mm:ss'),
+                // Delay for 3 days(259200000 milliseconds) as shipping time.
+                shipDate: new Date(date + 259200000).Format('yy-MM-dd hh:mm:ss'),
                 status: "placed"
             }
             let orders = Storage.get(user);

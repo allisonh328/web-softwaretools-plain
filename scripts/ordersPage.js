@@ -35,7 +35,7 @@ $(function () {
                 orderHTML = orderHTML.replace(/SHIP_DATE/g, order.shipDate)
                 orderHTML = orderHTML.replace(/STATUS/g, order.status)
                 if (order.status === "placed") {
-                    orderHTML = orderHTML.replace(/CONFIRM_BUTTON_TEXT/g, "Wait for Shipping")
+                    orderHTML = orderHTML.replace(/CONFIRM_BUTTON_TEXT/g, "Wait for Sending")
                     orderHTML = orderHTML.replace(/CONFIRM_BUTTON_STYLE/g, "btn-outline-primary disabled")
                     orderHTML = orderHTML.replace(/DELETE_BUTTON_STYLE/g, "btn-danger")
                 }
@@ -73,12 +73,12 @@ function adminRenderTable(templete) {
                 orderHTML = orderHTML.replace(/SHIP_DATE/g, order.shipDate)
                 orderHTML = orderHTML.replace(/STATUS/g, order.status)
                 if (order.status === "placed") {
-                    orderHTML = orderHTML.replace(/CONFIRM_BUTTON_TEXT/g, "Confirm Shipping")
+                    orderHTML = orderHTML.replace(/CONFIRM_BUTTON_TEXT/g, "Confirm Sending")
                     orderHTML = orderHTML.replace(/CONFIRM_BUTTON_STYLE/g, "btn-success")
                     orderHTML = orderHTML.replace(/DELETE_BUTTON_STYLE/g, "btn-danger")
                 }
                 else {
-                    orderHTML = orderHTML.replace(/CONFIRM_BUTTON_TEXT/g, "Product is shipping")
+                    orderHTML = orderHTML.replace(/CONFIRM_BUTTON_TEXT/g, "Pet is sending")
                     orderHTML = orderHTML.replace(/CONFIRM_BUTTON_STYLE/g, "btn-outline-primary disabled")
                     orderHTML = orderHTML.replace(/DELETE_BUTTON_STYLE/g, "btn-outline-danger disabled")
                 }
@@ -92,6 +92,41 @@ function adminRenderTable(templete) {
     }
 }
 
+function updatePetStatus(id, status) {
+    getPetName(id)
+    // let formData = new FormData();
+    // console.log(petName)
+    // formData.append('name', petName);
+    // formData.append('status', status);
+    //
+    // $.ajax({
+    //     url: 'https://petstore.swagger.io/v2/pet/' + id,
+    //     type: 'POST',
+    //     data: formData,
+    //     contentType: "application/json",
+    //     success: function (data) {
+    //         console.log(data);
+    //     },
+    //     error: function (error) {
+    //         console.log(error.responseJSON);
+    //     }
+    // })
+}
+
+function getPetName(id) {
+    let petName = '';
+    for (let i = 0; i < localStorage.length; i++) {
+        let key = localStorage.key(i);
+        if (key !== "username") {
+            let ordersData = Storage.get(key);
+            for (let j = 0; j < ordersData.length; j++) {
+                if (id === ordersData[j].id) {
+                }
+            }
+        }
+    }
+}
+
 function isExistOrdersForUser() {
     let user = Storage.get("username");
     if (user) {
@@ -101,7 +136,7 @@ function isExistOrdersForUser() {
 }
 
 function shipOrder(id) {
-    if (confirm("Please confirm once again that you have packed and shipped it successfully.")) {
+    if (confirm("Please confirm once again that you have packed and sent it successfully.")) {
         for (let i = 0; i < localStorage.length; i++) {
             let key = localStorage.key(i);
             if (key !== "username") {
@@ -114,6 +149,7 @@ function shipOrder(id) {
                 Storage.set(key, ordersData, 21600);
             }
         }
+        updatePetStatus(id, "sold");
         adminRenderTable(ordersTableTemplate);
         bs4pop.notice('Order ' + id + ' shipped!',{type:'success'})
     }
@@ -148,6 +184,7 @@ function cancelOrder(id) {
             }
         }
         document.getElementById(id).remove();
+        updatePetStatus(id, "available");
         displayOrderQuantity();
         bs4pop.notice('Order ' + id + ' cancelled!',{type:'success'})
     }

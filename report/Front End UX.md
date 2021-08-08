@@ -1,6 +1,138 @@
 # UX Development
 
 # Final UX
+## Home page
+
+<p align="center">
+<img src="../img/home.png"/>
+</p>
+
+### Pet list display
+```js
+const getPetsUrl = 'https://petstore.swagger.io/v2/pet/findByStatus?status=' + status;
+
+    fetch(getPetsUrl, {headers: {'Content-Type': 'application/json'}})
+        .then((response) => response.json())
+        .then((pets) => {
+            let petsHTML = '';
+
+            pets.forEach((pet) => {
+                if (pet.hasOwnProperty("category")) {
+                    if (pet.category.hasOwnProperty("name")) {
+
+                        let petTags = '';
+                        let buttonHTML = '';
+
+                        if (status === "pending")
+                            buttonHTML += '<a class="btn btn-warning mt-auto disabled" href="#">PENDING</a>';
+                        else if (status === "sold")
+                            buttonHTML += '<a class="btn btn-danger mt-auto disabled" href="#">SOLD</a>';
+
+                        if (Array.isArray(pet.tags)) {
+                            pet.tags.forEach((tag) => {
+                                if (
+                                    typeof tag === 'object' &&
+                                    tag !== null &&
+                                    Object.prototype.hasOwnProperty.call(tag, 'name') &&
+                                    typeof tag.name === 'string') {
+                                    petTags += petListObjectTagTemplate.replace('PET_TAG_WILL_GO_HERE', tag.name)
+                                }
+                            });
+                        }
+
+                        let petHTML = petListObjectTemplate;
+                        let categoryHTML = '<p hidden>' + pet.category.name + '</p>'
+                        // We use the regular expression in this case to cover multiple occurrences in text.
+                        petHTML = petHTML.replace(/PET_ID_WILL_GO_HERE/g, pet.id)
+                        petHTML = petHTML.replace('PET_NAME_WILL_GO_HERE', pet.name)
+                        petHTML = petHTML.replace('PET_TAGS_WILL_GO_HERE', petTags)
+                        petHTML = petHTML.replace('BUY_BUTTON_STATUS', buttonHTML)
+                        petHTML = petHTML.replace('PET_CATEGORY_WILL_GO_HERE', categoryHTML)
+                        // Random images
+                        let imageNum = Math.floor(Math.random()*10).toString();
+                        petHTML = petHTML.replace('IMAGE_NUM', imageNum)
+
+                        petsHTML += petHTML;
+                    }
+                }
+            })
+```
+```html
+const petListObjectTemplate = `
+      <div class="col mb-5 pet-display" id="PET_ID_WILL_GO_HERE">PET_CATEGORY_WILL_GO_HERE
+        <div class="card h-100">
+          <!-- Product image-->
+          <img class="card-img-top" src="img/pet_exampleIMAGE_NUM.jpeg" alt="..." />
+          <button class="btn" style="position: absolute" onClick="handleDelete(PET_ID_WILL_GO_HERE)">
+            <i class="bi-trash-fill me-1"></i>
+          </button>
+          <!-- Product details-->
+          <div class="card-body p-4" onclick="openDetail(this)" style="cursor: pointer">
+            <div class="text-center">
+            <!-- Product name-->
+            <h5 class="fw-bolder">PET_NAME_WILL_GO_HERE</h5>
+            <!-- Product price-->
+            PET_TAGS_WILL_GO_HERE
+            </div>
+          </div>
+          <!-- Product actions-->
+            BUY_BUTTON_STATUS
+        </div>
+      </div>
+    `;
+```
+When a response is obtained from the pet store API, the petListObjectTemplate is replaced with specific pet data and displayed on the home page.
+The user can select the category and status of the pet in the upper navigation bar. The user's selection will change the parameter in the function, and the corresponding pet list will be refreshed on the home page.
+
+### Add pet form
+<p align="center">
+<img src="../img/add.png"/>
+</p>
+
+```js
+const postPetUrl = 'https://petstore.swagger.io/v2/pet'
+fetch(postPetUrl, {
+    headers: {'Content-Type': 'application/json'},
+    method: 'POST',
+    body: JSON.stringify({
+        "id": new Date().getTime(),
+        "name": name,
+        "category": {
+            "id": 0,
+            "name": category
+        },
+        "tags": tagsArr,
+        "status": status
+    })
+}).then((response) => response.json())
+```
+Add pet form passes the form data to the pet store API postPetUrl using the POST method.
+
+### Inventory status
+<p align="center">
+<img src="../img/inventory.png"/>
+</p>
+
+```js
+function queryStatusQuantity() {
+    $.ajax({
+        url: "https://petstore.swagger.io/v2/store/inventory",
+        type: "GET",
+        success: function (data){
+            console.log(data);
+            document.getElementById("availableQuantity").innerText = data["available"];
+            document.getElementById("pendingQuantity").innerText = data["pending"];
+            document.getElementById("soldQuantity").innerText = data["sold"];
+        },
+        error: function (error) {
+            console.log(error.responseJSON);
+        }
+    });
+}
+```
+
+The queryStatusQuantity function gets the data from the pet store inventory API and display the data next to the corresponding state.
+
 
 # Design Choices
 

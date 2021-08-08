@@ -50,7 +50,7 @@ There are two sub models under the user model which are the normal user who can 
 </p>
 
 The sequence diagram above shows detailed steps for users to interact with the pet shop website.
-The user will first enter the home page and then go the login page to log in. If user does not have an account, the user needs to enter the registration page to create an account. When the login succeeds, the user will be navigated to the home page again.
+The user will first enter the home page and then go the login page to log in. If user does not have an account, the user needs to enter the registration page to create an account. When the login succeeds, the user will be navigated to the home page again. User can also edit their profile in the profile page.
 After login, the user can select their favorite pet in the home page and click to enter the pet details page, in the details page, the user can place an order for the pet, and the order will be displayed as waiting for delivery in the order page.
 
 When the administrator logs in to the website, he can confirm the delivery of the order on the order page, and the order status will change to "product is shipping". Administrators can also add new pets for sale to the home page

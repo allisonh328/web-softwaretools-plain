@@ -67,7 +67,7 @@ The first thing we wanted to do is to understand the lives and circumstances of 
 In order to help us further develop, we drew up two personas - a customer persona and a shop owner persona. This group is our priority target user group, therefore, we should process our user experience and website design based on these personas.
 
 <div align=center>
-<img src=UX/user1.jpeg width="600px" height="300px">
+<img src=UX/user1.jpeg width="600px" height="400px">
 <img src=UX/user2.jpeg width="1000px" height="800px">
 
 _Figure 3: The paper prototype representing our idea_

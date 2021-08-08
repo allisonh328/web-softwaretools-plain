@@ -13,7 +13,7 @@ This is section presents a list of all features that we have considered to imple
 # User creation authentication system:
 ## Description:
 
-This feature helps to differentiate 3 types of user each with corresponding authority given to perform different tasks on the website. [Click here for details]
+This feature helps to differentiate 3 types of user each with corresponding authority given to perform different tasks on the website. [Click here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/Jun/report/Features.md#authority-instruction) for details.
 
 - This feature consists of the user registration page, and user login page and the user log out button. 
 
@@ -65,7 +65,7 @@ Pet status includes: Available, Pending, Sold
 
 - Available: allows to be added to cart
 
-- Pending: when the pet item has been paid for, but the store admin hasn't confirmed send yet. [Click here] to see how Pet management feature
+- Pending: when the pet item has been paid for, but the store admin hasn't confirmed send yet. [Click here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/Jun/report/Features.md#pet-management) to see Pet management feature in detail
 
 - Sold: no longer available, cannot be added to Order list. 
 

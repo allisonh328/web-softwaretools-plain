@@ -132,10 +132,10 @@ Here are a few very cool features that the team had initially thought of, but ou
 
 ## Homepage Flash cartoon:
 
-## Description: 
+### Description: 
 Our website is to welcome users with a flash cartoon once the webpage is loaded.
 
-## Justification:
+### Justification:
 This is a visual feature that hopes to entertain customers by giving them something visually pleasing before they start shopping. 
 At first glace, this would be a harmless feature that is aimed to promote the Fluff-galore shop by associating it with a light-hearted and cutesy imagery. However our team agreed not to implement this eventually just because we want to keep a good balance between a functioning website and a visually pleasing website, we do not want this to be too much of an distraction for the customers and to some, this five seconds of cartoon flashe might feel like a form of force-feed advert. 
 
@@ -143,10 +143,10 @@ At first glace, this would be a harmless feature that is aimed to promote the Fl
 
 ## Personality and perfect pet match quiz:
 
-## Description:
+### Description:
 This is to be a small app to be integrated onto the home page of our pet store, it is a series of multiple questions that looks to work out individuals living habit and budget and personality, and eventually the quetionnaire app will work out the best type of pet according to answers  selected. We were inspired by the little quiz posted on [PDSA], the UK's leading veterinary charity website.
 
-## Justification :
+### Justification :
 
 This was initially a must implement feature for the development team as it would add the fun aspect of pet choosing into a user's online shopping experience. However, later on we realized that it would not be fair to discern someone's best pet choice based on a few questions. Real life case for each individual would be much more complicated than a few questions could encompass. Additionally, speaking from past experience, our past customers had always entered the pet shop with their mind made up, and this trend that we have gathered from the past renders this feature futile. It would make our online shop  fun, but it slightly strayed off from the main objectives defined for the design of this website, which is to provide a visually pleasing and efficient shopping experience. This feature might make customers who play it second guess their decision.
 

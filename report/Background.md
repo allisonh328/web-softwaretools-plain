@@ -26,6 +26,35 @@ With reference to these successful cases, our objectives for this website is to 
 
 
 # System Design
+## system architecture diagram
+
+<p align="center">
+<img src="../img/system_architecture_diagram.png"/>
+</p>
+
+The diagram above is the system architecture diagram, which shows the overall architecture design of the pet store system.
+The front-end HTML makes a request to the Pet Store API by calling the JavaScript functions. Then the pet store API will get the required data from the database and return the result through the response. After that, the front end will update the content and displays it to the user interface. 
+
+## Class diagram
+
+<p align="center">
+<img src="../img/class_diagram.png"/>
+</p>
+
+As the class diagram showed above, this pet store system has three main data models: User account model, Order model, and the Pet model.
+There are two sub models under the user model which are the normal user who can view the pets and place the order, and the admin user, who can add, edit pet and confirm shipping the pet order.
+## sequence diagram
+
+<p align="center">
+<img src="../img/sequence_diagram.png"/>
+</p>
+
+The sequence diagram above shows detailed steps for users to interact with the pet shop website.
+The user will first enter the home page and then go the login page to log in. If user does not have an account, the user needs to enter the registration page to create an account. When the login succeeds, the user will be navigated to the home page again.
+After login, the user can select their favorite pet in the home page and click to enter the pet details page, in the details page, the user can place an order for the pet, and the order will be displayed as waiting for delivery in the order page.
+
+When the administrator logs in to the website, he can confirm the delivery of the order on the order page, and the order status will change to "product is shipping". Administrators can also add new pets for sale to the home page
+
 
 # Features
 

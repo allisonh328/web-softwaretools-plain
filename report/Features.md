@@ -135,7 +135,7 @@ This was initially a must implement feature for the development team as it would
 
 
 
-# Implementation and Testing: ------------------- Ruiqing
+# Testing:
 
 The test work of the online pet store is mainly designed to find the defects in the function and performance of the lonline pet store, and to modify the system in time after the test, to ensure the smooth on-line of the system, and ensure that users have a good use experience in the process of use, and feel the convenience of the system.
 

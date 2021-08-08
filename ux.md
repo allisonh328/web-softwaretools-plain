@@ -87,7 +87,7 @@ _Figure 3: The paper prototype representing our idea_
 This is [the design choices list](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/design.md). The critical  chosen design choices are described in detail below.
 
 <div align=center>
-<img src=UX/templates/designcho width="1000px" height="800px">
+<img src=UX/templates/designcho.jpeg width="600px" height="280px">
 
 _Figure 3: The paper prototype representing our idea_
 </div>

@@ -169,7 +169,7 @@ For the tag of available, we just calrify three different states before, availab
 <img src=UX/templates/tags/tag3.jpeg width="600px" height="90px">
 <img src=UX/templates//tags/tag4.jpeg width="600px" height="90px">
 
-_Figure 7: The tag of available_
+_Figure 12: The tag of available_
 </div>
 
 We have turned a static home page into a dynamic one, which is good for getting users' attention. On the side, a scrolling of pet photos is more consistent with our onlie pet shop store.
@@ -177,7 +177,7 @@ We have turned a static home page into a dynamic one, which is good for getting 
 <div align=center>
 <img src=UX/templates/welcome.gif width="400px" height="250px">
 
-_Figure 8: The welcome page_
+_Figure 13: The welcome page_
 </div>
 
 #### Find the background image
@@ -187,11 +187,11 @@ At the first, we use a cartoon image as the background of the site because many 
 This is [the library of the background image]().
 
 <div align=center>
-<img src=UX/templates/final1.jpeg width="500px" height="300px">
-<img src=UX/templates/final2.jpeg width="500px" height="300px">
+<img src=UX/templates/final1.jpeg width="500px" height="280px">
+<img src=UX/templates/final2.jpeg width="500px" height="280px">
 <img src=UX/templates/login.jpeg width="500px" height="250px">
 
-_Figure 9: The background image_
+_Figure 14: The background image_
 </div>
 
 # Final UX

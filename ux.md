@@ -115,9 +115,9 @@ At the first, we decided to use Angular to build the website. Due to a layered a
 * Testing: Docker
 
 <div align=center>
-<img src=UX/develop.jpeg width="600px" height="400px">
+<img src=UX/develop.jpeg width="480px" height="300px">
 
-_Figure 3: The paper prototype representing our idea_
+_Figure 8: The paper prototype representing our idea_
 </div>
 
 ## UI Design

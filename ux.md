@@ -139,7 +139,7 @@ We use bootstrap to accomplish our front end design. There are a lot of good tem
 <img src=UX/templates/1.jpeg width="440px" height="300px">
 <img src=UX/templates/2.jpeg width="440px" height="300px">
 
-_Figure 5: The final two chosen templates_
+_Figure 10: The final two chosen templates_
 </div>
 
 The following discussion is group members in user's perspective to choose the final front end template.
@@ -157,10 +157,10 @@ Through the discussion, we can find that most members prefer to see the home pag
 The tag on the website is the first place we need to improve. In the previous paper prototype, the categories of pets are individual tags at the top of the site. Then we hide the cotegories of pets in the tag of all pets to contain more various species.
 
 <div align=center>
-<img src=UX/templates/tags/tag1.jpeg width="700px" height="40px">
-<img src=UX/templates//tags/tag2.jpeg width="700px" height="200px">
+<img src=UX/templates/tags/tag1.jpeg width="600px" height="30px">
+<img src=UX/templates//tags/tag2.jpeg width="600px" height="150px">
 
-_Figure 6: The change for tags_
+_Figure 11: The change for tags_
 </div>
 
 For the tag of available, we just calrify three different states before, available, pending, sold. And then we add the number of pets in each state, which is convienent for customers to keep track of our sales.

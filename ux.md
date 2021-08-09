@@ -197,7 +197,7 @@ _Figure 14: The background image_
 # Final UX
 
 <div align=center>
-<img src=UX/finalflow.jpeg width="1000px" height="800px">
+<img src=UX/system.jpeg width="1000px" height="800px">
 
 _Figure 13: The welcome page_
 </div>

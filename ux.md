@@ -91,7 +91,7 @@ _Figure 5: The pet owner persona_
 Each member works on a set of features that are then built into a single website.
 
 <div align=center>
-<img src=UX/FDD.png width="500px" height="200px">
+<img src=UX/FDD.png width="400px" height="100px">
 
 _Figure 6: The FDD_
 </div>
@@ -101,9 +101,9 @@ _Figure 6: The FDD_
 Similar to FDD above, this is the process of making each component function on its own, independent of everything else in the website and then bringing each component together to function within the whole.
 
 <div align=center>
-<img src=UX/CBT.png width="500px" height="320px">
+<img src=UX/CBT.png width="480px" height="320px">
 
-_Figure 7: The CBT_
+_Figure 7: The CBD_
 </div>
 
 

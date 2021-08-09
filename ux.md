@@ -91,7 +91,7 @@ _Figure 5: The pet owner persona_
 Each member works on a set of features that are then built into a single website.
 
 <div align=center>
-<img src=UX/FDD.png width="400px" height="100px">
+<img src=UX/FDD.png width="400px" height="180px">
 
 _Figure 6: The FDD_
 </div>

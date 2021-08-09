@@ -117,7 +117,7 @@ At the first, we decided to use Angular to build the website. Due to a layered a
 <div align=center>
 <img src=UX/develop.jpeg width="480px" height="300px">
 
-_Figure 8: The paper prototype representing our idea_
+_Figure 8: The Development Tools_
 </div>
 
 ## UI Design
@@ -125,9 +125,9 @@ _Figure 8: The paper prototype representing our idea_
 This is [the UI design list](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/design.md). The critical  chosen design choices are described in detail below.
 
 <div align=center>
-<img src=UX/templates/designcho.jpeg width="600px" height="280px">
+<img src=UX/templates/designcho.jpeg width="700px" height="330px">
 
-_Figure 3: The paper prototype representing our idea_
+_Figure 9: The UI visual design elements_
 </div>
 
 

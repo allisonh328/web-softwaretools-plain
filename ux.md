@@ -71,20 +71,58 @@ In order to help us further develop, we drew up two personas - a customer person
 
 _Figure 3: The paper prototype representing our idea_
 
-<img src=UX/user2.jpeg width="650px" height="400px">
+<img src=UX/user2.jpeg width="650px" height="380px">
 
 _Figure 3: The paper prototype representing our idea_
 </div>
 
 # Design choices
 
-## Development tools
+## Design Methodologies
+
+### Feature-driven Development
+
+* Develop overall model
+* Build feature list
+* Plan by feature
+* Design by feature
+* Build by feature
+
+Each member works on a set of features that are then built into a single website.
+
+<div align=center>
+<img src=UX/FDD.png width="600px" height="300px">
+
+_Figure 3: The paper prototype representing our idea_
+</div>
+
+### Component Based Development
+
+Similar to FDD above, this is the process of making each component function on its own, independent of everything else in the website and then bringing each component together to function within the whole.
+
+<div align=center>
+<img src=UX/CBT.png width="600px" height="400px">
+
+_Figure 3: The paper prototype representing our idea_
+</div>
 
 
+## Development Tools
 
-## UI design
+At the first, we decided to use Angular to build the website. Due to a layered architecture angular can end up being a slight difficult framework to debug sometimes. Therefore, given the limited time, we finally choose another way to develop the site. The following chart is our development methods.
+* Development tool: IDEA WebStorm
+* Development technology: JavaScript, Jquery, Bootstrap
+* Testing: Docker
 
-This is [the design choices list](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/design.md). The critical  chosen design choices are described in detail below.
+<div align=center>
+<img src=UX/develop.jpeg width="600px" height="400px">
+
+_Figure 3: The paper prototype representing our idea_
+</div>
+
+## UI Design
+
+This is [the UI design list](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/design.md). The critical  chosen design choices are described in detail below.
 
 <div align=center>
 <img src=UX/templates/designcho.jpeg width="600px" height="280px">
@@ -114,7 +152,7 @@ The following discussion is group members in user's perspective to choose the fi
 
 Through the discussion, we can find that most members prefer to see the home page first as a user. This micro-survey help us make a decision on the final layout of the site - the left template. 
 
-#### Modify the layout of the site
+### Modify the layout of the site
 
 The tag on the website is the first place we need to improve. In the previous paper prototype, the categories of pets are individual tags at the top of the site. Then we hide the cotegories of pets in the tag of all pets to contain more various species.
 
@@ -161,6 +199,8 @@ _Figure 9: The background image_
 survey 3
 
 # Evaluation
+
+We went through three surveys to implement user research. They happened in different stages. The first survey is to understand users' needs with the website, and then their feedback will lead us to a specific proposal of the site. The purpose of the second survey is to collect the suggestion from the users. The users went through the system flow of the paper prototype, and they could help us find the shortcoming of the site. The final survey focused on user experience, which is useful for the future improvement.
 
 ## Survey 1: The proposal of the website
 
@@ -254,7 +294,7 @@ We filter the responses and extract the following responses which are mentioned 
 >>......<br>
 >>**User 7** _"I'd like to see more photos of pets, even gifs"_<br>
 
-#### Findings
+### Findings
 
 According to the user responses, we should accomplish the following tasks which belongs to the front end:
 

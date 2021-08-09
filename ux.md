@@ -166,8 +166,8 @@ _Figure 11: The change for tags_
 For the tag of available, we just calrify three different states before, available, pending, sold. And then we add the number of pets in each state, which is convienent for customers to keep track of our sales.
 
 <div align=center>
-<img src=UX/templates/tags/tag3.jpeg width="700px" height="100px">
-<img src=UX/templates//tags/tag4.jpeg width="700px" height="100px">
+<img src=UX/templates/tags/tag3.jpeg width="600px" height="90px">
+<img src=UX/templates//tags/tag4.jpeg width="600px" height="90px">
 
 _Figure 7: The tag of available_
 </div>

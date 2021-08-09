@@ -67,13 +67,13 @@ The first thing we wanted to do is to understand the lives and circumstances of 
 In order to help us further develop, we drew up two personas - a customer persona and a shop owner persona. This group is our priority target user group, therefore, we should process our user experience and website design based on these personas.
 
 <div align=center>
-<img src=UX/user1.jpeg width="650px" height="400px">
+<img src=UX/user1.jpeg width="650px" height="380px">
 
-_Figure 3: The paper prototype representing our idea_
+_Figure 4: The customer persona_
 
 <img src=UX/user2.jpeg width="650px" height="380px">
 
-_Figure 3: The paper prototype representing our idea_
+_Figure 5: The pet owner persona_
 </div>
 
 # Design choices
@@ -91,9 +91,9 @@ _Figure 3: The paper prototype representing our idea_
 Each member works on a set of features that are then built into a single website.
 
 <div align=center>
-<img src=UX/FDD.png width="600px" height="300px">
+<img src=UX/FDD.png width="500px" height="200px">
 
-_Figure 3: The paper prototype representing our idea_
+_Figure 6: The FDD_
 </div>
 
 ### Component Based Development
@@ -101,9 +101,9 @@ _Figure 3: The paper prototype representing our idea_
 Similar to FDD above, this is the process of making each component function on its own, independent of everything else in the website and then bringing each component together to function within the whole.
 
 <div align=center>
-<img src=UX/CBT.png width="600px" height="400px">
+<img src=UX/CBT.png width="500px" height="320px">
 
-_Figure 3: The paper prototype representing our idea_
+_Figure 7: The CBT_
 </div>
 
 

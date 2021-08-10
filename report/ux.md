@@ -542,11 +542,11 @@ $("#statusInput").val(petStatus);
 
 ## Order page
 
-<p align="center">
+<div align="center">
 <img src="../img/order.png"/ width=800px height=300px>
 
-_Figure 20: Order page_
-</p>
+_Figure 21: Order page_
+</div>
 
 The figure above shows the order page of the pet store. This page can display the order of the pet, including the status and details of the order. When the administrator enters the order page, they can confirm sending the pet order.
 

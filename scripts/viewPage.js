@@ -1,67 +1,91 @@
-const petsListTemplate = `
-  <h2>Here are the existing pets:</h2>
-  <div class="petsList">
-    PETS_WILL_GO_HERE
-  </div>
-`;
+$(function () {
+    requestStatus('available');
+});
 
-const petListObjectTemplate = `
-  <div class="pet" id="PET_ID_WILL_GO_HERE">
-    <p>id: <span class="value">PET_ID_WILL_GO_HERE</span></p>
-    <p>name: <span class="value">PET_NAME_WILL_GO_HERE</span></p>    
-    <div class="tags">
-      <p>tags: PET_TAGS_WILL_GO_HERE</p>
-    </div>
-    <div class="deleteIcon" onClick="handleDelete(PET_ID_WILL_GO_HERE)">
-    <img src="delete-icon.svg"  alt="delete"/>
-    </div>
-  </div>
-`;
+function requestStatus(status) {
+    document.getElementById("categoryDropdown").innerText = "All pets";
+    document.getElementById("navbarDropdown").innerText = status[0].toUpperCase() + status.slice(1);
 
-const petListObjectTagTemplate = `
-  <span class="tag">PET_TAG_WILL_GO_HERE</span>
-`
+    const petListObjectTemplate = `
+      <div class="col mb-5 pet-display" id="PET_ID_WILL_GO_HERE">PET_CATEGORY_WILL_GO_HERE
+        <div class="card h-100">
+          <!-- Product image-->
+          <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+          <button class="btn" style="position: absolute" onClick="handleDelete(PET_ID_WILL_GO_HERE)">
+            <i class="bi-trash-fill me-1"></i>
+          </button>
+          <!-- Product details-->
+          <div class="card-body p-4">
+            <div class="text-center">
+            <!-- Product name-->
+            <h5 class="fw-bolder">PET_NAME_WILL_GO_HERE</h5>
+            <!-- Product price-->
+            PET_TAGS_WILL_GO_HERE
+            </div>
+          </div>
+          <!-- Product actions-->
+          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            <div class="text-center">BUY_BUTTON_STATUS</div>
+          </div>
+        </div>
+      </div>
+    `;
 
-const getPetsUrl = 'https://petstore.swagger.io/v2/pet/findByStatus?status=available';
+    const petListObjectTagTemplate = `
+      <span class="tag">PET_TAG_WILL_GO_HERE</span>
+    `
+    const getPetsUrl = 'https://petstore.swagger.io/v2/pet/findByStatus?status=' + status;
 
-fetch(getPetsUrl, {headers: {'Content-Type': 'application/json'}})
-  .then((response) => response.json())
-  .then((pets) => {
-    let petsHTML = '';
+    fetch(getPetsUrl, {headers: {'Content-Type': 'application/json'}})
+        .then((response) => response.json())
+        .then((pets) => {
+            let petsHTML = '';
 
-    pets.forEach((pet) => {
-      let petTags = '';
+            pets.forEach((pet) => {
+                if (pet.hasOwnProperty("category")) {
+                    if (pet.category.hasOwnProperty("name")) {
+                        let petTags = '';
+                        let buttonHTML = '';
 
-      if(Array.isArray(pet.tags)){
-        pet.tags.forEach((tag) => {
-          if(
-            typeof tag === 'object' &&
-            tag !== null &&
-            Object.prototype.hasOwnProperty.call(tag, 'name') &&
-            typeof tag.name === 'string') {
-              petTags += petListObjectTagTemplate.replace('PET_TAG_WILL_GO_HERE', tag.name)
-          }
+                        if (status === "available")
+                            buttonHTML += '<a onclick="isLogin()" class="btn btn-success mt-auto" href="#">BUY</a>';
+                        else if (status === "pending")
+                            buttonHTML += '<a class="btn btn-warning mt-auto disabled" href="#">PENDING</a>';
+                        else
+                            buttonHTML += '<a class="btn btn-danger mt-auto disabled" href="#">SOLD</a>';
+
+                        if (Array.isArray(pet.tags)) {
+                            pet.tags.forEach((tag) => {
+                                if (
+                                    typeof tag === 'object' &&
+                                    tag !== null &&
+                                    Object.prototype.hasOwnProperty.call(tag, 'name') &&
+                                    typeof tag.name === 'string') {
+                                    petTags += petListObjectTagTemplate.replace('PET_TAG_WILL_GO_HERE', tag.name)
+                                }
+                            });
+                        }
+
+                        let petHTML = petListObjectTemplate;
+                        let categoryHTML = '<p hidden>' + pet.category.name + '</p>'
+                        // We use the regular expression in this case to cover multiple occurrences in text.
+                        petHTML = petHTML.replace(/PET_ID_WILL_GO_HERE/g, pet.id)
+                        petHTML = petHTML.replace('PET_NAME_WILL_GO_HERE', pet.name)
+                        petHTML = petHTML.replace('PET_TAGS_WILL_GO_HERE', petTags)
+                        petHTML = petHTML.replace('BUY_BUTTON_STATUS', buttonHTML)
+                        petHTML = petHTML.replace('PET_CATEGORY_WILL_GO_HERE', categoryHTML)
+
+                        petsHTML += petHTML;
+                    }
+                }
+            })
+
+            document.getElementById('viewPage').innerHTML = petsHTML;
+        })
+        .catch((error) => {
+            console.error(error);
         });
-      }
-
-      let petHTML = petListObjectTemplate;
-      // We use the regular expression in this case to cover multiple occurrences in text.
-      petHTML = petHTML.replace(/PET_ID_WILL_GO_HERE/g, pet.id)
-      petHTML = petHTML.replace('PET_NAME_WILL_GO_HERE', pet.name)
-      petHTML = petHTML.replace('PET_TAGS_WILL_GO_HERE', petTags)
-
-      petsHTML += petHTML;
-
-    })
-
-    let resultsHTML = petsListTemplate;
-    resultsHTML = resultsHTML.replace('PETS_WILL_GO_HERE', petsHTML);
-
-    document.getElementById('viewPage').innerHTML = resultsHTML;
-  })
-  .catch((error) => {
-    console.error(error);
-  });
+}
 
 const deletePetUrl = 'https://petstore.swagger.io/v2/pet/';
 

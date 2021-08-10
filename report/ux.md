@@ -357,11 +357,11 @@ function queryStatusQuantity() {
 
 ## Login page
 
-<p align="center">
+<div align="center">
 <img src="../img/login.png"/ width=680px height=480px>
 
 _Figure 17: Login page_
-</p>
+</div>
 
 The figure above shows the login page of the pet store. Users can enter the account and password on this page for login, or go to the registration page for account registration.
 
@@ -416,9 +416,12 @@ function getAdminPassword() {
 ```
 ## Register page
 
-<p align="center">
-<img src="../img/registration.png"/>
-</p>
+<div align="center">
+<img src="../img/registration.png"/ width=600px height=700px>
+
+_Figure 18: Register page_
+
+</div>
 
 The figure above shows the register page of the pet store. User can enter the information and create the account in this page.
 

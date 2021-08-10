@@ -330,9 +330,10 @@ fetch(postPetUrl, {
 ### Inventory status
 
 <div align="center">
-<img src="../img/inventory.png"/  width=150px height=130px>
+<img src="../img/inventory.png"/  width=150px height=120px>
 
-</dic>
+_Figure 16: Inventory Status_
+</div>
 
 The queryStatusQuantity function gets the data from the pet store inventory API and display the data next to the corresponding state.
 

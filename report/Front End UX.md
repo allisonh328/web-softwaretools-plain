@@ -7,7 +7,11 @@
 <img src="../img/home.png"/>
 </p>
 
+The figure above is the home page of the pet store. The main function of the home page is to display the list of pets in the pet store. The navigation bar at the top allows the administrator to add pets, and users can classify and view pets in different states and types. The upper right corner of the navigation bar has a button to access the order page or login page.
+
 ### Pet list display
+
+The function to require the pet list data from the pet store API:
 ```js
 const getPetsUrl = 'https://petstore.swagger.io/v2/pet/findByStatus?status=' + status;
 
@@ -57,6 +61,9 @@ const getPetsUrl = 'https://petstore.swagger.io/v2/pet/findByStatus?status=' + s
                 }
             })
 ```
+
+The pet list template to be replaced:
+
 ```html
 const petListObjectTemplate = `
       <div class="col mb-5 pet-display" id="PET_ID_WILL_GO_HERE">PET_CATEGORY_WILL_GO_HERE
@@ -81,13 +88,16 @@ const petListObjectTemplate = `
       </div>
     `;
 ```
-When a response is obtained from the pet store API, the petListObjectTemplate is replaced with specific pet data and displayed on the home page.
+When a response is obtained from the pet store API, the pet list template is replaced with specific pet data and displayed on the home page.
 The user can select the category and status of the pet in the upper navigation bar. The user's selection will change the parameter in the function, and the corresponding pet list will be refreshed on the home page.
 
 ### Add pet form
+
 <p align="center">
 <img src="../img/add.png"/>
 </p>
+
+When the administrator enters specific pet information and clicks the add button. A request will send to the pet store API using the POST method with the pet information.
 
 ```js
 const postPetUrl = 'https://petstore.swagger.io/v2/pet'
@@ -106,12 +116,14 @@ fetch(postPetUrl, {
     })
 }).then((response) => response.json())
 ```
-Add pet form passes the form data to the pet store API postPetUrl using the POST method.
 
 ### Inventory status
+
 <p align="center">
 <img src="../img/inventory.png"/>
 </p>
+
+The queryStatusQuantity function gets the data from the pet store inventory API and display the data next to the corresponding state.
 
 ```js
 function queryStatusQuantity() {
@@ -131,8 +143,63 @@ function queryStatusQuantity() {
 }
 ```
 
-The queryStatusQuantity function gets the data from the pet store inventory API and display the data next to the corresponding state.
+## Login page
 
+<p align="center">
+<img src="../img/login.png"/>
+</p>
+
+The figure above shows the login page of the pet store. Users can enter the account and password on this page for login, or go to the registration page for account registration.
+
+### Login
+
+This function is to send the input of username and password to the API to let user login.
+```js
+const username = $("#exampleInputUsername").val()
+const password = $("#exampleInputPassword").val()
+    $.ajax({
+        url: "https://petstore.swagger.io/v2/user/login?username=" + username
+            + '&' + "password=" + password,
+        type: "GET",
+        async: false,
+        cache: false,
+        success: function (data) {
+            console.log(data);
+            Storage.set("username", username, 21600);
+            bs4pop.notice('Login success!', {type: 'success'});
+            setTimeout('window.location.replace("index.html")',1000);
+        },
+        error: function (error) {
+            console.log(error.responseJSON);
+            alert("Login failed!")
+        }
+    });
+```
+
+### Admin password remind
+
+Due to the shared petstore API, other resit groups may change the admin password. This is the function to give the hint of the admin password.
+
+```js
+function getAdminPassword() {
+    let element = $("#pwdHint");
+    if (element) element.remove();
+    $.ajax({
+        url: "https://petstore.swagger.io/v2/user/admin",
+        type: "GET",
+        async: false,
+        cache: false,
+        success: function (data){
+            $("#passwordHint").after("<p id='pwdHint'>The <b>admin</b>'s password is " +
+                "<b style='color: red'>" + data.password + "</b></p>")
+        },
+        error: function (error) {
+            $("#passwordHint").after("<p><b id='pwdHint' style='color: red'>" +
+                error.responseJSON.message + ".</b></p>")
+        }
+    });
+}
+```
 
 # Design Choices
 

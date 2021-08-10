@@ -357,7 +357,7 @@ _Figure 4: The distribution of answers per item_
 Here obviously, all scales show an extremely positive evaluation. It is obvious that we did well in the aspect of the efficiency of the website. At the same, we lack of the novelty of the site. Otherwise, users consider that our website is functional, but not enough creative. 
 
 <div align=center>
-<img src=UX/survey/R2.png width="500px" height="250px">
+<img src=UX/survey/R2.png width="480px" height="250px">
 
 _Figure 4: The website with good results_
 </div>

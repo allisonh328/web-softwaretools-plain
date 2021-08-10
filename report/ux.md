@@ -302,7 +302,7 @@ The user can select the category and status of the pet in the upper navigation b
 ### Add pet form
 
 <div align="center">
-<img src="../img/add.png"/ width=400px height=400px>
+<img src="../img/add.png"/ width=350px height=350px>
 
 _Figure 14: Add pet form_
 </div>

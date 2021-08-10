@@ -202,15 +202,15 @@ This part mainly describes the final design of the pet store web page, specific 
 ## System Flow
 
 <div align=center>
-<img src=UX/system.jpeg width="1000px" height="450px">
+<img src= "../UX/system.jpeg" width="1000px" height="450px">
 
 _Figure 13: The final system flow_
 </div>
 
-## Home page
+## Homepage
 
 <div align=center>
-<img src="../img/home.png"/ width="600px" height="450px">
+<img src="../img/home.png" width="600px" height="450px">
 </div>
 
 The figure above is the home page of the pet store. The main function of the home page is to display the list of pets in the pet store. The navigation bar at the top allows the administrator to add pets, and users can classify and view pets in different states and types. The upper right corner of the navigation bar has a button to access the order page or login page.

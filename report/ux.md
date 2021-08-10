@@ -304,7 +304,7 @@ The user can select the category and status of the pet in the upper navigation b
 <div align="center">
 <img src="../img/add.png"/ width=350px height=330px>
 
-_Figure 14: Add pet form_
+_Figure 15: Add pet form_
 </div>
 
 When the administrator enters specific pet information and clicks the add button. A request will send to the pet store API using the POST method with the pet information.
@@ -330,7 +330,7 @@ fetch(postPetUrl, {
 ### Inventory status
 
 <div align="center">
-<img src="../img/inventory.png"/  width=300px height=600px>
+<img src="../img/inventory.png"/  width=300px height=200px>
 
 </dic>
 

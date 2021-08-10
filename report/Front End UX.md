@@ -256,17 +256,225 @@ $.ajax({
 <img src="../img/detail.png"/>
 </p>
 
+The figure above shows the pet details page of the pet store. In this page, the user can place an order for the pet, and the administrator can modify the information of the pet.
+
+### Place order
+This function is to send request to the pet store API to place the order for the chosen pet:
+```js
+function placeOrder() {
+    let user = Storage.get("username");
+    if (user) {
+        if (confirm("Are you sure to purchase?")) {
+            let date = new Date().getTime()
+            let obj = {};
+            obj = {
+                id: date,
+                petId: parseInt(getUrlParam("id")),
+                petName: getUrlParam("name"),
+                petQuantity: 1,
+                // Delay for 3 days(259200000 milliseconds) as shipping time.
+                shipDate: new Date(date + 259200000).Format('yy-MM-dd hh:mm:ss'),
+                status: "placed"
+            }
+            let orders = Storage.get(user);
+            if (orders) {
+                orders.push(obj);
+                Storage.set(user, orders, 21600);
+            } else {
+                let orderArr = [];
+                orderArr.push(obj);
+                Storage.set(user, orderArr, 21600);
+            }
+            updatePetStatus(obj.id, "pending");
+            bs4pop.notice("Purchase success! The order id is " + obj.id + '.', {type: 'success'});
+            displayOrderQuantity()
+        }
+    }
+    else isLogin()
+}
+```
+
+### Edit pet
+
+<p align="center">
+<img src="../img/edit.png"/>
+</p>
+
+Administrator can edit the pet information through this form. The function will replace the pet information with the new pet information entered by the administrator.
+```js
+if (isAdminLogin()) {
+        $("#petStatus").attr("disabled", true);
+    }
+
+let petName = getUrlParam("name");
+let petTags = getUrlParam("tags");
+let petCategory = getUrlParam("category");
+let petStatus = getUrlParam("status");
+let petImage = getUrlParam("image");
+
+document.getElementById("petName").innerText = petName;
+document.getElementById("petTags").innerText = petTags;
+document.getElementById("petCategory").innerText = petCategory;
+
+$("#detailImage").attr('src', petImage);
+$("#nameInput").val(petName);
+$("#categoryInput").val(petCategory);
+$("#statusInput").val(petStatus);
+```
+
 ## Order page
+
 <p align="center">
 <img src="../img/order.png"/>
 </p>
 
+The figure above shows the order page of the pet store. This page can display the order of the pet, including the status and details of the order. When the administrator enters the order page, they can confirm sending the pet order.
+
+### Order display
+
+The order template to be filled with detail information:
+```html
+const ordersTableTemplate = `
+        <tr id="ORDER_ID">
+            <th scope="row">SERIAL_NUM</th>
+            <td>ORDER_ID</td>
+            <td>USER_NAME</td>
+            <td>PET_NAME</td>
+            <td>QUANTITY</td>
+            <td>SHIP_DATE</td>
+            <td>STATUS</td>
+            <td><button class="btn CONFIRM_BUTTON_STYLE" onClick="ORDER_PROCESS(ORDER_ID)">CONFIRM_BUTTON_TEXT</button>
+                <button class="btn DELETE_BUTTON_STYLE" onClick="cancelOrder(ORDER_ID)">Cancel order</button>
+            </td>
+        </tr>
+    `;
+```
+Function to display the order information:
+```js
+$(function () {
+    if (document.getElementById("orderTable")) {
+        if (isAdminLogin()) {
+            adminRenderTable(ordersTableTemplate);
+        } else {
+            if (isExistOrdersForUser()) {
+                let username = Storage.get("username");
+                let ordersData = Storage.get(username);
+                let count = 1;
+                let ordersHTML = '';
+
+                ordersData.forEach((order) => {
+                    let orderHTML = ordersTableTemplate;
+                    orderHTML = orderHTML.replace(/SERIAL_NUM/g, count)
+                    orderHTML = orderHTML.replace(/USER_NAME/g, username)
+                    orderHTML = orderHTML.replace(/ORDER_PROCESS/g, "completeOrder")
+                    orderHTML = orderHTML.replace(/ORDER_ID/g, order.id)
+                    orderHTML = orderHTML.replace(/PET_NAME/g, order.petName)
+                    orderHTML = orderHTML.replace(/QUANTITY/g, order.petQuantity)
+                    orderHTML = orderHTML.replace(/SHIP_DATE/g, order.shipDate)
+                    orderHTML = orderHTML.replace(/STATUS/g, order.status)
+                    if (order.status === "placed") {
+                        orderHTML = orderHTML.replace(/CONFIRM_BUTTON_TEXT/g, "Wait for Sending")
+                        orderHTML = orderHTML.replace(/CONFIRM_BUTTON_STYLE/g, "btn-outline-primary disabled")
+                        orderHTML = orderHTML.replace(/DELETE_BUTTON_STYLE/g, "btn-danger")
+                    } else {
+                        orderHTML = orderHTML.replace(/CONFIRM_BUTTON_TEXT/g, "Confirm receipt")
+                        orderHTML = orderHTML.replace(/CONFIRM_BUTTON_STYLE/g, "btn-success")
+                        orderHTML = orderHTML.replace(/DELETE_BUTTON_STYLE/g, "btn-outline-danger disabled")
+                    }
+
+                    count++;
+                    ordersHTML += orderHTML;
+                })
+
+                document.getElementById("orderTable").innerHTML = ordersHTML;
+            }
+        }
+    }
+});
+```
+
+### Send order
+
+<p align="center">
+<img src="../img/send.png"/>
+</p>
+
+the function for administrator to send the pet order:
+```js
+function shipOrder(id) {
+    if (confirm("Please confirm once again that you have packed and sent it successfully.")) {
+        for (let i = 0; i < localStorage.length; i++) {
+            let key = localStorage.key(i);
+            if (key !== "username") {
+                let ordersData = Storage.get(key);
+                for (let j = 0; j < ordersData.length; j++) {
+                    if (id === ordersData[j].id) {
+                        ordersData[j].status = "shipping";
+                    }
+                }
+                Storage.set(key, ordersData, 21600);
+            }
+        }
+        updatePetStatus(id, "sold");
+        adminRenderTable(ordersTableTemplate);
+        bs4pop.notice('Order ' + id + ' sent successfully!',{type:'success'})
+    }
+}
+```
+
+
 ## Profile page
+
 <p align="center">
 <img src="../img/profile.png"/>
 </p>
 
+The figure above is the pet store's user profile page. On this page, users can change their user information and password.
 
+### Update profile
+This function passes the updated user data to the pet store API to update user's profile.
+pwdCheck() is to check whether the two input passwords are the same and valid.
+```js
+$(function () {
+    $('#form').on('submit', function (e) {
+        e.preventDefault();
+
+        if (pwdCheck()) {
+            let username = Storage.get("username");
+            let dataJson = {
+                "id": 0,
+                "username": username,
+                "firstName": $("#exampleFirstName").val(),
+                "lastName": $("#exampleLastName").val(),
+                "email": $("#exampleInputEmail").val(),
+                "password": $("#exampleInputPassword").val(),
+                "phone": $("#exampleInputPhone").val(),
+                "userStatus": 0
+            };
+
+            $.ajax({
+                url: "https://petstore.swagger.io/v2/user/" + username,
+                type: "PUT",
+                async: false,
+                cache: false,
+                dataType: "json",
+                contentType: "application/json",
+                traditional: true,
+                data: JSON.stringify(dataJson),
+                success: function (data) {
+                    console.log(data);
+                    alert("You have successfully updated!");
+                    window.location.reload();
+                },
+                error: function (error) {
+                    console.log(error.responseJSON);
+                    alert("Update failed!")
+                }
+            });
+        }
+    });
+});
+```
 
 # Design Choices
 

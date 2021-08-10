@@ -330,7 +330,7 @@ fetch(postPetUrl, {
 ### Inventory status
 
 <div align="center">
-<img src="../img/inventory.png"/  width=300px height=200px>
+<img src="../img/inventory.png"/  width=200px height=200px>
 
 </dic>
 

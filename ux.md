@@ -349,13 +349,13 @@ _Figure 4: The data transformed_
 Here we can see the distributions of the answers (values 1 to 7) for the single items.
 
 <div align=center>
-<img src=UX/survey/distribution.png width="600px" height="280px">
+<img src=UX/survey/distribution.png width="800px" height="500px">
 
 _Figure 4: The website with good results_
 </div>
 
 <div align=center>
-<img src=UX/survey/R2.png width="600px" height="280px">
+<img src=UX/survey/R2.png width="500px" height="280px">
 
 _Figure 4: The website with good results_
 </div>

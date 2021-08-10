@@ -334,7 +334,19 @@ This is the integrated [user experience questionnaire].(https://github.com/Yj-nn
 
 ### Results
 
-There are totally 47 participants joing in the survey. We firstly gave them instruction to go through the website and then sent out the questionnaire. They had to finish the questionnaire in 15 minutes. Through their scores, we had following findings:
+There are totally 47 participants joing in the survey. We firstly gave them instruction to go through the website and then sent out the questionnaire. They had to finish the questionnaire in 15 minutes. This is [qustionnaire data](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/survey/data.xlsx). 
+
+The order of the positive and negative term for an item is randomized in the questionnaire. Per dimension half of the items start with the positive and half with the negative term. This is [transformed data](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/survey/dt.xlsx). In this excel, we can find the transformed values per item. We can use these values for example for own statistical calculations. The +3 represent the most positive and the -3 the most negative value. Then, we can calculate scale means per person.
+
+<div align=center>
+<img src=UX/survey/change.jpeg width="600px" height="500px">
+
+_Figure 4: The data transformed_
+</div>
+
+### Findings
+
+
 
 <div align=center>
 <img src=UX/survey/R2.png width="600px" height="280px">

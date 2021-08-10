@@ -346,18 +346,26 @@ _Figure 4: The data transformed_
 
 ### Findings
 
-Here we can see the distributions of the answers (values 1 to 7) for the single items.
+Here we can see the distributions of the answers (values 1 to 7) for the single items. We can find that there are not items that show a polarization in the answers. 
 
 <div align=center>
 <img src=UX/survey/distribution.png width="800px" height="500px">
 
-_Figure 4: The website with good results_
+_Figure 4: The distribution of answers per item_
 </div>
+
+Here obviously, all scales show an extremely positive evaluation. It is obvious that we did well in the aspect of the efficiency of the website. At the same, we lack of the novelty of the site. Otherwise, users consider that our website is functional, but not enough creative. 
 
 <div align=center>
-<img src=UX/survey/R2.png width="500px" height="280px">
+<img src=UX/survey/R2.png width="500px" height="250px">
 
 _Figure 4: The website with good results_
 </div>
 
-Here obviously, all scales show an extremely positive evaluation.
+### Future Improvements
+
+* Enhance user engagement
+* Optimized web design, different from the traditional website, more innovative
+* Add more website features to facilitate users
+* Make the website more robust
+

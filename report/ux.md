@@ -358,7 +358,7 @@ function queryStatusQuantity() {
 ## Login page
 
 <p align="center">
-<img src="../img/login.png"/ width=600px height=500px>
+<img src="../img/login.png"/ width=680px height=480px>
 
 _Figure 17: Login page_
 </p>

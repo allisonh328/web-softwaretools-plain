@@ -467,7 +467,7 @@ $.ajax({
 ## Detail page
 
 <div align="center">
-<img src="../img/detail.png"/ width=700px height=350px>
+<img src="../img/detail.png"/ width=700px height=380px>
 
 _Figure 19: Detail page_
 </div>
@@ -512,9 +512,11 @@ function placeOrder() {
 
 ### Edit pet
 
-<p align="center">
-<img src="../img/edit.png"/>
-</p>
+<div align="center">
+<img src="../img/edit.png"/ width=400px height=500px>
+
+_Figure 20: Detail page_
+</div>
 
 Administrator can edit the pet information through this form. The function will replace the pet information with the new pet information entered by the administrator.
 ```js

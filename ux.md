@@ -339,14 +339,20 @@ There are totally 47 participants joing in the survey. We firstly gave them inst
 The order of the positive and negative term for an item is randomized in the questionnaire. Per dimension half of the items start with the positive and half with the negative term. This is [transformed data](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/survey/dt.xlsx). In this excel, we can find the transformed values per item. We can use these values for example for own statistical calculations. The +3 represent the most positive and the -3 the most negative value. Then, we can calculate scale means per person.
 
 <div align=center>
-<img src=UX/survey/change.jpeg width="600px" height="500px">
+<img src=UX/survey/change.jpeg width="500px" height="400px">
 
 _Figure 4: The data transformed_
 </div>
 
 ### Findings
 
+Here we can see the distributions of the answers (values 1 to 7) for the single items.
 
+<div align=center>
+<img src=UX/survey/distribution.png width="600px" height="280px">
+
+_Figure 4: The website with good results_
+</div>
 
 <div align=center>
 <img src=UX/survey/R2.png width="600px" height="280px">

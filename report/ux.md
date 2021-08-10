@@ -513,9 +513,9 @@ function placeOrder() {
 ### Edit pet
 
 <div align="center">
-<img src="../img/edit.png"/ width=300px height=400px>
+<img src="../img/edit.png"/ width=330px height=400px>
 
-_Figure 20: Detail page_
+_Figure 20: Edit page_
 </div>
 
 Administrator can edit the pet information through this form. The function will replace the pet information with the new pet information entered by the administrator.
@@ -543,7 +543,9 @@ $("#statusInput").val(petStatus);
 ## Order page
 
 <p align="center">
-<img src="../img/order.png"/>
+<img src="../img/order.png"/ width=800px height=300px>
+
+_Figure 20: Order page_
 </p>
 
 The figure above shows the order page of the pet store. This page can display the order of the pet, including the status and details of the order. When the administrator enters the order page, they can confirm sending the pet order.

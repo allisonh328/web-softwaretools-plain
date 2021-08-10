@@ -301,10 +301,10 @@ The user can select the category and status of the pet in the upper navigation b
 
 ### Add pet form
 
-<p align="center" width=300px height=600px>
-<img src="../img/add.png"/>
+<div align="center">
+<img src="../img/add.png"/ width=300px height=600px>
 
-</p>
+</div>
 
 When the administrator enters specific pet information and clicks the add button. A request will send to the pet store API using the POST method with the pet information.
 

@@ -22,9 +22,9 @@ For the project, our initial idea involved creating a login page, which is convi
 * Figure out what the customer needs
 
 <div align=center>
-<img src=UX/prototype1.jpg width="380px" height="250px">
-<img src=UX/prototype2.jpg width="380px" height="250px">
-<img src=UX/prototype3.jpg width="380px" height="250px">
+<img src=../UX/prototype1.jpg width="380px" height="250px">
+<img src=../UX/prototype2.jpg width="380px" height="250px">
+<img src=../UX/prototype3.jpg width="380px" height="250px">
 
 _Figure 2: The initial wireframe_
 </div>
@@ -51,7 +51,7 @@ After the first survey, we focused on developing it along with above user feedba
 ### The system flow of the prototype
 
 <div align=center>
-<img src=UX/ux3.PNG width="1000px" height="800px">
+<img src=../UX/ux3.PNG width="1000px" height="800px">
 
 _Figure 3: The paper prototype representing our idea_
 </div>
@@ -67,11 +67,11 @@ The first thing we wanted to do is to understand the lives and circumstances of 
 In order to help us further develop, we drew up two personas - a customer persona and a shop owner persona. This group is our priority target user group, therefore, we should process our user experience and website design based on these personas.
 
 <div align=center>
-<img src=UX/user1.jpeg width="650px" height="380px">
+<img src=../UX/user1.jpeg width="650px" height="380px">
 
 _Figure 4: The customer persona_
 
-<img src=UX/user2.jpeg width="650px" height="380px">
+<img src=../UX/user2.jpeg width="650px" height="380px">
 
 _Figure 5: The pet owner persona_
 </div>
@@ -91,7 +91,7 @@ _Figure 5: The pet owner persona_
 Each member works on a set of features that are then built into a single website.
 
 <div align=center>
-<img src=UX/FDD.png width="400px" height="180px">
+<img src=../UX/FDD.png width="400px" height="180px">
 
 _Figure 6: The FDD_
 </div>
@@ -101,7 +101,7 @@ _Figure 6: The FDD_
 Similar to FDD above, this is the process of making each component function on its own, independent of everything else in the website and then bringing each component together to function within the whole.
 
 <div align=center>
-<img src=UX/CBT.png width="480px" height="320px">
+<img src=../UX/CBT.png width="480px" height="320px">
 
 _Figure 7: The CBD_
 </div>
@@ -115,7 +115,7 @@ At the first, we decided to use Angular to build the website. Due to a layered a
 * Testing: Docker
 
 <div align=center>
-<img src=UX/develop.jpeg width="480px" height="300px">
+<img src=../UX/develop.jpeg width="480px" height="300px">
 
 _Figure 8: The Development Tools_
 </div>
@@ -125,7 +125,7 @@ _Figure 8: The Development Tools_
 This is [the UI design list](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/design.md). The critical  chosen design choices are described in detail below.
 
 <div align=center>
-<img src=UX/templates/designcho.jpeg width="700px" height="330px">
+<img src=../UX/templates/designcho.jpeg width="700px" height="330px">
 
 _Figure 9: The UI visual design elements_
 </div>
@@ -136,8 +136,8 @@ _Figure 9: The UI visual design elements_
 We use bootstrap to accomplish our front end design. There are a lot of good templates to choose. This [link](https://github.com/Yj-nnie/web-softwaretools-plain/tree/dlh8899/UX/templates) is all possible templates we decide to apply into our website. Finally, we choose the following two templates, and each group member give his/her opinion as a user.
 
 <div align=center>
-<img src=UX/templates/1.jpeg width="440px" height="300px">
-<img src=UX/templates/2.jpeg width="440px" height="300px">
+<img src=../UX/templates/1.jpeg width="440px" height="300px">
+<img src=../UX/templates/2.jpeg width="440px" height="300px">
 
 _Figure 10: The final two chosen templates_
 </div>
@@ -157,8 +157,8 @@ Through the discussion, we can find that most members prefer to see the home pag
 The tag on the website is the first place we need to improve. In the previous paper prototype, the categories of pets are individual tags at the top of the site. Then we hide the cotegories of pets in the tag of all pets to contain more various species.
 
 <div align=center>
-<img src=UX/templates/tags/tag1.jpeg width="600px" height="30px">
-<img src=UX/templates//tags/tag2.jpeg width="600px" height="200px">
+<img src=../UX/templates/tags/tag1.jpeg width="600px" height="30px">
+<img src=../UX/templates//tags/tag2.jpeg width="600px" height="200px">
 
 _Figure 11: The change for tags_
 </div>
@@ -166,8 +166,8 @@ _Figure 11: The change for tags_
 For the tag of available, we just calrify three different states before, available, pending, sold. And then we add the number of pets in each state, which is convienent for customers to keep track of our sales.
 
 <div align=center>
-<img src=UX/templates/tags/tag3.jpeg width="600px" height="90px">
-<img src=UX/templates//tags/tag4.jpeg width="600px" height="90px">
+<img src=../UX/templates/tags/tag3.jpeg width="600px" height="90px">
+<img src=../UX/templates//tags/tag4.jpeg width="600px" height="90px">
 
 _Figure 12: The tag of available_
 </div>
@@ -175,7 +175,7 @@ _Figure 12: The tag of available_
 We have turned a static home page into a dynamic one, which is good for getting users' attention. On the side, a scrolling of pet photos is more consistent with our onlie pet shop store.
 
 <div align=center>
-<img src=UX/templates/welcome.gif width="400px" height="250px">
+<img src=../UX/templates/welcome.gif width="400px" height="250px">
 
 _Figure 13: The welcome page_
 </div>
@@ -187,9 +187,9 @@ At the first, we use a cartoon image as the background of the site because many 
 This is [the library of the background image]().
 
 <div align=center>
-<img src=UX/templates/final1.jpeg width="500px" height="280px">
-<img src=UX/templates/final2.jpeg width="500px" height="280px">
-<img src=UX/templates/login.jpeg width="500px" height="250px">
+<img src=../UX/templates/final1.jpeg width="500px" height="280px">
+<img src=../UX/templates/final2.jpeg width="500px" height="280px">
+<img src=../UX/templates/login.jpeg width="500px" height="250px">
 
 _Figure 14: The background image_
 </div>

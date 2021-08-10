@@ -615,9 +615,11 @@ $(function () {
 
 ### Send order
 
-<p align="center">
-<img src="../img/send.png"/>
-</p>
+<div align="center">
+<img src="../img/send.png"/ width=800px height=300px>
+
+_Figure 22: Send Order page_
+</div>
 
 the function for administrator to send the pet order:
 ```js

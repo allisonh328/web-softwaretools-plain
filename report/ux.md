@@ -717,9 +717,9 @@ During the prototyping stages, we conduct the first survey to confirm the propos
 Firstly, we give participants a summary of our project brief and asked to go over. Then, we have sent out 20 questionnaires and finally received 16 respnses. To make sure the survey is universal, we surveyed people of different ages. We also took into account gender and the experience of keeping a pet.
 
 <div align=center>
-<img src=UX/survey/1.png width="330px" height="250px">
-<img src=UX/survey/2.png width="330px" height="250px">
-<img src=UX/survey/3.png width="330px" height="250px">
+<img src=../UX/survey/1.png width="330px" height="250px">
+<img src=../UX/survey/2.png width="330px" height="250px">
+<img src=../UX/survey/3.png width="330px" height="250px">
 </div>
 
 The survey form is [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/survey1.pdf). And the feedback form click [here](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/survey/feedback1.xlsx).
@@ -733,14 +733,14 @@ Throughout the survey, we can test our website whether the features is suitable 
 **_These questions below prove that user indeed need the features we proposed before._**
 
 <div align=center>
-<img src=UX/survey/fb1.jpeg width="600px" height="200px">
+<img src=../UX/survey/fb1.jpeg width="600px" height="200px">
 </div>
 
 **Question 4**: Most people prefer to have their own account, therefore, a login page contributes to improve user experience. 
 
 
 <div align=center>
-<img src=UX/survey/fb2.jpeg width="600px" height="200px">
+<img src=../UX/survey/fb2.jpeg width="600px" height="200px">
 </div>
 
 **Question 5**: The answer suggests that many users already make a decision on which pet to buy before they log on to the online store. Hence the categories of pets is necessary for users, which allow them to look through the kind of pet they need.
@@ -750,21 +750,21 @@ Throughout the survey, we can test our website whether the features is suitable 
 **_These questions below give us a reference for the style and content design of the website._**
 
 <div align=center>
-<img src=UX/survey/fb4.jpeg width="600px" height="200px">
+<img src=../UX/survey/fb4.jpeg width="600px" height="200px">
 </div>
 
 **Question 2**: For users, the layout of the site is the most attractive. We then asked about the style of the site, which helped us achieve the final design choice.
 
 
 <div align=center>
-<img src=UX/survey/fb5.jpeg width="600px" height="200px">
+<img src=../UX/survey/fb5.jpeg width="600px" height="200px">
 </div>
 
 **Question 3**: Through the user feedback, the cartoon style is the most popular choice. A part of users choose the minimalism style. This may give us inspiration of combination of these two styles.
 
 
 <div align=center>
-<img src=UX/survey/fb6.jpeg width="600px" height="200px">
+<img src=../UX/survey/fb6.jpeg width="600px" height="200px">
 </div>
 
 **Question 6**: All users hope that they can view more details about their pet choices. We should add each pet's information, such as age, photo, and character.
@@ -774,9 +774,9 @@ Throughout the survey, we can test our website whether the features is suitable 
 We use zoom to gather user experience feedback. Participants were sent the paper prototype before the group zoom call. During the zoom call, the researcher walked everyone through the prototype. After the zoom call, participants were sent two questions and asked to respond. In the end, we received seven responses.
 
 <div align=center>
-<img src=UX/survey/zoom.png width="630px" height="400px">
+<img src=../UX/survey/zoom.png width="630px" height="400px">
 
-_Figure 4: The zoom call to gather feedback_
+_Figure 24: The zoom call to gather feedback_
 </div>
 
 **Research Question 1**: Do you have any suggestions on the layout of the site?
@@ -823,9 +823,9 @@ The User Experience Questionnaire contains 6 scales with 26 items:
 Attractiveness is a pure valence dimension. Perspicuity, Efficiency and Dependability are pragmatic quality aspects (goal-directed), while Stimulation and Novelty are hedonic quality aspects (not goal-directed). 
 
 <div align=center>
-<img src=UX/survey/UEQ1.jpeg width="630px" height="400px">
+<img src=../UX/survey/UEQ1.jpeg width="630px" height="400px">
 
-_Figure 4: The structure of the UEQ_
+_Figure 25: The structure of the UEQ_
 </div>
 
 This is the integrated [user experience questionnaire](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/survey/UEQ.pdf).
@@ -837,9 +837,9 @@ There are totally 47 participants joing in the survey. We firstly gave them inst
 The order of the positive and negative term for an item is randomized in the questionnaire. Per dimension half of the items start with the positive and half with the negative term. This is [transformed data](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/survey/dt.xlsx). In this excel, we can find the transformed values per item. We can use these values for example for own statistical calculations. The +3 represent the most positive and the -3 the most negative value. Then, we can calculate scale means per person.
 
 <div align=center>
-<img src=UX/survey/change.jpeg width="500px" height="400px">
+<img src=../UX/survey/change.jpeg width="500px" height="400px">
 
-_Figure 4: The data transformed_
+_Figure 26: The data transformed_
 </div>
 
 ### Findings
@@ -847,17 +847,17 @@ _Figure 4: The data transformed_
 Here we can see the distributions of the answers (values 1 to 7) for the single items. We can find that there are not items that show a polarization in the answers. 
 
 <div align=center>
-<img src=UX/survey/distribution.png width="840px" height="500px">
+<img src=../UX/survey/distribution.png width="840px" height="500px">
 
-_Figure 4: The distribution of answers per item_
+_Figure 27: The distribution of answers per item_
 </div>
 
 Here obviously, all scales show an extremely positive evaluation. It is obvious that we did well in the aspect of the efficiency of the website. At the same, we lack of the novelty of the site. Otherwise, users consider that our website is functional, but not enough creative. 
 
 <div align=center>
-<img src=UX/survey/R2.png width="480px" height="250px">
+<img src=../UX/survey/R2.png width="480px" height="250px">
 
-_Figure 4: The website with good results_
+_Figure 28: The website with good results_
 </div>
 
 ### Future Improvements

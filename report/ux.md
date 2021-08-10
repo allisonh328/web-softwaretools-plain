@@ -211,6 +211,8 @@ _Figure 13: The final system flow_
 
 <div align=center>
 <img src="../img/home.png" width="650px" height="400px">
+
+_Figure 14: The Homepage_
 </div>
 
 The figure above is the home page of the pet store. The main function of the home page is to display the list of pets in the pet store. The navigation bar at the top allows the administrator to add pets, and users can classify and view pets in different states and types. The upper right corner of the navigation bar has a button to access the order page or login page.
@@ -326,7 +328,7 @@ fetch(postPetUrl, {
 ### Inventory status
 
 <p align="center">
-<img src="../img/inventory.png"/>
+<img src="../img/inventory.png"/ width=500px hight=700px>
 </p>
 
 The queryStatusQuantity function gets the data from the pet store inventory API and display the data next to the corresponding state.

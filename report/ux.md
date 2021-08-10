@@ -647,9 +647,11 @@ function shipOrder(id) {
 
 ## Profile page
 
-<p align="center">
-<img src="../img/profile.png"/>
-</p>
+<div align="center">
+<img src="../img/profile.png"/ width=800px height=600px>
+
+_Figure 23: Profile page_
+</div>
 
 The figure above is the pet store's user profile page. On this page, users can change their user information and password.
 

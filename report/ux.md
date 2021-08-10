@@ -358,7 +358,9 @@ function queryStatusQuantity() {
 ## Login page
 
 <p align="center">
-<img src="../img/login.png"/>
+<img src="../img/login.png"/ width=600px height=500px>
+
+_Figure 17: Login page_
 </p>
 
 The figure above shows the login page of the pet store. Users can enter the account and password on this page for login, or go to the registration page for account registration.

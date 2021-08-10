@@ -417,7 +417,7 @@ function getAdminPassword() {
 ## Register page
 
 <div align="center">
-<img src="../img/registration.png"/ width=600px height=700px>
+<img src="../img/registration.png"/ width=500px height=500px>
 
 _Figure 18: Register page_
 

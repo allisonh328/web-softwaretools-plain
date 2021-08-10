@@ -616,7 +616,7 @@ $(function () {
 ### Send order
 
 <div align="center">
-<img src="../img/send.png"/ width=800px height=300px>
+<img src="../img/send.png"/ width=800px height=250px>
 
 _Figure 22: Send Order page_
 </div>

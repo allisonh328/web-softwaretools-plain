@@ -417,7 +417,7 @@ function getAdminPassword() {
 ## Register page
 
 <div align="center">
-<img src="../img/registration.png"/ width=400px height=400px>
+<img src="../img/registration.png"/ width=400px height=420px>
 
 _Figure 18: Register page_
 
@@ -466,9 +466,11 @@ $.ajax({
 
 ## Detail page
 
-<p align="center">
-<img src="../img/detail.png"/>
-</p>
+<div align="center">
+<img src="../img/detail.png"/ width=700px height=350px>
+
+_Figure 19: Detail page_
+</div>
 
 The figure above shows the pet details page of the pet store. In this page, the user can place an order for the pet, and the administrator can modify the information of the pet.
 

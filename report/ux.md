@@ -4,7 +4,7 @@
 ## Design Timeline
 
 <div align=center>
-<img src=UX/timeline.png width="1000px" height="200px">
+<img src=../UX/timeline.png width="1000px" height="200px">
 
 _Figure 1: The design timeline_
 </div>

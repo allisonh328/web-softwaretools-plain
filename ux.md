@@ -308,3 +308,38 @@ According to the user responses, we should accomplish the following tasks which 
 * Insert more pet photos and gifs
 
 ## Survey 3: The user experience of the final demo
+
+### User Experience Questionnaire
+
+We choose User Experience Questionnaire to evaluate our website. The results of the questionnaire are able to indicate if a product has sufficient user experience. Does the product fulfil the general expectations concerning user experience?
+
+The User Experience Questionnaire contains 6 scales with 26 items:
+
+* Attractiveness: Overall impression of the product. Do users like or dislike theproduct?
+* Perspicuity: Is it easy to get familiar with the product? Is it easy to learn how to use the product?
+* Efficiency: Can users solve their tasks without unnecessary effort?
+* Dependability: Does the user feel in control of the interaction?
+* Stimulation: Is it exciting and motivating to use the product?
+* Novelty: Is the product innovative and creative? Does the product catch the interest of users?
+
+Attractiveness is a pure valence dimension. Perspicuity, Efficiency and Dependability are pragmatic quality aspects (goal-directed), while Stimulation and Novelty are hedonic quality aspects (not goal-directed). 
+
+<div align=center>
+<img src=UX/survey/UEQ1.jpeg width="630px" height="400px">
+
+_Figure 4: The structure of the UEQ_
+</div>
+
+This is the integrated [user experience questionnaire].(https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/survey/UEQ.pdf)
+
+### Results
+
+There are totally 47 participants joing in the survey. We firstly gave them instruction to go through the website and then sent out the questionnaire. They had to finish the questionnaire in 15 minutes. Through their scores, we had following findings:
+
+<div align=center>
+<img src=UX/survey/R2.png width="600px" height="280px">
+
+_Figure 4: The website with good results_
+</div>
+
+Here obviously, all scales show an extremely positive evaluation.

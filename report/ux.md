@@ -648,7 +648,7 @@ function shipOrder(id) {
 ## Profile page
 
 <div align="center">
-<img src="../img/profile.png"/ width=800px height=600px>
+<img src="../img/profile.png"/ width=800px height=400px>
 
 _Figure 23: Profile page_
 </div>

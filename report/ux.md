@@ -202,7 +202,7 @@ This part mainly describes the final design of the pet store web page, specific 
 ## System Flow
 
 <div align=center>
-<img src=../UX/system.jpeg width="1000px" height="450px">
+<img src=UX/system.jpeg width="1000px" height="450px">
 
 _Figure 13: The final system flow_
 </div>

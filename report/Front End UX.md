@@ -1,6 +1,9 @@
 # UX Development
 
 # Final UX
+## Introduction
+This part mainly describes the final design of the pet store web page, specific function in each page. The main function description and code implementation of each feature.
+
 ## Home page
 
 <p align="center">
@@ -200,6 +203,70 @@ function getAdminPassword() {
     });
 }
 ```
+## Register page
+
+<p align="center">
+<img src="../img/registration.png"/>
+</p>
+
+The figure above shows the register page of the pet store. User can enter the information and create the account in this page.
+
+### Account registration
+
+The function below is the function to call the pet store API and create the user account.
+
+```js
+const dataArray = [];
+const dataJson = {
+    "username": $("#exampleInputUsername").val(),
+    "firstName": $("#exampleFirstName").val(),
+    "lastName": $("#exampleLastName").val(),
+    "email": $("#exampleInputEmail").val(),
+    "password": $("#exampleInputPassword").val(),
+    "phone": $("#exampleInputPhone").val()
+};
+dataArray.push(dataJson);
+
+$.ajax({
+    url: "https://petstore.swagger.io/v2/user/createWithArray",
+    type: "POST",
+    async: false,
+    cache: false,
+    dataType: "json",
+    contentType: "application/json",
+    traditional: true,
+    data: JSON.stringify(dataArray),
+    success: function (data) {
+        console.log(data);
+        Storage.set("username", dataJson.username, 21600);
+        Storage.set("password", dataJson.password, 21600);
+        alert("You have successfully registered!");
+        window.location.replace("login.html");
+    },
+    error: function (error) {
+        console.log(error.responseJSON);
+        alert("Registration failed!")
+    }
+});
+```
+
+## Detail page
+
+<p align="center">
+<img src="../img/detail.png"/>
+</p>
+
+## Order page
+<p align="center">
+<img src="../img/order.png"/>
+</p>
+
+## Profile page
+<p align="center">
+<img src="../img/profile.png"/>
+</p>
+
+
 
 # Design Choices
 

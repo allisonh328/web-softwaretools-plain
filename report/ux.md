@@ -513,7 +513,7 @@ function placeOrder() {
 ### Edit pet
 
 <div align="center">
-<img src="../img/edit.png"/ width=400px height=500px>
+<img src="../img/edit.png"/ width=300px height=400px>
 
 _Figure 20: Detail page_
 </div>

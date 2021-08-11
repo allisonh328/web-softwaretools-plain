@@ -160,7 +160,7 @@ The test work of the online pet store is mainly designed to find the defects in 
 
 To test the functionality of the system, we chose manual, scenario-based testing. We perform this test through a series of test cases, in which we document the specific scenarios in which each user interacts with our application.
 
-### Home page:
+Home page:
 
 | Test case        | Test procedure          | Expected results                   | Actual results |
 | ----------- | ---------------------------- | ---------------------------------- | -------------- |
@@ -174,7 +174,7 @@ To test the functionality of the system, we chose manual, scenario-based testing
 |  Admin can delete pet  |  Admin clicks the delete icon on the top left corner of pet photo   | Pet deleted     | As expected     |
 |  User can not add pet  |  User clicks the Add pet button, fill in the pet detail and clicks add                            | Message "No permission! Please login as admin." pops up    | As expected     |
 
-### Register page:
+Register page:
 
 | Test case        | Test procedure          | Expected results                   | Actual results |
 | ----------- | ---------------------------- | ---------------------------------- | -------------- |
@@ -182,7 +182,7 @@ To test the functionality of the system, we chose manual, scenario-based testing
 |  Invalid repeat password check | User inputs a different password in the password(repeat) form then clicks register account   | Warning "Two password inputs do not match." appear   | As expected|
 |  User can create an account |  User inputs all the required information (username and password) then clicks register account  |  User successfully registered   | As expected|
 
-### Login page:
+Login page:
 
 | Test case        | Test procedure          | Expected results                   | Actual results |
 | ----------- | ---------------------------- | ---------------------------------- | -------------- |
@@ -190,7 +190,7 @@ To test the functionality of the system, we chose manual, scenario-based testing
 |  User can access home page without login | User clicks "No login. I just want to take a look!" button  | Redirection to the home page   | As expected|
 |  Invalid input check |  User inputs wrong username and password then clicks login button  |  Warning "User is not found./Password is not correct!" appear   | As expected|
 
-### Order page:
+Order page:
 
 | Test case        | Test procedure          | Expected results                   | Actual results |
 | ----------- | ---------------------------- | ---------------------------------- | -------------- |
@@ -199,14 +199,14 @@ To test the functionality of the system, we chose manual, scenario-based testing
 |  User can goes back to home page |  User clicks "back" or "Fluff-galore"  |  Redirection to home page   | As expected|
 |  Admin can ship the order |  Admin clicks "confirm shipping"  |  Order status become to "product is shipping"   | As expected|
 
-### Detail page:
+Detail page:
 
 | Test case        | Test procedure          | Expected results                   | Actual results |
 | ----------- | ---------------------------- | ---------------------------------- | -------------- |
 |  User can buy the pet |  User choose the number of pets and clicks "buy now"  | Order Id appear and order placed   | As expected|
 |  Admin can edit the pet |  Admin clicks edit pet and input new information of this pet  | pet information updated  | As expected|
 
-### Profile page:
+Profile page:
 
 | Test case        | Test procedure          | Expected results                   | Actual results |
 | ----------- | ---------------------------- | ---------------------------------- | -------------- |

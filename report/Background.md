@@ -9,7 +9,7 @@ The nearest pet shop in Bristol is situated at least 2 miles away from the City 
 
 </div>	
 	
-Another reason for us to look slowly transforming our shop to an online one is also due to the uncertainty of the current pandemic. Even though the number of people tested positive for the virus is starting to decrease, but some might still refrain from visiting enclosed and public places unless necessary, this might be because they live with people that are more susceptible to the virus. Regardless of the reason behind their apprehension, but making our online shop available would provide these potential customers a safer way to browse and shop in their own comfort, and making it a good opportunity for us, the owner to tag along with the trend of fast and efficient internet shopping.
+Another reason for us to look slowly transforming our shop to an online one is also due to the uncertainty of the current pandemic. Even though the number of people tested positive for the virus is starting to decrease, but some might still refrain from visiting enclosed and public places unless necessary, this might be because they live with people that are more susceptible to the virus. Regardless of the reason behind their apprehension, making our online shop available would provide these potential customers a safer way to browse and shop in their own comfort, and making it a good opportunity for us, the owner to tag along with the trend of fast and efficient internet shopping.
 	
 We would like to make an online pet shop that is easy to navigate, and visually pleasing to soon-to-be pet owners. The primary aim is to allow customers place their order, or at least to quickly get a good idea of the pets that we offer in our store, this is because the website is designed to automatically change the status of the item/pet online once someone has placed an order. We want to provide our customers not only the convenience to shop at home, but also to help them decide whether or not they want to make a trip down to our shop for an item that is actually available in store.
 
@@ -59,7 +59,7 @@ When the administrator logs in to the website, he can confirm the delivery of th
 # Features
 
 
-Here is a list of all features that our team members have thought of. You will only find a short description of the feature here, for a more detailed explaination, please click on the feature that you wish to view.
+Here is a list of all features that our team members have thought of. You will only find a short description of the feature here, for a more detailed explanation, please click on the feature that you wish to view.
 
 <div align="center">
 <p>&nbsp;</p>

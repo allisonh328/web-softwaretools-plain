@@ -98,6 +98,8 @@ There are two different account for users: customers and adminstrator. For custo
 * Click order to go to the oder page and display all pets in order
 * Addition: users can go to the profile page at any time to modify their personnal information
 
+This is [the video](https://www.youtube.com/watch?v=FyJyXnCKCiw) to show the customer process.
+
 For administrator, they will go through the following process:
 
 * Log in the admin account at the log in page
@@ -106,6 +108,7 @@ For administrator, they will go through the following process:
 * Click delete to delete the selling pet
 * Click add pet to add new pets
 
+This is [the video](https://www.youtube.com/watch?v=Up0Bc-CfWkY) to show the administrator process.
 
 
 ## Homepage
@@ -113,7 +116,7 @@ For administrator, they will go through the following process:
 <div align=center>
 <img src="../img/home.png" width="650px" height="400px">
 
-_Figure 14: The Homepage_
+_Figure 7: The Homepage_
 </div>
 
 The figure above is the home page of the pet store. The main function of the home page is to display the list of pets in the pet store. The navigation bar at the top allows the administrator to add pets, and users can classify and view pets in different states and types. The upper right corner of the navigation bar has a button to access the order page or login page.
@@ -205,7 +208,7 @@ The user can select the category and status of the pet in the upper navigation b
 <div align="center">
 <img src="../img/add.png"/ width=350px height=330px>
 
-_Figure 15: Add pet form_
+_Figure 8: Add pet form_
 </div>
 
 When the administrator enters specific pet information and clicks the add button. A request will send to the pet store API using the POST method with the pet information.
@@ -233,7 +236,7 @@ fetch(postPetUrl, {
 <div align="center">
 <img src="../img/inventory.png"/  width=150px height=120px>
 
-_Figure 16: Inventory Status_
+_Figure 9: Inventory Status_
 </div>
 
 The queryStatusQuantity function gets the data from the pet store inventory API and display the data next to the corresponding state.
@@ -261,7 +264,7 @@ function queryStatusQuantity() {
 <div align="center">
 <img src="../img/login.png"/ width=680px height=480px>
 
-_Figure 17: Login page_
+_Figure 10: Login page_
 </div>
 
 The figure above shows the login page of the pet store. Users can enter the account and password on this page for login, or go to the registration page for account registration.
@@ -320,7 +323,7 @@ function getAdminPassword() {
 <div align="center">
 <img src="../img/registration.png"/ width=400px height=420px>
 
-_Figure 18: Register page_
+_Figure 11: Register page_
 
 </div>
 
@@ -370,7 +373,7 @@ $.ajax({
 <div align="center">
 <img src="../img/detail.png"/ width=700px height=380px>
 
-_Figure 19: Detail page_
+_Figure 12: Detail page_
 </div>
 
 The figure above shows the pet details page of the pet store. In this page, the user can place an order for the pet, and the administrator can modify the information of the pet.
@@ -416,7 +419,7 @@ function placeOrder() {
 <div align="center">
 <img src="../img/edit.png"/ width=330px height=400px>
 
-_Figure 20: Edit page_
+_Figure 13: Edit page_
 </div>
 
 Administrator can edit the pet information through this form. The function will replace the pet information with the new pet information entered by the administrator.
@@ -446,7 +449,7 @@ $("#statusInput").val(petStatus);
 <div align="center">
 <img src="../img/order.png"/ width=800px height=300px>
 
-_Figure 21: Order page_
+_Figure 14: Order page_
 </div>
 
 The figure above shows the order page of the pet store. This page can display the order of the pet, including the status and details of the order. When the administrator enters the order page, they can confirm sending the pet order.
@@ -519,7 +522,7 @@ $(function () {
 <div align="center">
 <img src="../img/send.png"/ width=800px height=250px>
 
-_Figure 22: Send Order page_
+_Figure 15: Send Order page_
 </div>
 
 the function for administrator to send the pet order:
@@ -551,7 +554,7 @@ function shipOrder(id) {
 <div align="center">
 <img src="../img/profile.png"/ width=800px height=400px>
 
-_Figure 23: Profile page_
+_Figure 16: Profile page_
 </div>
 
 The figure above is the pet store's user profile page. On this page, users can change their user information and password.
@@ -618,7 +621,7 @@ Each member works on a set of features that are then built into a single website
 <div align=center>
 <img src=../UX/FDD.png width="400px" height="180px">
 
-_Figure 6: The FDD_
+_Figure 17: The FDD_
 </div>
 
 ### Component Based Development
@@ -628,7 +631,7 @@ Similar to FDD above, this is the process of making each component function on i
 <div align=center>
 <img src=../UX/CBT.png width="480px" height="320px">
 
-_Figure 7: The CBD_
+_Figure 18: The CBD_
 </div>
 
 
@@ -642,7 +645,7 @@ At the first, we decided to use Angular to build the website. Due to a layered a
 <div align=center>
 <img src=../UX/develop.jpeg width="480px" height="300px">
 
-_Figure 8: The Development Tools_
+_Figure 19: The Development Tools_
 </div>
 
 ## UI Design
@@ -652,7 +655,7 @@ This is [the UI design list](https://github.com/Yj-nnie/web-softwaretools-plain/
 <div align=center>
 <img src=../UX/templates/designcho.jpeg width="700px" height="330px">
 
-_Figure 9: The UI visual design elements_
+_Figure 20: The UI visual design elements_
 </div>
 
 
@@ -664,7 +667,7 @@ We use bootstrap to accomplish our front end design. There are a lot of good tem
 <img src=../UX/templates/1.jpeg width="440px" height="300px">
 <img src=../UX/templates/2.jpeg width="440px" height="300px">
 
-_Figure 10: The final two chosen templates_
+_Figure 21: The final two chosen templates_
 </div>
 
 The following discussion is group members in user's perspective to choose the final front end template.
@@ -685,7 +688,7 @@ The tag on the website is the first place we need to improve. In the previous pa
 <img src=../UX/templates/tags/tag1.jpeg width="600px" height="30px">
 <img src=../UX/templates//tags/tag2.jpeg width="600px" height="200px">
 
-_Figure 11: The change for tags_
+_Figure 22: The change for tags_
 </div>
 
 For the tag of available, we just calrify three different states before, available, pending, sold. And then we add the number of pets in each state, which is convienent for customers to keep track of our sales.
@@ -694,7 +697,7 @@ For the tag of available, we just calrify three different states before, availab
 <img src=../UX/templates/tags/tag3.jpeg width="600px" height="90px">
 <img src=../UX/templates//tags/tag4.jpeg width="600px" height="90px">
 
-_Figure 12: The tag of available_
+_Figure 23: The tag of available_
 </div>
 
 We have turned a static home page into a dynamic one, which is good for getting users' attention. On the side, a scrolling of pet photos is more consistent with our onlie pet shop store.
@@ -702,7 +705,7 @@ We have turned a static home page into a dynamic one, which is good for getting 
 <div align=center>
 <img src=../UX/templates/welcome.gif width="400px" height="250px">
 
-_Figure 13: The welcome page_
+_Figure 24: The welcome page_
 </div>
 
 #### Find the background image
@@ -716,7 +719,7 @@ This is [the library of the background image]().
 <img src=../UX/templates/final2.jpeg width="500px" height="280px">
 <img src=../UX/templates/login.jpeg width="500px" height="250px">
 
-_Figure 14: The background image_
+_Figure 25: The background image_
 </div>
 
 # Evaluation
@@ -795,7 +798,7 @@ We use zoom to gather user experience feedback. Participants were sent the paper
 <div align=center>
 <img src=../UX/survey/zoom.png width="630px" height="400px">
 
-_Figure 24: The zoom call to gather feedback_
+_Figure 26: The zoom call to gather feedback_
 </div>
 
 **Research Question 1**: Do you have any suggestions on the layout of the site?
@@ -844,7 +847,7 @@ Attractiveness is a pure valence dimension. Perspicuity, Efficiency and Dependab
 <div align=center>
 <img src=../UX/survey/UEQ1.jpeg width="630px" height="400px">
 
-_Figure 25: The structure of the UEQ_
+_Figure 27: The structure of the UEQ_
 </div>
 
 This is the integrated [user experience questionnaire](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/survey/UEQ.pdf).
@@ -858,7 +861,7 @@ The order of the positive and negative term for an item is randomized in the que
 <div align=center>
 <img src=../UX/survey/change.jpeg width="500px" height="400px">
 
-_Figure 26: The data transformed_
+_Figure 28: The data transformed_
 </div>
 
 ### Findings
@@ -868,7 +871,7 @@ Here we can see the distributions of the answers (values 1 to 7) for the single 
 <div align=center>
 <img src=../UX/survey/distribution.png width="840px" height="500px">
 
-_Figure 27: The distribution of answers per item_
+_Figure 29: The distribution of answers per item_
 </div>
 
 Here obviously, all scales show an extremely positive evaluation. It is obvious that we did well in the aspect of the efficiency of the website. At the same, we lack of the novelty of the site. Otherwise, users consider that our website is functional, but not enough creative. 
@@ -876,7 +879,7 @@ Here obviously, all scales show an extremely positive evaluation. It is obvious 
 <div align=center>
 <img src=../UX/survey/R2.png width="480px" height="250px">
 
-_Figure 28: The website with good results_
+_Figure 30: The website with good results_
 </div>
 
 ### Future Improvements

@@ -98,7 +98,7 @@ There are two different account for users: customers and adminstrator. For custo
 * Click order to go to the oder page and display all pets in order
 * Addition: users can go to the profile page at any time to modify their personnal information
 
-<video src=https://www.youtube.com/watch?v=Up0Bc-CfWkY>
+<video src="https://www.youtube.com/watch?v=FyJyXnCKCiw" controls="controls">
 
 For administrator, they will go through the following process:
 

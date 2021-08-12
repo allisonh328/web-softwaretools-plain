@@ -15,7 +15,7 @@ This is [the list of our design tasks](https://github.com/Yj-nnie/web-softwareto
 
 ### Objectives
 
-For the project, our initial idea involved creating a login page, which is convienient for user to manage their own accounts. After the first discussion, we should achieve:
+For the project, our initial idea involved creating a login page, which was convienient for user to manage their own accounts. After the first discussion, we should achieve:
 
 * Creating the initial prototype in order to give a direction for development
 * Making the features of site

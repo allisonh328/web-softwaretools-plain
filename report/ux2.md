@@ -1,15 +1,15 @@
 
 # UX Development:
 
-## Design Timeline
+## Design Process
 
 <div align=center>
 <img src=../UX/timeline.png width="1000px" height="200px">
 
-_Figure 1: The design timeline_
+_Figure 1: The design process_
 </div>
 
-This is [the list of the design tasks](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/task.md).
+This is [the list of our design tasks](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/task.md).
 
 ## Prototyping 
 
@@ -76,136 +76,39 @@ _Figure 4: The customer persona_
 _Figure 5: The pet owner persona_
 </div>
 
-# Design choices
-
-## Design Methodologies
-
-### Feature-driven Development
-
-* Develop overall model
-* Build feature list
-* Plan by feature
-* Design by feature
-* Build by feature
-
-Each member works on a set of features that are then built into a single website.
-
-<div align=center>
-<img src=../UX/FDD.png width="400px" height="180px">
-
-_Figure 6: The FDD_
-</div>
-
-### Component Based Development
-
-Similar to FDD above, this is the process of making each component function on its own, independent of everything else in the website and then bringing each component together to function within the whole.
-
-<div align=center>
-<img src=../UX/CBT.png width="480px" height="320px">
-
-_Figure 7: The CBD_
-</div>
-
-
-## Development Tools
-
-At the first, we decided to use Angular to build the website. Due to a layered architecture angular can end up being a slight difficult framework to debug sometimes. Therefore, given the limited time, we finally choose another way to develop the site. The following chart is our development methods.
-* Development tool: IDEA WebStorm
-* Development technology: JavaScript, Jquery, Bootstrap
-* Testing: Docker
-
-<div align=center>
-<img src=../UX/develop.jpeg width="480px" height="300px">
-
-_Figure 8: The Development Tools_
-</div>
-
-## UI Design
-
-This is [the UI design list](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/design.md). The critical  chosen design choices are described in detail below.
-
-<div align=center>
-<img src=../UX/templates/designcho.jpeg width="700px" height="330px">
-
-_Figure 9: The UI visual design elements_
-</div>
-
-
-### Choose the template of the site layout
-
-We use bootstrap to accomplish our front end design. There are a lot of good templates to choose. This [link](https://github.com/Yj-nnie/web-softwaretools-plain/tree/dlh8899/UX/templates) is all possible templates we decide to apply into our website. Finally, we choose the following two templates, and each group member give his/her opinion as a user.
-
-<div align=center>
-<img src=../UX/templates/1.jpeg width="440px" height="300px">
-<img src=../UX/templates/2.jpeg width="440px" height="300px">
-
-_Figure 10: The final two chosen templates_
-</div>
-
-The following discussion is group members in user's perspective to choose the final front end template.
-
->>**Jun** _"I haven't kept a pet before, for me, I hope I could see more funny pets photos firstly instead the sign up or log in page. The first one is my choice"_<br>
->>**Ying** _"I'd like to see the home page is the first, because I often shopping online as a guest."_<br>
->>**Luming**  _"I think the sign up page gives aid to remain users, we will have a record in our site, which will benefit the sustainable development of the site"_<br>
->>**Ruiqing**  _"I'd like to choose the first one"_<br>
->>**Linhong** _"I don't think it's a good order to let users sign up first. As a user, I don't feel like I necessarily need to create an account first"_<br>
-
-Through the discussion, we can find that most members prefer to see the home page first as a user. This micro-survey help us make a decision on the final layout of the site - the left template. 
-
-### Modify the layout of the site
-
-The tag on the website is the first place we need to improve. In the previous paper prototype, the categories of pets are individual tags at the top of the site. Then we hide the cotegories of pets in the tag of all pets to contain more various species.
-
-<div align=center>
-<img src=../UX/templates/tags/tag1.jpeg width="600px" height="30px">
-<img src=../UX/templates//tags/tag2.jpeg width="600px" height="200px">
-
-_Figure 11: The change for tags_
-</div>
-
-For the tag of available, we just calrify three different states before, available, pending, sold. And then we add the number of pets in each state, which is convienent for customers to keep track of our sales.
-
-<div align=center>
-<img src=../UX/templates/tags/tag3.jpeg width="600px" height="90px">
-<img src=../UX/templates//tags/tag4.jpeg width="600px" height="90px">
-
-_Figure 12: The tag of available_
-</div>
-
-We have turned a static home page into a dynamic one, which is good for getting users' attention. On the side, a scrolling of pet photos is more consistent with our onlie pet shop store.
-
-<div align=center>
-<img src=../UX/templates/welcome.gif width="400px" height="250px">
-
-_Figure 13: The welcome page_
-</div>
-
-#### Find the background image
-
-At the first, we use a cartoon image as the background of the site because many users choose the cartoon style in the first survey. However, considering the topic of the site, we are supposed to add more pets pictures. And in the survey, all users hope that see more animal elements. Therefore, we modify the previous background, which makes the site funny and functional. Meanwhile, we add the cartoon background image into the login page.
-
-This is [the library of the background image]().
-
-<div align=center>
-<img src=../UX/templates/final1.jpeg width="500px" height="280px">
-<img src=../UX/templates/final2.jpeg width="500px" height="280px">
-<img src=../UX/templates/login.jpeg width="500px" height="250px">
-
-_Figure 14: The background image_
-</div>
-
 # Final UX
-
-## Introduction
-This part mainly describes the final design of the pet store web page, specific function in each page. The main function description and code implementation of each feature.
 
 ## System Flow
 
 <div align=center>
 <img src= "../UX/system.jpeg" width="1000px" height="450px">
 
-_Figure 13: The final system flow_
+_Figure 6: The final system flow_
 </div>
+
+There are two different account for users: customers and adminstrator. For customers, they will go through the following process:
+
+* Go to the login page from the home page (if not, they still can look through the details of pets, but cannot place order)
+* Go to the register page if not have an account
+* Create their own account
+* Go back to Login page and login
+* Click the tag of available or all pets to see the categories of pets
+* Click the prefer pet and go to the detail page 
+* Click buy in the detail page and place order
+* Click order to go to the oder page and display all pets in order
+* Addition: users can go to the profile page at any time to modify their personnal information
+
+<video src=https://www.youtube.com/watch?v=Up0Bc-CfWkY>
+
+For administrator, they will go through the following process:
+
+* Log in the admin account at the log in page
+* Click order to see the state of the order
+* Click send to deliver the pet
+* Click delete to delete the selling pet
+* Click add pet to add new pets
+
+
 
 ## Homepage
 
@@ -699,6 +602,124 @@ $(function () {
     });
 });
 ```
+
+# Design choices
+
+## Design Methodologies
+
+### Feature-driven Development
+
+* Develop overall model
+* Build feature list
+* Plan by feature
+* Design by feature
+* Build by feature
+
+Each member works on a set of features that are then built into a single website.
+
+<div align=center>
+<img src=../UX/FDD.png width="400px" height="180px">
+
+_Figure 6: The FDD_
+</div>
+
+### Component Based Development
+
+Similar to FDD above, this is the process of making each component function on its own, independent of everything else in the website and then bringing each component together to function within the whole.
+
+<div align=center>
+<img src=../UX/CBT.png width="480px" height="320px">
+
+_Figure 7: The CBD_
+</div>
+
+
+## Development Tools
+
+At the first, we decided to use Angular to build the website. Due to a layered architecture angular can end up being a slight difficult framework to debug sometimes. Therefore, given the limited time, we finally choose another way to develop the site. The following chart is our development methods.
+* Development tool: IDEA WebStorm
+* Development technology: JavaScript, Jquery, Bootstrap
+* Testing: Docker
+
+<div align=center>
+<img src=../UX/develop.jpeg width="480px" height="300px">
+
+_Figure 8: The Development Tools_
+</div>
+
+## UI Design
+
+This is [the UI design list](https://github.com/Yj-nnie/web-softwaretools-plain/blob/dlh8899/UX/design.md). The critical  chosen design choices are described in detail below.
+
+<div align=center>
+<img src=../UX/templates/designcho.jpeg width="700px" height="330px">
+
+_Figure 9: The UI visual design elements_
+</div>
+
+
+### Choose the template of the site layout
+
+We use bootstrap to accomplish our front end design. There are a lot of good templates to choose. This [link](https://github.com/Yj-nnie/web-softwaretools-plain/tree/dlh8899/UX/templates) is all possible templates we decide to apply into our website. Finally, we choose the following two templates, and each group member give his/her opinion as a user.
+
+<div align=center>
+<img src=../UX/templates/1.jpeg width="440px" height="300px">
+<img src=../UX/templates/2.jpeg width="440px" height="300px">
+
+_Figure 10: The final two chosen templates_
+</div>
+
+The following discussion is group members in user's perspective to choose the final front end template.
+
+>>**Jun** _"I haven't kept a pet before, for me, I hope I could see more funny pets photos firstly instead the sign up or log in page. The first one is my choice"_<br>
+>>**Ying** _"I'd like to see the home page is the first, because I often shopping online as a guest."_<br>
+>>**Luming**  _"I think the sign up page gives aid to remain users, we will have a record in our site, which will benefit the sustainable development of the site"_<br>
+>>**Ruiqing**  _"I'd like to choose the first one"_<br>
+>>**Linhong** _"I don't think it's a good order to let users sign up first. As a user, I don't feel like I necessarily need to create an account first"_<br>
+
+Through the discussion, we can find that most members prefer to see the home page first as a user. This micro-survey help us make a decision on the final layout of the site - the left template. 
+
+### Modify the layout of the site
+
+The tag on the website is the first place we need to improve. In the previous paper prototype, the categories of pets are individual tags at the top of the site. Then we hide the cotegories of pets in the tag of all pets to contain more various species.
+
+<div align=center>
+<img src=../UX/templates/tags/tag1.jpeg width="600px" height="30px">
+<img src=../UX/templates//tags/tag2.jpeg width="600px" height="200px">
+
+_Figure 11: The change for tags_
+</div>
+
+For the tag of available, we just calrify three different states before, available, pending, sold. And then we add the number of pets in each state, which is convienent for customers to keep track of our sales.
+
+<div align=center>
+<img src=../UX/templates/tags/tag3.jpeg width="600px" height="90px">
+<img src=../UX/templates//tags/tag4.jpeg width="600px" height="90px">
+
+_Figure 12: The tag of available_
+</div>
+
+We have turned a static home page into a dynamic one, which is good for getting users' attention. On the side, a scrolling of pet photos is more consistent with our onlie pet shop store.
+
+<div align=center>
+<img src=../UX/templates/welcome.gif width="400px" height="250px">
+
+_Figure 13: The welcome page_
+</div>
+
+#### Find the background image
+
+At the first, we use a cartoon image as the background of the site because many users choose the cartoon style in the first survey. However, considering the topic of the site, we are supposed to add more pets pictures. And in the survey, all users hope that see more animal elements. Therefore, we modify the previous background, which makes the site funny and functional. Meanwhile, we add the cartoon background image into the login page.
+
+This is [the library of the background image]().
+
+<div align=center>
+<img src=../UX/templates/final1.jpeg width="500px" height="280px">
+<img src=../UX/templates/final2.jpeg width="500px" height="280px">
+<img src=../UX/templates/login.jpeg width="500px" height="250px">
+
+_Figure 14: The background image_
+</div>
 
 # Evaluation
 
